@@ -1,0 +1,53 @@
+.grilladeimagen{
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(20,1fr);
+}
+.grilladeimagen :nth-child(1){
+    grid-column: 1/21;
+    grid-row: 1/21;
+}
+.grilladeimagen .point{
+    grid-column: 9/10;
+    grid-row: 10/11;
+    color: red;
+    font-size: 2rem;
+}
+
+.point .tooltiptext{
+    visibility: hidden;
+    width: 10%;
+    background-color: lightgray;
+    color:black ;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    background-size: 2rem;
+}
+.point:hover .tooltiptext{
+    visibility: visible;
+}
+
+.grilladeimagen .point1{
+    grid-column: 14/15;
+    grid-row: 15/16;
+    color: red;
+    font-size: 2rem;
+}
+
+.point1 .tooltiptext1{
+    visibility: hidden;
+    width: 10%;
+    background-color: lightgray;
+    color:black ;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    background-size: 2rem;
+}
+
+.point1:hover .tooltiptext1{
+    visibility: visible;
+}
