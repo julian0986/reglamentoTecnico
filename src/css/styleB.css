@@ -1,7 +1,8 @@
 #myProgress {
   margin: auto;
   width: 90%;
-  background-color: black;
+  background-color: lightgray;
+  border: 1px solid darkgray;
 }
 
 #myBar {
@@ -16,7 +17,6 @@
 
 .form-check-input {
   height: 1.5rem;
-  outline: black;
 }
 
 input[type="checkbox"] {
