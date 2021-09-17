@@ -1,0 +1,15 @@
+#myProgress {
+  margin: auto;
+  width: 50%;
+  background-color: black;
+}
+
+#myBar {
+  width: 0%;
+  height: 30px;
+  background-color: cadetblue;
+}
+
+.buttonHold {
+  text-align: center;
+}

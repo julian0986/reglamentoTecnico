@@ -9,6 +9,7 @@
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
   <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/styleB.css">
   <title>Reglamento Tecnico</title>
 </head>
 
@@ -50,9 +51,16 @@
           </a>
     </div>
     <!---Tarjeta Madre que contiene los contenidos generales-->
-    <div class="card">
+    <div class="card" id="options">
       <h5 class="card-header">Requisitos generales</h5>
       <!--Aqui voy a poner la primera barra de progreso-->
+      <div id="myProgress">
+        <div id="myBar"></div>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+        <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+      </div>
       <div class="card-body">
         <div class="accordion" id="accordionExample">
           <!--Primer acordeon-->
@@ -97,6 +105,7 @@
                     Incombustibles, siempre y cuando estén ubicadas en Áreas Clasificadas y Críticas.
                     <a href="#">Mas información</a>
                   </div>
+
                   <div class="col-2 bg-success bg-opacity-25">
                     <div class="form-check form-check-inline">
                       <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
@@ -3041,7 +3050,7 @@
 
 
 
-
+  <script src="./src/js/app.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
     crossorigin="anonymous"></script>
