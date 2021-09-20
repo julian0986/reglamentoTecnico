@@ -1,7 +1,8 @@
 #myProgress {
   margin: auto;
-  width: 50%;
-  background-color: black;
+  width: 90%;
+  background-color: lightgray;
+  border: 1px solid darkgray;
 }
 
 #myBar {
@@ -12,4 +13,13 @@
 
 .buttonHold {
   text-align: center;
+}
+
+.form-check-input {
+  height: 1.5rem;
+}
+
+input[type="checkbox"] {
+  font-size: 1.5rem;
+  border: solid 1px cornflowerblue;
 }
