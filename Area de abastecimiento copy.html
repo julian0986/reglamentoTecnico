@@ -8,7 +8,7 @@
   <title>Tarjetas área de abastecimientio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-  <style>
+  <!--  <style>
     .main {
       display: flex;
       justify-content: space-between;
@@ -18,7 +18,7 @@
     body {
       background-color: lightgrey;
     }
-  </style>
+  </style> -->
 </head>
 
 <body class="p-3">
@@ -59,15 +59,15 @@
 
   <!--Multiple collapse titles-->
 
-  <!--Tarjeta 1-->
-  <div class="row  mt-2">
+
+  <div class="row">
+    <!--Tarjeta 1-->
     <div class="col-md-3">
+
       <div class="d-grid gap-2">
         <button class="btn btn-primary btn-md" type="button" data-bs-toggle="collapse"
-          data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">Cubierta
-          para
-          isla (Canopi)</button>
-
+          data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">Tubería de
+          desague del Canopi</button>
 
         <div class="collapse multi-collapse" id="multiCollapseExample1">
           <div class="card">
@@ -154,10 +154,9 @@
     <!--Tarjeta 2-->
     <div class="col-md-3">
       <div class="d-grid gap-2">
-        <button class="btn btn-primary btn-md" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-primary btn-md align-items-center" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Tubería de
-          desague del Canopi</button>
-
+          desague del Cano2</button>
         <div class="collapse multi-collapse" id="multiCollapseExample2">
           <div class="card">
             <!--Carrousel-->
@@ -235,18 +234,17 @@
         </div>
       </div>
     </div>
-    <!--Tarjeta 3-->
+    <!-- Tarjeta 3 -->
     <div class="col-md-3">
       <div class="d-grid gap-2">
-        <button class="btn btn-primary btn-md" type="button" data-bs-toggle="collapse"
-          data-bs-target="#multiCollapseExample3" aria-expanded="false"
-          aria-controls="multiCollapseExample3">Pictogramas de
-          información en area de almacenamiento</button>
+        <button class="btn btn-primary btn-md align-items-center" type="button" data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Tubería de
+          desague del Cano2</button>
 
         <div class="collapse multi-collapse" id="multiCollapseExample3">
           <div class="card">
             <!--Carrousel-->
-            <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
@@ -258,12 +256,12 @@
                   <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1"
                 data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
@@ -271,31 +269,29 @@
             </div>
             <!--Titulo principal-->
             <div class="card-body">
-              <h5 class="card-title">Pictogramas en área de almacenamiento</h5>
-              <p class="card-text">Tener avisos visibles en el Área de Almacenamiento que indiquen por medio de
-                leyendas,
-                instrucciones o pictogramas: </p>
+              <h5 class="card-title">Tuberías de desague</h5>
+              <p class="card-text">Las aguas captadas en la cubierta se canalizarán por medio de tuberías, quedando
+                prohibida su caída libre.</p>
             </div>
             <!--Lista-->
-
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Este item es de baja prioridad
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-warning mt-1 m-auto" data-bs-toggle="modal"
-                  data-bs-target="#exampleModa3">
+                <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal"
+                  data-bs-target="#exampleModa2">
                   Este requisito es obligatorio para el 03/07/2022
                 </button>
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModa3" tabindex="-1" aria-labelledby="exampleModalLabel3"
+                <div class="modal fade" id="exampleModa2" tabindex="-1" aria-labelledby="exampleModalLabel2"
                   aria-hidden="true">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel3">Titutlo 3</h5>
+                        <h5 class="modal-title" id="exampleModalLabel2">Titutlo 2</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <h2>ola</h2>
+
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-primary">Entendido</button>
@@ -304,14 +300,9 @@
                   </div>
                 </div>
               </li>
-              <li class="list-group-item">i)Prohibido fumar
-                <input type="checkbox">
-              </li>
-              <li class="list-group-item">ii)Apagar cualquier dispositivo electrónico
-                <input type="checkbox">
-              </li>
-
-              <li class="list-group-item">¿El área de almacenamiento de la estación cuenta con estos pictogramas?</li>
+              <l1 class="list-group-item">Las tuberías de desague evacuan las aguas lluvias acumuladas en el techo de la
+                estación evitando su caída libre</l1>
+              <li class="list-group-item">¿El canopi de la estación evacua el agua por medio de tuberías?</li>
               <li class="list-group-item">
                 <label for="si">Si</label>
                 <input type="radio" id="si">
@@ -327,17 +318,17 @@
         </div>
       </div>
     </div>
-    <!--Tarjeta 4-->
+    <!-- Tarjeta 4 -->
     <div class="col-md-3">
       <div class="d-grid gap-2">
         <button class="btn btn-primary btn-md" type="button" data-bs-toggle="collapse"
-          data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">Pictograma
-          de información en area de Abastecimiento</button>
+          data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">Tubería de
+          desague del Cano2</button>
 
         <div class="collapse multi-collapse" id="multiCollapseExample4">
           <div class="card">
             <!--Carrousel-->
-            <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
@@ -349,12 +340,12 @@
                   <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3"
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1"
                 data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
@@ -362,31 +353,29 @@
             </div>
             <!--Titulo principal-->
             <div class="card-body">
-              <h5 class="card-title">Pictogramas en área de abastecimiento</h5>
-              <p class="card-text">Tener avisos visibles en el Área de Abastecimiento que indiquen por medio de
-                leyendas,
-                instrucciones o pictogramas lo siguiente: :</p>
+              <h5 class="card-title">Tuberías de desague</h5>
+              <p class="card-text">Las aguas captadas en la cubierta se canalizarán por medio de tuberías, quedando
+                prohibida su caída libre.</p>
             </div>
             <!--Lista-->
-
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Este item es de baja prioridad
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-warning mt-1 m-auto" data-bs-toggle="modal"
-                  data-bs-target="#exampleModa4">
+                <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal"
+                  data-bs-target="#exampleModa2">
                   Este requisito es obligatorio para el 03/07/2022
                 </button>
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModa4" tabindex="-1" aria-labelledby="exampleModalLabel4"
+                <div class="modal fade" id="exampleModa2" tabindex="-1" aria-labelledby="exampleModalLabel2"
                   aria-hidden="true">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel3">Titutlo 4</h5>
+                        <h5 class="modal-title" id="exampleModalLabel2">Titutlo 2</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <h2>ola</h2>
+
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-primary">Entendido</button>
@@ -395,28 +384,9 @@
                   </div>
                 </div>
               </li>
-              <li class="list-group-item">i)Prohibido fumar
-                <input type="checkbox">
-              </li>
-              <li class="list-group-item">ii)Apagar cualquier dispositivo electrónico
-                <input type="checkbox">
-              </li>
-              <li class="list-group-item">iii)Detener el motor, apagar las luces durante el llenado y accionar el freno
-                de
-                estacionamiento o emergencia.
-                <input type="checkbox">
-              </li>
-              <li class="list-group-item">iv)Prohibido suministrar combustible en contenedores inadecuados.
-                <input type="checkbox">
-              </li>
-              <li class="list-group-item">v) Prohibido suministrar combustible a servicio publico con pasajeros a bordo.
-                <input type="checkbox">
-              </li>
-              <li class="list-group-item">vi) Prohibido suministrar combustible a motos sin descender de la motocicleta.
-                <input type="checkbox">
-              </li>
-
-              <li class="list-group-item">¿El área de abastecimiento de la estación cuenta con estos pictogramas?</li>
+              <l1 class="list-group-item">Las tuberías de desague evacuan las aguas lluvias acumuladas en el techo de la
+                estación evitando su caída libre</l1>
+              <li class="list-group-item">¿El canopi de la estación evacua el agua por medio de tuberías?</li>
               <li class="list-group-item">
                 <label for="si">Si</label>
                 <input type="radio" id="si">
