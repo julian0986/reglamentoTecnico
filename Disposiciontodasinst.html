@@ -1,964 +1,1123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Almacenamiento y tuberías</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <style>
-        .main{
-            display: flex;
-            justify-content: space-between;
-            padding-top: 2rem;
-        }
-        body{
-          background-color: lightgrey;
-        }
-        
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Almacenamiento y tuberías</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
 </head>
-<body>
-    <!--Navabar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Home</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+
+<body class="p-3">
+  <!--Navabar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">REGLAMENTO EN LISTA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ESTACION</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              DESCARGA LA DOCUMENTACIÓN
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Norma</a></li>
+              <li><a class="dropdown-item" href="#">Reglamento técnico en hojas de excel</a></li>
+              <li><a class="dropdown-item" href="#">Imagenes</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Multiple collapse titles 1-->
+  <!--Tarjeta 1-->
+  <!--Paquete de 4 tarjetas 1-->
+  <div class="row mt-2">
+    <div class="col-md-3">
+      <div class="d-grid gap-2">
+        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">Presentes
+          requisitos</button>
+        <div class="collapse multi-collapse" id="multiCollapseExample1">
+          <div class="card">
+            <!--Carrousel-->
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!--Titulo principal-->
+            <div class="card-body">
+              <h5 class="card-title">Toda modificación civil que se haga a la estación debe cumplir la ley</h5>
+              <p class="card-text">La ubicación, diseño, construcción, mejoras, Ampliación, calibración volumétrica y
+                pruebas de las plantas de abastecimiento, instalaciones fijas del gran consumidor y Estaciones de
+                Servicio, deberán ceñirse a los presentes requisitos.</p>
+            </div>
+            <!--Lista-->
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Este item es de baja prioridad
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-success mt-1 m-auto" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">
+                  Este requisito es obligatorio para el 03/07/2022
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel1">Titulo de aviso</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Aceptar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">REGLAMENTO EN LISTA</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">ESTACION</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 DESCARGA LA DOCUMENTACIÓN
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Norma</a></li>
-                  <li><a class="dropdown-item" href="#">Reglamento técnico en hojas de excel</a></li>
-                  <li><a class="dropdown-item" href="#">Imagenes</a></li>
-                </ul>
+              <l1 class="list-group-item"> Toda obra fisíca que se haga en la estación debe cumplir con la normativa del
+                reglamento Tecnico
+
+              </l1>
+              <li class="list-group-item">¿Cuando haga alguna modificación fisica a la estaciióm, de cualquier indole
+                reconoce que debe cumplir con el presente reglamento?</li>
+              <li class="list-group-item">
+                <label for="si">Si</label>
+                <input type="radio" id="si">
+                <label for="no">No</label>
+                <input type="radio" id="no">
               </li>
             </ul>
-          </div>
-        </div>
-      </nav>
-
-    <!--Multiple collapse titles 1-->
-    <p class="main">
-        <a class="btn btn-primary btn-lg" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Presentes requisitos</a>
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">infraestructuras fisicas</button>
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Instalaciones sanitarias</button>
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">Reportes al ministerio de minas y energia</button>
-      </p>
-      <!--Tarjeta 1--> <!--Paquete de 4 tarjetas 1-->
-      <div class="row">
-        <div class="col-md-3">
-          <div class="collapse multi-collapse" id="multiCollapseExample1">
-                <div class="card" style="width: 18rem;">
-                    <!--Carrousel-->
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
-                      <!--Titulo principal-->
-                    <div class="card-body">
-                      <h5 class="card-title">Toda modificación civil que se haga a la estación debe cumplir la ley</h5>
-                      <p class="card-text">La ubicación, diseño, construcción, mejoras, Ampliación, calibración volumétrica y pruebas de las plantas de abastecimiento, instalaciones fijas del gran consumidor y Estaciones de Servicio, deberán ceñirse a los presentes requisitos.</p>
-                    </div>
-                    <!--Lista-->
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Este item es de baja prioridad 
-                           <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-success mt-1 m-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            Este requisito es obligatorio para el 03/07/2022
-                        </button>
-                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                          <div class="modal-dialog">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel1">Titulo de aviso</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                              </div>
-                              <div class="modal-body">
-                                
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-primary">Aceptar</button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                     </li>
-                      <l1 class="list-group-item"> Toda obra fisíca que se haga en la estación debe cumplir con la normativa del reglamento Tecnico
-                          
-                     </l1>
-                      <li class="list-group-item">¿Cuando haga alguna modificación fisica a la estaciióm, de cualquier indole reconoce que debe cumplir con el presente reglamento?</li>
-                      <li class="list-group-item">
-                          <label for="si">Si</label>
-                          <input type="radio" id="si">
-                          <label for="no">No</label>
-                          <input type="radio"id="no">
-                      </li>
-                    </ul>
-                    <div class="card-body">
-                      <a href="#" class="card-link">Ver reglamento completo</a> <br>
-                      <a href="#" class="card-link">Ver norma específica</a>
-                    </div>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver reglamento completo</a> <br>
+              <a href="#" class="card-link">Ver norma específica</a>
             </div>
           </div>
         </div>
+      </div>
+    </div>
     <!--Tarjeta 2-->
-         <div class="col-md-3">
-            <div class="collapse multi-collapse" id="multiCollapseExample2">
-                  <div class="card" style="width: 18rem;">
-                      <!--Carrousel-->
-                      <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
-                            </div>
-                          </div>
-                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                          </button>
-                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                          </button>
-                        </div>
-                        <!--Titulo principal-->
-                      <div class="card-body">
-                        <h5 class="card-title">Materiales de infraestructuras fisicas</h5>
-                        <p class="card-text">Las oficinas, talleres, bodegas y demás infraestructuras de las instalaciones deberán estar fabricados con materiales Incombustibles, siempre y cuando estén ubicadas en Áreas Clasificadas y Críticas.</p>
-                      </div>
-                      <!--Lista-->
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Este item es de baja prioridad 
-                             <!-- Button trigger modal -->
-                          <button type="button" class="btn btn-success mt-1 m-auto" data-bs-toggle="modal" data-bs-target="#exampleModa2">
-                            Este requisito es obligatorio para el 03/07/2022
-                          </button>
-                           <!-- Modal -->
-                          <div class="modal fade" id="exampleModa2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
-                            <div class="modal-dialog">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h5 class="modal-title" id="exampleModalLabel2">Titutlo 2</h5>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <p>Aqui va un texto enorme</p>
-                                  
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-primary">Entendido</button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                       </li>
-                        <l1 class="list-group-item">Las estructuras de la estación que se encuentren en áreas criticas deben estar construidas en materiales Incombustibles</l1>
-                        <l1 class="list-group-item">¿Conoce usted las áreas criticas de su estación, y las infrastructuras que allí se encuentran están construidas en materiales incombustibles?</l1>
-                        <li class="list-group-item">
-                            <label for="si">Si</label>
-                            <input type="radio" id="si">
-                            <label for="no">No</label>
-                            <input type="radio"id="no">
-                        </li>
-                      </ul>
-                      <div class="card-body">
-                        <a href="#" class="card-link">Ver reglamento completo</a> <br>
-                        <a href="#" class="card-link">Ver norma específica</a>
-                      </div>
+    <div class="col-md-3">
+      <div class="d-grid gap-2">
+        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample2" aria-expanded="false"
+          aria-controls="multiCollapseExample2">infraestructuras fisicas</button>
+        <div class="collapse multi-collapse" id="multiCollapseExample2">
+          <div class="card">
+            <!--Carrousel-->
+            <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
+                </div>
               </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!--Titulo principal-->
+            <div class="card-body">
+              <h5 class="card-title">Materiales de infraestructuras fisicas</h5>
+              <p class="card-text">Las oficinas, talleres, bodegas y demás infraestructuras de las instalaciones deberán
+                estar fabricados con materiales Incombustibles, siempre y cuando estén ubicadas en Áreas Clasificadas y
+                Críticas.</p>
+            </div>
+            <!--Lista-->
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Este item es de baja prioridad
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-success mt-1 m-auto" data-bs-toggle="modal"
+                  data-bs-target="#exampleModa2">
+                  Este requisito es obligatorio para el 03/07/2022
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModa2" tabindex="-1" aria-labelledby="exampleModalLabel2"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel2">Titutlo 2</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Aqui va un texto enorme</p>
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Entendido</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <l1 class="list-group-item">Las estructuras de la estación que se encuentren en áreas criticas deben estar
+                construidas en materiales Incombustibles</l1>
+              <l1 class="list-group-item">¿Conoce usted las áreas criticas de su estación, y las infrastructuras que
+                allí
+                se encuentran están construidas en materiales incombustibles?</l1>
+              <li class="list-group-item">
+                <label for="si">Si</label>
+                <input type="radio" id="si">
+                <label for="no">No</label>
+                <input type="radio" id="no">
+              </li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver reglamento completo</a> <br>
+              <a href="#" class="card-link">Ver norma específica</a>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
     <!--Tarjeta 3-->
-         <div class="col-md-3">
-            <div class="collapse multi-collapse" id="multiCollapseExample3">
-                  <div class="card" style="width: 18rem;">
-                      <!--Carrousel-->
-                      <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
-                            </div>
-                          </div>
-                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                          </button>
-                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                          </button>
-                        </div>
-                        <!--Titulo principal-->
-                      <div class="card-body">
-                        <h5 class="card-title">Baños</h5>
-                        <p class="card-text">Las instalaciones deberán disponer de servicios sanitarios apropiadas para uso exclusivo de sus trabajadores e instalaciones sanitarias independientes para uso de los clientes, localizadas en sitios de fácil acceso.</p>
-                      </div>
-                      <!--Lista-->
+    <div class="col-md-3">
+      <div class="d-grid gap-2">
+        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample3" aria-expanded="false"
+          aria-controls="multiCollapseExample3">Instalaciones
+          sanitarias</button>
+        <div class="collapse multi-collapse" id="multiCollapseExample3">
+          <div class="card">
+            <!--Carrousel-->
+            <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!--Titulo principal-->
+            <div class="card-body">
+              <h5 class="card-title">Baños</h5>
+              <p class="card-text">Las instalaciones deberán disponer de servicios sanitarios apropiadas para uso
+                exclusivo de sus trabajadores e instalaciones sanitarias independientes para uso de los clientes,
+                localizadas en sitios de fácil acceso.</p>
+            </div>
+            <!--Lista-->
 
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Este item es de baja prioridad 
-                             <!-- Button trigger modal -->
-                          <button type="button" class="btn btn-success mt-1 m-auto" data-bs-toggle="modal" data-bs-target="#exampleModa3">
-                            Este requisito es obligatorio para el 03/07/2022
-                          </button>
-                           <!-- Modal -->
-                          <div class="modal fade" id="exampleModa3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
-                            <div class="modal-dialog">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h5 class="modal-title" id="exampleModalLabel3">Titutlo 3</h5>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                  <h2>ola</h2>      
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-primary">Entendido</button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                       </li>
-                        <li class="list-group-item">¿La estación de servicio cuenta con sanitarios para los empleados y sanitarios para los clientes?
-                        </li>
-                        <li class="list-group-item">
-                            <label for="si">Si</label>
-                            <input type="radio" id="si">
-                            <label for="no">No</label>
-                            <input type="radio"id="no">
-                        </li>
-                      </ul>
-                      <div class="card-body">
-                        <a href="#" class="card-link">Ver reglamento completo</a> <br>
-                        <a href="#" class="card-link">Ver norma específica</a>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Este item es de baja prioridad
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-success mt-1 m-auto" data-bs-toggle="modal"
+                  data-bs-target="#exampleModa3">
+                  Este requisito es obligatorio para el 03/07/2022
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModa3" tabindex="-1" aria-labelledby="exampleModalLabel3"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel3">Titutlo 3</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h2>ola</h2>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Entendido</button>
                       </div>
                     </div>
                   </div>
                 </div>
+              </li>
+              <li class="list-group-item">¿La estación de servicio cuenta con sanitarios para los empleados y sanitarios
+                para los clientes?
+              </li>
+              <li class="list-group-item">
+                <label for="si">Si</label>
+                <input type="radio" id="si">
+                <label for="no">No</label>
+                <input type="radio" id="no">
+              </li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver reglamento completo</a> <br>
+              <a href="#" class="card-link">Ver norma específica</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!--Tarjeta 4-->
-         <div class="col-md-3">
-            <div class="collapse multi-collapse" id="multiCollapseExample4">
-                  <div class="card" style="width: 18rem;">
-                      <!--Carrousel-->
-                      <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
-                            </div>
-                          </div>
-                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                          </button>
-                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                          </button>
-                        </div>
-                        <!--Titulo principal-->
-                      <div class="card-body">
-                        <h5 class="card-title">Reportes al ministerio</h5>
-                        <p class="card-text">Toda Modificación, Ampliación o remodelación en las Áreas Críticas deberá reportarse al Ministerio de Minas y Energía. Igualmente, el cambio de combustible almacenado en los Tanques de Almacenamiento antes de realizarse.</p>
-                      </div>
-                      <!--Lista-->
-
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Este item es de baja prioridad 
-                             <!-- Button trigger modal -->
-                          <button type="button" class="btn btn-success mt-1 m-auto" data-bs-toggle="modal" data-bs-target="#exampleModa4">
-                            Este requisito es obligatorio para el 03/07/2022
-                          </button>
-                           <!-- Modal -->
-                          <div class="modal fade" id="exampleModa4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
-                            <div class="modal-dialog">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h5 class="modal-title" id="exampleModalLabel3">Titutlo 4</h5>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                  <h2>ola</h2>      
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-primary">Entendido</button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                       </li>
-                        <li class="list-group-item">¿Cuando usted genere cambios en el área critica de la estación la reportará al ministerio de minas y energía?</li>
-                        <li class="list-group-item">
-                            <label for="si">Si</label>
-                            <input type="radio" id="si">
-                            <label for="no">No</label>
-                            <input type="radio"id="no">
-                        </li>
-                      </ul>
-                      <div class="card-body">
-                        <a href="#" class="card-link">Ver reglamento completo</a> <br>
-                        <a href="#" class="card-link">Ver norma específica</a>
-                      </div>
+    <div class="col-md-3">
+      <div class="d-grid gap-2">
+        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">Reportes
+          al
+          ministerio de minas y energia</button>
+        <div class="collapse multi-collapse" id="multiCollapseExample4">
+          <div class="card">
+            <!--Carrousel-->
+            <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
+                </div>
               </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-          </div>
-     </div>
-         <!--Multiple collapse titles2-->
-    <p class="main">
-        <a class="btn btn-primary btn-lg" data-bs-toggle="collapse" href="#multiCollapseExample5" role="button" aria-expanded="false" aria-controls="multiCollapseExample5">Documentación de los equipos</a>
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample6">Disposición de residuos peligrosos</button>
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample7" aria-expanded="false" aria-controls="multiCollapseExample7"> Estacionamiento de vehiculos en la estación </button>
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample8" aria-expanded="false" aria-controls="multiCollapseExample8">Memorias de intervención a la estación</button>
-      </p>
-      <!--Tarjeta 1--><!--Paquete de 4 tarjetas 2-->
-      <div class="row">
-        <div class="col-md-3">
-          <div class="collapse multi-collapse" id="multiCollapseExample5">
-                <div class="card" style="width: 18rem;">
-                    <!--Carrousel-->
-                    <div id="carouselExampleControls4" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
-                      <!--Titulo principal-->
-                    <div class="card-body">
-                      <h5 class="card-title">Documentos de los equipos</h5>
-                      <p class="card-text">Las instalaciones deberán tener disponible en todo momento, la documentación actualizada sobre las características, especificaciones y pruebas técnicas de sus equipos.</p>
-                    </div>
-                    <!--Lista-->
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Este item es de baja prioridad 
-                           <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-success mt-1 m-auto" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                            Este requisito es obligatorio para el 03/07/2022
-                        </button>
-                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                          <div class="modal-dialog">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel4"> title 42</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                              </div>
-                              <div class="modal-body">
-                                
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-primary">Aceptar</button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                     </li>
-                      <li class="list-group-item">¿Usted cuenta con los documentos que debe tener sobre sus equipos?
-                      </li>
-                      <li class="list-group-item">
-                          <label for="si">Si</label>
-                          <input type="radio" id="si">
-                          <label for="no">No</label>
-                          <input type="radio"id="no">
-                      </li>
-                    </ul>
-                    <div class="card-body">
-                      <a href="#" class="card-link">Ver reglamento completo</a> <br>
-                      <a href="#" class="card-link">Ver norma específica</a>
-                    </div>
+            <!--Titulo principal-->
+            <div class="card-body">
+              <h5 class="card-title">Reportes al ministerio</h5>
+              <p class="card-text">Toda Modificación, Ampliación o remodelación en las Áreas Críticas deberá reportarse
+                al
+                Ministerio de Minas y Energía. Igualmente, el cambio de combustible almacenado en los Tanques de
+                Almacenamiento antes de realizarse.</p>
             </div>
-          </div>
-        </div>
-         <!--Tarjeta 2-->
-         <div class="col-md-3">
-            <div class="collapse multi-collapse" id="multiCollapseExample6">
-                  <div class="card" style="width: 18rem;">
-                      <!--Carrousel-->
-                      <div id="carouselExampleControls5" class="carousel slide" data-bs-ride="carousel">
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
-                            </div>
-                          </div>
-                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls5" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                          </button>
-                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls5" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                          </button>
-                        </div>
-                        <!--Titulo principal-->
-                      <div class="card-body">
-                        <h5 class="card-title">Area temporal de residuos peligrosos</h5>
-                        <p class="card-text">Contar con un Área de Almacenamiento temporal de residuos peligrosos y hacer buen manejo de los mismos, conforme con la normatividad ambiental vigente.</p>
-                      </div>
-                      <!--Lista-->
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Este item es de baja prioridad 
-                             <!-- Button trigger modal -->
-                          <button type="button" class="btn btn-success mt-1 m-auto" data-bs-toggle="modal" data-bs-target="#exampleModa5">
-                            Este requisito es obligatorio para el 03/07/2022
-                          </button>
-                           <!-- Modal -->
-                          <div class="modal fade" id="exampleModa5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h5 class="modal-title" id="exampleModalLabel5">Titutlo 6</h5>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                  
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-primary">Entendido</button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                       </li>
-                        <li class="list-group-item">¿La estación tiene un punto para el almacenamiento temporal de residuos peligrosos y cumplen con la normatividad ambiental vigente?</li>
-                        <li class="list-group-item">
-                            <label for="si">Si</label>
-                            <input type="radio" id="si">
-                            <label for="no">No</label>
-                            <input type="radio"id="no">
-                        </li>
-                      </ul>
-                      <div class="card-body">
-                        <a href="#" class="card-link">Ver reglamento completo</a> <br>
-                        <a href="#" class="card-link">Ver norma específica</a>
-                      </div>
-              </div>
-            </div>
-          </div>
-         <!--Tarjeta 3-->
-         <div class="col-md-3">
-            <div class="collapse multi-collapse" id="multiCollapseExample7">
-                  <div class="card" style="width: 18rem;">
-                      <!--Carrousel-->
-                      <div id="carouselExampleControls6" class="carousel slide" data-bs-ride="carousel">
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
-                            </div>
-                          </div>
-                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                          </button>
-                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls6" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                          </button>
-                        </div>
-                        <!--Titulo principal-->
-                      <div class="card-body">
-                        <h5 class="card-title">Estacionamiento de vehículos</h5>
-                        <p class="card-text">Cuando la instalación cuente con sitio para Estacionamiento de automotores, esta deberá estar ubicada por fuera del Área Critica, y los vehículos deberán disponerse de tal modo que no obstaculicen la circulación. En las áreas que requieran de Estacionamiento temporal, este no debe interferir con la circulación inherente a la operación, ni estar ubicado en las Áreas Clasificadas. Se prohíbe el Estacionamiento de vehículos sobre los Tanques de Almacenamiento de combustible.</p>
-                      </div>
-                      <!--Lista-->
+            <!--Lista-->
 
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Este item es de baja prioridad 
-                             <!-- Button trigger modal -->
-                          <button type="button" class="btn btn-success mt-1 m-auto" data-bs-toggle="modal" data-bs-target="#exampleModa6">
-                            Este requisito es obligatorio para el 03/07/2022
-                          </button>
-                           <!-- Modal -->
-                          <div class="modal fade" id="exampleModa6" tabindex="-1" aria-labelledby="exampleModalLabel6" aria-hidden="true">
-                            <div class="modal-dialog">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h5 class="modal-title" id="exampleModalLabel6">Titutlo 7</h5>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                  <h2>ola</h2>      
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-primary">Entendido</button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                       </li>
-                        <li class="list-group-item">Si la estación tiene parqueaderos deben ser fuera del área critica</li>
-                        <li class="list-group-item">Si un vehículo requiere aparcar temporalmente está prohibido que obstaculice el flujo vehícular</li>
-                        <li class="list-group-item">Está prohibido parquearse sobre los tanques subterraneos</li>
-                        <li class="list-group-item">¿Los parqueaderos que tenga la estación de servicio cumplen los anteriores requisitos?</li>
-                        <li class="list-group-item">
-                            <label for="si">Si</label>
-                            <input type="radio" id="si">
-                            <label for="no">No</label>
-                            <input type="radio"id="no">
-                        </li>
-                      </ul>
-                      <div class="card-body">
-                        <a href="#" class="card-link">Ver reglamento completo</a> <br>
-                        <a href="#" class="card-link">Ver norma específica</a>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Este item es de baja prioridad
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-success mt-1 m-auto" data-bs-toggle="modal"
+                  data-bs-target="#exampleModa4">
+                  Este requisito es obligatorio para el 03/07/2022
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModa4" tabindex="-1" aria-labelledby="exampleModalLabel4"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel3">Titutlo 4</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h2>ola</h2>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Entendido</button>
                       </div>
                     </div>
                   </div>
                 </div>
-         <!--Tarjeta 4-->
-         <div class="col-md-3">
-            <div class="collapse multi-collapse" id="multiCollapseExample8">
-                  <div class="card" style="width: 18rem;">
-                      <!--Carrousel-->
-                      <div id="carouselExampleControls7" class="carousel slide" data-bs-ride="carousel">
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
-                            </div>
-                          </div>
-                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls7" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                          </button>
-                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls7" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                          </button>
-                        </div>
-                        <!--Titulo principal-->
-                      <div class="card-body">
-                        <h5 class="card-title">Información de intervenciones a la estación</h5>
-                        <p class="card-text">A fin de que se puedan verificar las condiciones de construcción, se deberá tener memorias del proceso de construcción, remodelación, Modificación o Ampliación con dossier de obra con registro fotográfico o videográfico, en especial de la instalación o cambio de los Tanques de Almacenamiento de combustible o tubería de conducción de combustibles. Este punto aplica para instalaciones que se construyan o amplíen a partir de la entrada en vigencia de esta Resolución</p>
-                      </div>
-                      <!--Lista-->
-
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Este item es de intermedia prioridad 
-                             <!-- Button trigger modal -->
-                          <button type="button" class="btn btn-warning mt-1 m-auto" data-bs-toggle="modal" data-bs-target="#exampleModa7">
-                            Este requisito es obligatorio para el 03/07/2022
-                          </button>
-                           <!-- Modal -->
-                          <div class="modal fade" id="exampleModa7" tabindex="-1" aria-labelledby="exampleModalLabel7" aria-hidden="true">
-                            <div class="modal-dialog">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h5 class="modal-title" id="exampleModalLabel7">Titutlo 8</h5>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                  <h2>ola</h2>      
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-primary">Entendido</button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                       </li>
-                        <li class="list-group-item">¿La estación cuenta con el registro de intervención a la estación (Documentos videos y fotografías)?</li>
-                        <li class="list-group-item">
-                            <label for="si">Si</label>
-                            <input type="radio" id="si">
-                            <label for="no">No</label>
-                            <input type="radio"id="no">
-                        </li>
-                      </ul>
-                      <div class="card-body">
-                        <a href="#" class="card-link">Ver reglamento completo</a> <br>
-                        <a href="#" class="card-link">Ver norma específica</a>
-                      </div>
-              </div>
-            </div>
-          </div>
-     </div>
-         <!--Multiple collapse titles TRES-->
-    <p class="main">
-        <a class="btn btn-primary btn-lg" data-bs-toggle="collapse" href="#multiCollapseExample9" role="button" aria-expanded="false" aria-controls="multiCollapseExample9">Certificación de invtervencion</a>
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample10" aria-expanded="false" aria-controls="multiCollapseExample10">NTC 6032</button>
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample11" aria-expanded="false" aria-controls="multiCollapseExample11">NTC 6198 </button>
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample12" aria-expanded="false" aria-controls="multiCollapseExample12">Capacitaciones a vendedores de servicios</button>
-      </p>
-      <!--Tarjeta 1--><!--Paquete de 4 tarjetas 3-->
-      <div class="row">
-        <div class="col-md-3">
-          <div class="collapse multi-collapse" id="multiCollapseExample9">
-                <div class="card" style="width: 18rem;">
-                    <!--Carrousel-->
-                    <div id="carouselExampleControls8" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls8" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls8" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
-                      <!--Titulo principal-->
-                    <div class="card-body">
-                      <h5 class="card-title">Certificacion del constructor</h5>
-                      <p class="card-text">El constructor de instalaciones deberá entregar el Certificado de Primera Parte de la construcción, remodelación o modificación, de acuerdo a la ISO/IEC 17050-1 Y 17050-2 o la norma que lo modifique o sustituya. La instalación de los tanques y la tubería de distribución y desfogue deberá contar con un informe de interventoría. Este punto aplica para instalaciones que se construyan, amplíen, o modifiquen a partir de la entrada en vigencia de este reglamento.</p>
-                    </div>
-                    <!--Lista-->
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Este item es de Intermedia prioridad 
-                           <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-warning mt-1 m-auto" data-bs-toggle="modal" data-bs-target="#exampleModal8">
-                            Este requisito es obligatorio para el 03/07/2022
-                        </button>
-                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel8" aria-hidden="true">
-                          <div class="modal-dialog">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel8">Titulo awui</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                              </div>
-                              <div class="modal-body">
-                                
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-primary">Entendido</button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                     </li>
-                      <li class="list-group-item">¿La estación de servicio cuenta con la certificación ISO/IEC 17050-1 Y 17050-2 que debe ser entregada por el constructor?</li>
-                      <li class="list-group-item">
-                          <label for="si">Si</label>
-                          <input type="radio" id="si">
-                          <label for="no">No</label>
-                          <input type="radio"id="no">
-                      </li>
-                    </ul>
-                    <div class="card-body">
-                      <a href="#" class="card-link">Ver reglamento completo</a> <br>
-                      <a href="#" class="card-link">Ver norma específica</a>
-                    </div>
+              </li>
+              <li class="list-group-item">¿Cuando usted genere cambios en el área critica de la estación la reportará al
+                ministerio de minas y energía?</li>
+              <li class="list-group-item">
+                <label for="si">Si</label>
+                <input type="radio" id="si">
+                <label for="no">No</label>
+                <input type="radio" id="no">
+              </li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver reglamento completo</a> <br>
+              <a href="#" class="card-link">Ver norma específica</a>
             </div>
           </div>
         </div>
-      <!--Tarjeta 2-->
-         <div class="col-md-3">
-            <div class="collapse multi-collapse" id="multiCollapseExample10">
-                  <div class="card" style="width: 18rem;">
-                      <!--Carrousel-->
-                      <div id="carouselExampleControls9" class="carousel slide" data-bs-ride="carousel">
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
-                            </div>
-                          </div>
-                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls9" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                          </button>
-                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls9" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                          </button>
-                        </div>
-                        <!--Titulo principal-->
-                      <div class="card-body">
-                        <h5 class="card-title">Buenas prácticas del manejo de Diesel-Biosiesel</h5>
-                        <p class="card-text">Las instalaciones que almacenen combustible diésel, biodiesel o sus mezclas, deberán cumplir con la Norma técnica Colombiana NTC 6032. BUENAS PRÁCTICAS DE MANEJO PARA EL BIODIÉSEL Y LAS MEZCLAS DIÉSEL-BIODIÉSEL EN LA CADENA DE DISTRIBUCIÓN DE COMBUSTIBLES LÍQUIDOS DERIVADOS DE PETRÓLEO EN COLOMBIA, y llevar el Registro De Evidencias de Aplicación de las Buenas Practicas para el Manejo de Biodiesel y las Mezclas Diesel — Biodiesel.</p>
-                      </div>
-                      <!--Lista-->
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Este item es de intermedia prioridad 
-                             <!-- Button trigger modal -->
-                          <button type="button" class="btn btn-warning mt-1 m-auto" data-bs-toggle="modal" data-bs-target="#exampleModa9">
-                            Este requisito es obligatorio para el 03/07/2022
-                          </button>
-                           <!-- Modal -->
-                          <div class="modal fade" id="exampleModa9" tabindex="-1" aria-labelledby="exampleModalLabel9" aria-hidden="true">
-                            <div class="modal-dialog">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h5 class="modal-title" id="exampleModalLabel9">Titutlo 2</h5>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                  
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-primary">Entendido</button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                       </li>
-                        <li class="list-group-item">¿Si la estación de servicio almacena Diesel o Biodiesel, ya se encuentra certificada en la norma NTC6032?</li>
-                        <li class="list-group-item">
-                            <label for="si">Si</label>
-                            <input type="radio" id="si">
-                            <label for="no">No</label>
-                            <input type="radio"id="no">
-                        </li>
-                      </ul>
-                      <div class="card-body">
-                        <a href="#" class="card-link">Ver reglamento completo</a> <br>
-                        <a href="#" class="card-link">Ver norma específica</a>
-                      </div>
+      </div>
+    </div>
+  </div>
+  <!--Multiple collapse titles2-->
+  <!--Tarjeta 1-->
+  <!--Paquete de 4 tarjetas 2-->
+  <div class="row mt-2">
+    <div class="col-md-3">
+      <div class="d-grid gap-2">
+        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample6" aria-expanded="false"
+          aria-controls="multiCollapseExample5">Documentación
+          de los equipos</button>
+        <div class="collapse multi-collapse" id="multiCollapseExample5">
+          <div class="card">
+            <!--Carrousel-->
+            <div id="carouselExampleControls4" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
+                </div>
               </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls4"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-          </div>
-      <!--Tarjeta 3-->
-         <div class="col-md-3">
-            <div class="collapse multi-collapse" id="multiCollapseExample11">
-                  <div class="card" style="width: 18rem;">
-                      <!--Carrousel-->
-                      <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
-                            </div>
-                          </div>
-                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                          </button>
-                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                          </button>
-                        </div>
-                        <!--Titulo principal-->
-                      <div class="card-body">
-                        <h5 class="card-title">Normas internacionales de amplio reconocimiento</h5>
-                        <p class="card-text">Las instalaciones que almacenen gasolina, etanol anhidro desnaturalizado o sus mezclas, deberán cumplir con la Norma técnica Colombiana NTC 6198 BUENAS PRACTICAS DE MANEJO DEL ETANOL ANHIDRO DESNATURALIZADO Y SUS MEZCLAS CON GASOLINA EN LA CADENA DE DISTRIBUCIÓN DE COMBUSTIBLES EN COLOMBIA.</p>
+            <!--Titulo principal-->
+            <div class="card-body">
+              <h5 class="card-title">Documentos de los equipos</h5>
+              <p class="card-text">Las instalaciones deberán tener disponible en todo momento, la documentación
+                actualizada sobre las características, especificaciones y pruebas técnicas de sus equipos.</p>
+            </div>
+            <!--Lista-->
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Este item es de baja prioridad
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-success mt-1 m-auto" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal4">
+                  Este requisito es obligatorio para el 03/07/2022
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel4"> title 42</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
-                      <!--Lista-->
+                      <div class="modal-body">
 
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Este item es de intermedia prioridad 
-                             <!-- Button trigger modal -->
-                          <button type="button" class="btn btn-warning mt-1 m-auto" data-bs-toggle="modal" data-bs-target="#exampleModa10">
-                            Este requisito es obligatorio para el 03/07/2022
-                          </button>
-                           <!-- Modal -->
-                          <div class="modal fade" id="exampleModa10" tabindex="-1" aria-labelledby="exampleModalLabel10" aria-hidden="true">
-                            <div class="modal-dialog">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h5 class="modal-title" id="exampleModalLabel10">Titutlo 10</h5>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                  <h2>ola</h2>      
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-primary">Entendido</button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                       </li>
-                        <li class="list-group-item">¿La estación ya se encuentra certificada en la norma NTC6198?</li>
-                        <li class="list-group-item">
-                            <label for="si">Si</label>
-                            <input type="radio" id="si">
-                            <label for="no">No</label>
-                            <input type="radio"id="no">
-                        </li>
-                      </ul>
-                      <div class="card-body">
-                        <a href="#" class="card-link">Ver reglamento completo</a> <br>
-                        <a href="#" class="card-link">Ver norma específica</a>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Aceptar</button>
                       </div>
                     </div>
                   </div>
                 </div>
-         <!--Tarjeta 4-->
-         <div class="col-md-3">
-            <div class="collapse multi-collapse" id="multiCollapseExample12">
-                  <div class="card" style="width: 18rem;">
-                      <!--Carrousel-->
-                      <div id="carouselExampleControls11" class="carousel slide" data-bs-ride="carousel">
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
-                            </div>
-                          </div>
-                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls11" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                          </button>
-                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls11" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                          </button>
-                        </div>
-                        <!--Titulo principal-->
-                      <div class="card-body">
-                        <h5 class="card-title">Capacitaciones a vendedores de servicios</h5>
-                        <p class="card-text">El personal que intervenga en operaciones de almacenamiento y despacho de combustible deberá estar entrenado y capacitado en descarga de combustible, despacho de combustible, atención al cliente y, detección de Condiciones Subestándares con base en los requisitos técnicos del presente reglamento técnico</p>
-                      </div>
-                      <!--Lista-->
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Este item es de alta prioridad 
-                             <!-- Button trigger modal -->
-                          <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal" data-bs-target="#exampleModal11">
-                            Este requisito es obligatorio para el 03/07/2022
-                          </button>
-                           <!-- Modal -->
-                          <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel11" aria-hidden="true">
-                            <div class="modal-dialog">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h5 class="modal-title" id="exampleModalLabel11">Titutlo 4</h5>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                  <h2>ola</h2>      
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-primary">Entendido</button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                       </li>
-                        <li class="list-group-item"><h5>Listado de Capacitaciones</h5></li>
-                        <li class="list-group-item">Descarga de combustible</li>
-                        <li class="list-group-item">Despacho de combustible</li>
-                        <li class="list-group-item">Atención al cliente</li>
-                        <li class="list-group-item">Deteccion de condiciones sub estandares</li>
-                        <li class="list-group-item">¿Los vendedores de servicios se encuentran capacitados con base a los anteriores requisitos?</li>
-                        <li class="list-group-item">
-                            <label for="si">Si</label>
-                            <input type="radio" id="si">
-                            <label for="no">No</label>
-                            <input type="radio"id="no">
-                        </li>
-                      </ul>
-                      <div class="card-body">
-                        <a href="#" class="card-link">Ver reglamento completo</a> <br>
-                        <a href="#" class="card-link">Ver norma específica</a>
-                      </div>
-              </div>
+              </li>
+              <li class="list-group-item">¿Usted cuenta con los documentos que debe tener sobre sus equipos?
+              </li>
+              <li class="list-group-item">
+                <label for="si">Si</label>
+                <input type="radio" id="si">
+                <label for="no">No</label>
+                <input type="radio" id="no">
+              </li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver reglamento completo</a> <br>
+              <a href="#" class="card-link">Ver norma específica</a>
             </div>
           </div>
-     </div>
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 2-->
+    <div class="col-md-3">
+      <div class="d-grid gap-2">
+        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample6" aria-expanded="false"
+          aria-controls="multiCollapseExample6">Disposición de
+          residuos peligrosos</button>
+        <div class="collapse multi-collapse" id="multiCollapseExample6">
+          <div class="card">
+            <!--Carrousel-->
+            <div id="carouselExampleControls5" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls5"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls5"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!--Titulo principal-->
+            <div class="card-body">
+              <h5 class="card-title">Area temporal de residuos peligrosos</h5>
+              <p class="card-text">Contar con un Área de Almacenamiento temporal de residuos peligrosos y hacer buen
+                manejo de los mismos, conforme con la normatividad ambiental vigente.</p>
+            </div>
+            <!--Lista-->
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Este item es de baja prioridad
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-success mt-1 m-auto" data-bs-toggle="modal"
+                  data-bs-target="#exampleModa5">
+                  Este requisito es obligatorio para el 03/07/2022
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModa5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel5">Titutlo 6</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Entendido</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">¿La estación tiene un punto para el almacenamiento temporal de residuos
+                peligrosos y cumplen con la normatividad ambiental vigente?</li>
+              <li class="list-group-item">
+                <label for="si">Si</label>
+                <input type="radio" id="si">
+                <label for="no">No</label>
+                <input type="radio" id="no">
+              </li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver reglamento completo</a> <br>
+              <a href="#" class="card-link">Ver norma específica</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 3-->
+    <div class="col-md-3">
+      <div class="d-grid gap-2">
+        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample7" aria-expanded="false" aria-controls="multiCollapseExample7">
+          Estacionamiento de vehiculos en la estación </button>
+        <div class="collapse multi-collapse" id="multiCollapseExample7">
+          <div class="card">
+            <!--Carrousel-->
+            <div id="carouselExampleControls6" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls6"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!--Titulo principal-->
+            <div class="card-body">
+              <h5 class="card-title">Estacionamiento de vehículos</h5>
+              <p class="card-text">Cuando la instalación cuente con sitio para Estacionamiento de automotores, esta
+                deberá
+                estar ubicada por fuera del Área Critica, y los vehículos deberán disponerse de tal modo que no
+                obstaculicen la circulación. En las áreas que requieran de Estacionamiento temporal, este no debe
+                interferir con la circulación inherente a la operación, ni estar ubicado en las Áreas Clasificadas. Se
+                prohíbe el Estacionamiento de vehículos sobre los Tanques de Almacenamiento de combustible.</p>
+            </div>
+            <!--Lista-->
+
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Este item es de baja prioridad
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-success mt-1 m-auto" data-bs-toggle="modal"
+                  data-bs-target="#exampleModa6">
+                  Este requisito es obligatorio para el 03/07/2022
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModa6" tabindex="-1" aria-labelledby="exampleModalLabel6"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel6">Titutlo 7</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h2>ola</h2>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Entendido</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">Si la estación tiene parqueaderos deben ser fuera del área critica</li>
+              <li class="list-group-item">Si un vehículo requiere aparcar temporalmente está prohibido que obstaculice
+                el
+                flujo vehícular</li>
+              <li class="list-group-item">Está prohibido parquearse sobre los tanques subterraneos</li>
+              <li class="list-group-item">¿Los parqueaderos que tenga la estación de servicio cumplen los anteriores
+                requisitos?</li>
+              <li class="list-group-item">
+                <label for="si">Si</label>
+                <input type="radio" id="si">
+                <label for="no">No</label>
+                <input type="radio" id="no">
+              </li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver reglamento completo</a> <br>
+              <a href="#" class="card-link">Ver norma específica</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 4-->
+    <div class="col-md-3">
+      <div class="d-grid gap-2">
+        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample8" aria-expanded="false" aria-controls="multiCollapseExample8">Memorias
+          de
+          intervención a la estación</button>
+        <div class="collapse multi-collapse" id="multiCollapseExample8">
+          <div class="card">
+            <!--Carrousel-->
+            <div id="carouselExampleControls7" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls7"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls7"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!--Titulo principal-->
+            <div class="card-body">
+              <h5 class="card-title">Información de intervenciones a la estación</h5>
+              <p class="card-text">A fin de que se puedan verificar las condiciones de construcción, se deberá tener
+                memorias del proceso de construcción, remodelación, Modificación o Ampliación con dossier de obra con
+                registro fotográfico o videográfico, en especial de la instalación o cambio de los Tanques de
+                Almacenamiento de combustible o tubería de conducción de combustibles. Este punto aplica para
+                instalaciones que se construyan o amplíen a partir de la entrada en vigencia de esta Resolución</p>
+            </div>
+            <!--Lista-->
+
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Este item es de intermedia prioridad
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-warning mt-1 m-auto" data-bs-toggle="modal"
+                  data-bs-target="#exampleModa7">
+                  Este requisito es obligatorio para el 03/07/2022
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModa7" tabindex="-1" aria-labelledby="exampleModalLabel7"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel7">Titutlo 8</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h2>ola</h2>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Entendido</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">¿La estación cuenta con el registro de intervención a la estación (Documentos
+                videos y fotografías)?</li>
+              <li class="list-group-item">
+                <label for="si">Si</label>
+                <input type="radio" id="si">
+                <label for="no">No</label>
+                <input type="radio" id="no">
+              </li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver reglamento completo</a> <br>
+              <a href="#" class="card-link">Ver norma específica</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Multiple collapse titles TRES-->
+  <p class="main">
 
 
 
-     <script>var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-          return new bootstrap.Tooltip(tooltipTriggerEl)
-        })</script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+
+  </p>
+  <!--Tarjeta 1-->
+  <!--Paquete de 4 tarjetas 3-->
+  <div class="row mt-2">
+    <div class="col-md-3">
+      <div class="d-grid gap-2">
+        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample9" aria-expanded="false"
+          aria-controls="multiCollapseExample9">NCertificación
+          de invtervencion</button>
+        <div class="collapse multi-collapse" id="multiCollapseExample9">
+          <div class="card">
+            <!--Carrousel-->
+            <div id="carouselExampleControls8" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls8"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls8"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!--Titulo principal-->
+            <div class="card-body">
+              <h5 class="card-title">Certificacion del constructor</h5>
+              <p class="card-text">El constructor de instalaciones deberá entregar el Certificado de Primera Parte de la
+                construcción, remodelación o modificación, de acuerdo a la ISO/IEC 17050-1 Y 17050-2 o la norma que lo
+                modifique o sustituya. La instalación de los tanques y la tubería de distribución y desfogue deberá
+                contar
+                con un informe de interventoría. Este punto aplica para instalaciones que se construyan, amplíen, o
+                modifiquen a partir de la entrada en vigencia de este reglamento.</p>
+            </div>
+            <!--Lista-->
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Este item es de Intermedia prioridad
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-warning mt-1 m-auto" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal8">
+                  Este requisito es obligatorio para el 03/07/2022
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel8"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel8">Titulo awui</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Entendido</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">¿La estación de servicio cuenta con la certificación ISO/IEC 17050-1 Y 17050-2
+                que debe ser entregada por el constructor?</li>
+              <li class="list-group-item">
+                <label for="si">Si</label>
+                <input type="radio" id="si">
+                <label for="no">No</label>
+                <input type="radio" id="no">
+              </li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver reglamento completo</a> <br>
+              <a href="#" class="card-link">Ver norma específica</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 2-->
+    <div class="col-md-3">
+      <div class="d-grid gap-2">
+        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample10" aria-expanded="false" aria-controls="multiCollapseExample10">NTC
+          6032</button>
+        <div class="collapse multi-collapse" id="multiCollapseExample10">
+          <div class="card">
+            <!--Carrousel-->
+            <div id="carouselExampleControls9" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls9"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls9"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!--Titulo principal-->
+            <div class="card-body">
+              <h5 class="card-title">Buenas prácticas del manejo de Diesel-Biosiesel</h5>
+              <p class="card-text">Las instalaciones que almacenen combustible diésel, biodiesel o sus mezclas, deberán
+                cumplir con la Norma técnica Colombiana NTC 6032. BUENAS PRÁCTICAS DE MANEJO PARA EL BIODIÉSEL Y LAS
+                MEZCLAS DIÉSEL-BIODIÉSEL EN LA CADENA DE DISTRIBUCIÓN DE COMBUSTIBLES LÍQUIDOS DERIVADOS DE PETRÓLEO EN
+                COLOMBIA, y llevar el Registro De Evidencias de Aplicación de las Buenas Practicas para el Manejo de
+                Biodiesel y las Mezclas Diesel — Biodiesel.</p>
+            </div>
+            <!--Lista-->
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Este item es de intermedia prioridad
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-warning mt-1 m-auto" data-bs-toggle="modal"
+                  data-bs-target="#exampleModa9">
+                  Este requisito es obligatorio para el 03/07/2022
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModa9" tabindex="-1" aria-labelledby="exampleModalLabel9"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel9">Titutlo 2</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Entendido</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">¿Si la estación de servicio almacena Diesel o Biodiesel, ya se encuentra
+                certificada en la norma NTC6032?</li>
+              <li class="list-group-item">
+                <label for="si">Si</label>
+                <input type="radio" id="si">
+                <label for="no">No</label>
+                <input type="radio" id="no">
+              </li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver reglamento completo</a> <br>
+              <a href="#" class="card-link">Ver norma específica</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 3-->
+    <div class="col-md-3">
+      <div class="d-grid gap-2">
+        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample11" aria-expanded="false" aria-controls="multiCollapseExample11">NTC 6198
+        </button>
+        <div class="collapse multi-collapse" id="multiCollapseExample11">
+          <div class="card">
+            <!--Carrousel-->
+            <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!--Titulo principal-->
+            <div class="card-body">
+              <h5 class="card-title">Normas internacionales de amplio reconocimiento</h5>
+              <p class="card-text">Las instalaciones que almacenen gasolina, etanol anhidro desnaturalizado o sus
+                mezclas,
+                deberán cumplir con la Norma técnica Colombiana NTC 6198 BUENAS PRACTICAS DE MANEJO DEL ETANOL ANHIDRO
+                DESNATURALIZADO Y SUS MEZCLAS CON GASOLINA EN LA CADENA DE DISTRIBUCIÓN DE COMBUSTIBLES EN COLOMBIA.</p>
+            </div>
+            <!--Lista-->
+
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Este item es de intermedia prioridad
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-warning mt-1 m-auto" data-bs-toggle="modal"
+                  data-bs-target="#exampleModa10">
+                  Este requisito es obligatorio para el 03/07/2022
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModa10" tabindex="-1" aria-labelledby="exampleModalLabel10"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel10">Titutlo 10</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h2>ola</h2>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Entendido</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">¿La estación ya se encuentra certificada en la norma NTC6198?</li>
+              <li class="list-group-item">
+                <label for="si">Si</label>
+                <input type="radio" id="si">
+                <label for="no">No</label>
+                <input type="radio" id="no">
+              </li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver reglamento completo</a> <br>
+              <a href="#" class="card-link">Ver norma específica</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 4-->
+    <div class="col-md-3">
+      <div class="d-grid gap-2">
+        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample12" aria-expanded="false"
+          aria-controls="multiCollapseExample12">Capacitaciones a vendedores de servicios</button>
+        <div class="collapse multi-collapse" id="multiCollapseExample12">
+          <div class="card">
+            <!--Carrousel-->
+            <div id="carouselExampleControls11" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls11"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls11"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!--Titulo principal-->
+            <div class="card-body">
+              <h5 class="card-title">Capacitaciones a vendedores de servicios</h5>
+              <p class="card-text">El personal que intervenga en operaciones de almacenamiento y despacho de combustible
+                deberá estar entrenado y capacitado en descarga de combustible, despacho de combustible, atención al
+                cliente y, detección de Condiciones Subestándares con base en los requisitos técnicos del presente
+                reglamento técnico</p>
+            </div>
+            <!--Lista-->
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Este item es de alta prioridad
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal11">
+                  Este requisito es obligatorio para el 03/07/2022
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel11"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel11">Titutlo 4</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h2>ola</h2>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Entendido</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <h5>Listado de Capacitaciones</h5>
+              </li>
+              <li class="list-group-item">Descarga de combustible</li>
+              <li class="list-group-item">Despacho de combustible</li>
+              <li class="list-group-item">Atención al cliente</li>
+              <li class="list-group-item">Deteccion de condiciones sub estandares</li>
+              <li class="list-group-item">¿Los vendedores de servicios se encuentran capacitados con base a los
+                anteriores
+                requisitos?</li>
+              <li class="list-group-item">
+                <label for="si">Si</label>
+                <input type="radio" id="si">
+                <label for="no">No</label>
+                <input type="radio" id="no">
+              </li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver reglamento completo</a> <br>
+              <a href="#" class="card-link">Ver norma específica</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script>var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })</script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
