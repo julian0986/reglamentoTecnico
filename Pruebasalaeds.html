@@ -1,293 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pruebas a la EDS</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <style>
-        .main{
-            display: flex;
-            justify-content: space-between;
-            padding-top: 2rem;
-        }
-        body{
-          background-color: lightgrey;
-        }
-        
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pruebas a la EDS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
 </head>
-<body>
-    <!--Navabar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Home</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">INICIO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">REGLAMENTO EN LISTA</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">ESTACION</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 DESCARGA LA DOCUMENTACIÓN
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Norma</a></li>
-                  <li><a class="dropdown-item" href="#">Reglamento técnico en hojas de excel</a></li>
-                  <li><a class="dropdown-item" href="#">Imagenes</a></li>
-                </ul>
-              </li>
+
+<body class="p-3">
+  <!--Navabar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">REGLAMENTO EN LISTA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ESTACION</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              DESCARGA LA DOCUMENTACIÓN
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Norma</a></li>
+              <li><a class="dropdown-item" href="#">Reglamento técnico en hojas de excel</a></li>
+              <li><a class="dropdown-item" href="#">Imagenes</a></li>
             </ul>
-          </div>
-        </div>
-      </nav>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <!--Multiple collapse titles 1-->
-    <p class="main">
-        <a class="btn btn-primary btn-lg" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Integridad del tanque</a>
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Pruebas de hermeticidad</button>
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Pruebas de hermeticidad a tuberías</button>
-      </p>
-      <!--Tarjeta 1--> <!--Paquete de 4 tarjetas 1-->
-      <div class="row">
-        <div class="col-md-3">
-          <div class="collapse multi-collapse" id="multiCollapseExample1">
-                <div class="card" style="width: 18rem;">
-                    <!--Carrousel-->
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
-                      <!--Titulo principal-->
-                    <div class="card-body">
-                      <h5 class="card-title">Pruebas de hermeticidad entregadas por el fabricante</h5>
-                      <p class="card-text">Para las Estaciones de Servicio que se construyan, modifiquen o amplíen bajo la vigencia de los presentes requisitos, el fabricante del Tanque debe garantizar la integridad del mismo antes de su instalación en la Estación de Servicio. Para el efecto deberá entregar los resultados de la realización de la respectiva Prueba de Hermeticidad.</p>
-                    </div>
-                    <!--Lista-->
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Este item es de baja prioridad 
-                           <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-success mt-1 m-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            Este requisito es obligatorio para el 03/07/2022
-                        </button>
-                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                          <div class="modal-dialog">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel1">Titulo de aviso</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                              </div>
-                              <div class="modal-body">
-                                
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-primary">Aceptar</button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                     </li>
-                      <l1 class="list-group-item">
-
-                      </l1>
-                      <li class="list-group-item">¿Los tanques de la estación cuentan con sus respectivas pruebas de hermeticidad?</li>
-                      <li class="list-group-item">
-                          <label for="si">Si</label>
-                          <input type="radio" id="si">
-                          <label for="no">No</label>
-                          <input type="radio"id="no">
-                      </li>
-                    </ul>
-                    <div class="card-body">
-                      <a href="#" class="card-link">Ver reglamento completo</a> <br>
-                      <a href="#" class="card-link">Ver norma específica</a>
-                    </div>
-            </div>
-          </div>
-        </div>
-    <!--Tarjeta 2-->
-         <div class="col-md-3">
-            <div class="collapse multi-collapse" id="multiCollapseExample2">
-                  <div class="card" style="width: 18rem;">
-                      <!--Carrousel-->
-                      <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
-                            </div>
-                          </div>
-                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                          </button>
-                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                          </button>
-                        </div>
-                        <!--Titulo principal-->
-                      <div class="card-body">
-                        <h5 class="card-title">Pruebas de hermeticidad a EDS</h5>
-                        <p class="card-text">Se realizarán dos Pruebas de Hermeticidad iniciales. La primera se debe realizar con los Tanques fijados en su posición final y antes de realizar el proceso de relleno y tapado del mismo. La segunda prueba será con liquido almacenado en el Tanque, verificando que no existan fugas y dejando constancia de esto para posterior verificación por parte del Organismo de inspección. </p>
-                      </div>
-                      <!--Lista-->
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Este item es de alta prioridad 
-                             <!-- Button trigger modal -->
-                          <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal" data-bs-target="#exampleModa2">
-                            Este requisito es obligatorio para el 03/07/2022
-                          </button>
-                           <!-- Modal -->
-                          <div class="modal fade" id="exampleModa2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
-                            <div class="modal-dialog">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h5 class="modal-title" id="exampleModalLabel2">Titutlo 2</h5>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <p>Aqui va un texto enorme</p>
-                                  
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-primary">Entendido</button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                       </li>
-                        <li class="list-group-item">¿Los tanques instalados en la estación ya tuvieron la prueba de hermeticidad en dos fases?</li>
-                        <li>
-                            <label for="si">Si</label>
-                            <input type="radio" id="si">
-                            <label for="no">No</label>
-                            <input type="radio"id="no">
-                        </li>
-                      </ul>
-                      <div class="card-body">
-                        <a href="#" class="card-link">Ver reglamento completo</a> <br>
-                        <a href="#" class="card-link">Ver norma específica</a>
-                      </div>
+  <!--Multiple collapse titles 1-->
+  <!--Tarjeta 1-->
+  <!--Paquete de 4 tarjetas 1-->
+  <div class="row mt-2">
+    <div class="col-md-4">
+      <div class="d-grid gap-2">
+        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">Integridad
+          del
+          tanque</button>
+        <div class="collapse multi-collapse" id="multiCollapseExample1">
+          <div class="card">
+            <!--Carrousel-->
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
+                </div>
               </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-          </div>
-    <!--Tarjeta 3-->
-         <div class="col-md-3">
-            <div class="collapse multi-collapse" id="multiCollapseExample3">
-                  <div class="card" style="width: 18rem;">
-                      <!--Carrousel-->
-                      <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
-                            </div>
-                          </div>
-                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                          </button>
-                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                          </button>
-                        </div>
-                        <!--Titulo principal-->
-                      <div class="card-body">
-                        <h5 class="card-title">Pruebas de hermeticidad a tuberías</h5>
-                        <p class="card-text">Se deben realizar dos Pruebas de Hermeticidad a las tuberías en las diferentes etapas de instalación, El fabricante debe especificar la presión de diseño máxima a la cual podrá ser sometida la tubería de producto y la tubería secundaria o de contención. 
-                        </p>
+            <!--Titulo principal-->
+            <div class="card-body">
+              <h5 class="card-title">Pruebas de hermeticidad entregadas por el fabricante</h5>
+              <p class="card-text">Para las Estaciones de Servicio que se construyan, modifiquen o amplíen bajo la
+                vigencia de los presentes requisitos, el fabricante del Tanque debe garantizar la integridad del mismo
+                antes de su instalación en la Estación de Servicio. Para el efecto deberá entregar los resultados de la
+                realización de la respectiva Prueba de Hermeticidad.</p>
+            </div>
+            <!--Lista-->
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Este item es de baja prioridad
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-success mt-1 m-auto" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">
+                  Este requisito es obligatorio para el 03/07/2022
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel1">Titulo de aviso</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
-                      <!--Lista-->
+                      <div class="modal-body">
 
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Este item es de alta prioridad 
-                             <!-- Button trigger modal -->
-                          <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal" data-bs-target="#exampleModa3">
-                            Este requisito es obligatorio para el 03/07/2022
-                          </button>
-                           <!-- Modal -->
-                          <div class="modal fade" id="exampleModa3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
-                            <div class="modal-dialog">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h5 class="modal-title" id="exampleModalLabel3">Titutlo 3</h5>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                  <h2>ola</h2>      
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-primary">Entendido</button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                       </li>
-                        <li class="list-group-item">¿Las tuberías de la estación realizaron las pruebas de hermeticidad?</li>
-                        <li class="list-group-item">
-                            <label for="si">Si</label>
-                            <input type="radio" id="si">
-                            <label for="no">No</label>
-                            <input type="radio"id="no">
-                        </li>
-                      </ul>
-                      <div class="card-body">
-                        <a href="#" class="card-link">Ver reglamento completo</a> <br>
-                        <a href="#" class="card-link">Ver norma específica</a>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Aceptar</button>
                       </div>
                     </div>
                   </div>
-         </div>
-     </div>
+                </div>
+              </li>
+              <l1 class="list-group-item">
 
+              </l1>
+              <li class="list-group-item">¿Los tanques de la estación cuentan con sus respectivas pruebas de
+                hermeticidad?
+              </li>
+              <li class="list-group-item">
+                <label for="si">Si</label>
+                <input type="radio" id="si">
+                <label for="no">No</label>
+                <input type="radio" id="no">
+              </li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver reglamento completo</a> <br>
+              <a href="#" class="card-link">Ver norma específica</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 2-->
+    <div class="col-md-4">
+      <div class="d-grid gap-2">
+        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Pruebas de
+          hermeticidad</button>
+        <div class="collapse multi-collapse" id="multiCollapseExample2">
+          <div class="card">
+            <!--Carrousel-->
+            <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!--Titulo principal-->
+            <div class="card-body">
+              <h5 class="card-title">Pruebas de hermeticidad a EDS</h5>
+              <p class="card-text">Se realizarán dos Pruebas de Hermeticidad iniciales. La primera se debe realizar con
+                los Tanques fijados en su posición final y antes de realizar el proceso de relleno y tapado del mismo.
+                La
+                segunda prueba será con liquido almacenado en el Tanque, verificando que no existan fugas y dejando
+                constancia de esto para posterior verificación por parte del Organismo de inspección. </p>
+            </div>
+            <!--Lista-->
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Este item es de alta prioridad
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal"
+                  data-bs-target="#exampleModa2">
+                  Este requisito es obligatorio para el 03/07/2022
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModa2" tabindex="-1" aria-labelledby="exampleModalLabel2"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel2">Titutlo 2</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Aqui va un texto enorme</p>
 
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Entendido</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">¿Los tanques instalados en la estación ya tuvieron la prueba de hermeticidad
+                en
+                dos fases?</li>
+              <li>
+                <label for="si">Si</label>
+                <input type="radio" id="si">
+                <label for="no">No</label>
+                <input type="radio" id="no">
+              </li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver reglamento completo</a> <br>
+              <a href="#" class="card-link">Ver norma específica</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 3-->
+    <div class="col-md-4">
+      <div class="d-grid gap-2">
+        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Pruebas de
+          hermeticidad a tuberías</button>
+        <div class="collapse multi-collapse" id="multiCollapseExample3">
+          <div class="card">
+            <!--Carrousel-->
+            <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/30366.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/Canopi.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./ReglamentoTecnicoEstaciones/src/img/eds.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!--Titulo principal-->
+            <div class="card-body">
+              <h5 class="card-title">Pruebas de hermeticidad a tuberías</h5>
+              <p class="card-text">Se deben realizar dos Pruebas de Hermeticidad a las tuberías en las diferentes etapas
+                de instalación, El fabricante debe especificar la presión de diseño máxima a la cual podrá ser sometida
+                la
+                tubería de producto y la tubería secundaria o de contención.
+              </p>
+            </div>
+            <!--Lista-->
 
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Este item es de alta prioridad
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal"
+                  data-bs-target="#exampleModa3">
+                  Este requisito es obligatorio para el 03/07/2022
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModa3" tabindex="-1" aria-labelledby="exampleModalLabel3"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel3">Titutlo 3</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h2>ola</h2>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Entendido</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">¿Las tuberías de la estación realizaron las pruebas de hermeticidad?</li>
+              <li class="list-group-item">
+                <label for="si">Si</label>
+                <input type="radio" id="si">
+                <label for="no">No</label>
+                <input type="radio" id="no">
+              </li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver reglamento completo</a> <br>
+              <a href="#" class="card-link">Ver norma específica</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-     <script>var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-          return new bootstrap.Tooltip(tooltipTriggerEl)
-        })</script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+  <script>var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })</script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
