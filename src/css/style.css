@@ -48,6 +48,7 @@
     font-size: 1.5rem;
     align-self: center;
     justify-self: start;
+    max-width: 100%;
     position: relative;
 
 }
