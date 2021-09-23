@@ -43,24 +43,28 @@
 
 .grilladeimagen .point1{
     grid-column: 56/56;
-    grid-row: 9/10;
+    grid-row: 8/10;
     color: red;
     font-size: 1.5rem;
+    align-self: center;
     justify-self: start;
+    position: relative;
 
 }
 
 .point1 .tooltiptext1{
     visibility: hidden;
-    width: 7%;
-    background-color: lightgray;
-    color:black ;
-    font-size: 15px;
-    text-align: center;
-    border-radius: 6px;
+    background-color:lightgray;
+    border-radius: 10px;
+    width: 8rem;
+    height: auto;
+    color:black;
+    font-size: 1rem;
     position: absolute;
-    left: 79rem;
-    background-size: 2rem;
+    text-align: center;
+    padding: 5px;
+    right: 28px;
+    bottom: 1px;
 }
 
 .point1:hover .tooltiptext1{
@@ -71,20 +75,24 @@
     grid-row: 11/12;
     color: red;
     font-size: 1.5rem;
-    align-self: flex-end;
+    align-self: flex-start;
+    justify-content: flex-start;
+    position: relative
 }
 
 .point2 .tooltiptext2{
     visibility: hidden;
-    width: 10%;
-    background-color: lightgray;
-    color:black ;
-    font-size: 15px;
-    text-align: center;
-    border-radius: 6px;
+    background-color:lightgray;
+    border-radius: 10px;
+    width: 8rem;
+    height: auto;
+    color:black;
+    font-size: 1rem;
     position: absolute;
-    left: 81rem;
-    background-size: 2rem;
+    text-align: center;
+    padding: 5px;
+    right: 30px;
+    bottom: 1px;
 }
 
 .point2:hover .tooltiptext2{
@@ -233,21 +241,25 @@
     grid-row: 6/7;
     color: red;
     font-size: 1.5rem;
-    align-self: flex-end;
+    align-self: flex-start;
     justify-self: flex-end;
+    position: relative;
 }
 
 .point9 .tooltiptext9{
     visibility: hidden;
-    width: 10%;
-    background-color: lightgray;
-    color:black ;
-    font-size: 15px;
-    text-align: center;
-    border-radius: 6px;
+    background-color:lightgray;
+    border-radius: 10px;
+    width: 5rem;
+    height: auto;
+    color:black;
+    font-size: 1rem;
     position: absolute;
-    left: 78rem;
-    background-size: 2rem;
+    text-align: center;
+    padding: 5px;
+    right: 30px;
+    bottom: 1px;
+    
 }
 
 .point9:hover .tooltiptext9{
@@ -283,21 +295,24 @@
     color: red;
     font-size: 1.5rem;
     align-self: center;
-    justify-self: center;
+    justify-self: end;
+    position: relative;
     
 }
 
 .point11 .tooltiptext11{
     visibility: hidden;
-    width: 10%;
-    background-color: lightgray;
-    color:black ;
-    font-size: 15px;
-    text-align: center;
-    border-radius: 6px;
+    background-color:lightgray;
+    border-radius: 10px;
+    width: 6rem;
+    height: auto;
+    color:black;
+    font-size: 1rem;
     position: absolute;
-    left: 77rem;
-    background-size: 2rem;
+    text-align: center;
+    padding: 5px;
+    right: 30px;
+    bottom: 1px;
 }
 
 .point11:hover .tooltiptext11{
@@ -309,21 +324,24 @@
     color: red;
     font-size: 1.5rem;
     align-self: flex-end;
-    justify-self: center;
+    justify-self: flex-end;
+    position: relative;
     
 }
 
 .point12 .tooltiptext12{
     visibility: hidden;
-    width: 10%;
-    background-color: lightgray;
-    color:black ;
-    font-size: 15px;
-    text-align: center;
-    border-radius: 6px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    width: 5rem;
+    height: auto;
+    color:black;
+    font-size: 1rem;
     position: absolute;
-    left: 79rem;
-    background-size: 2rem;
+    text-align: center;
+    padding: 5px;
+    right: 30px;
+    bottom: 1px;
 }
 
 .point12:hover .tooltiptext12{
