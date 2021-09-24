@@ -64,8 +64,8 @@
     position: absolute;
     text-align: center;
     padding: 5px;
-    right: 28px;
-    bottom: 1px;
+    top: -5px;
+    right: 105%;
 }
 
 .point1:hover .tooltiptext1{
