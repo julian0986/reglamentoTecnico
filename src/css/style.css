@@ -357,7 +357,7 @@
     .grilladeimagen{
         display: grid;
         grid-template-columns: repeat(20,1fr);
-        grid-template-rows: repeat(4,1fr);
+        grid-template-rows: repeat(4, 1fr);
     }
 
     .grilladeimagen :nth-child(1){
@@ -369,7 +369,9 @@
         grid-column: 2/2;
         grid-row: 1/2;
         color: red;
-        font-size: 2rem;
+        font-size: 1rem;
+        justify-self: flex-end;
+        align-self: end;
       
     }
     
@@ -383,7 +385,7 @@
         border-radius: 6px;
         position: absolute;
         background-size: 2rem;
-        flex-direction: row;
+       
     }
     .point:hover .tooltiptext{
         visibility: visible;
