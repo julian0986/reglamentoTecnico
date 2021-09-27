@@ -1,5 +1,18 @@
 body{
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.fuente{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+#tituloreglamento{
+    position: sticky;
+    top:1px;
+    text-align: center;
+    padding: 1rem;
+    z-index: 2000;
+    background-color: rgba(255, 255, 255, 0.866);
 }
 #botones{
  align-content: center;
@@ -353,7 +366,11 @@ body{
 }
 
 @media only screen and (max-width: 760px){
-   .generales{
+   #imglogo{
+   width: 10%;    
+      
+   }
+    .generales{
         margin: 0.2rem;
     
     }
