@@ -366,23 +366,23 @@
         width: 100%;
     }
     .grilladeimagen .point{
-        grid-column: 2/2;
-        grid-row: 1/2;
+        grid-column: 9/9;
+        grid-row: 3/4;
         color: red;
         font-size: 1rem;
-        justify-self: flex-end;
-        align-self: end;
+        justify-self: flex-start;
+        align-self: center;
       
     }
     
     .point .tooltiptext{
         visibility: hidden;
-        width: 10%;
+        width: 12%;
         background-color: lightgray;
         color:black ;
-        font-size: 15px;
+        font-size: 7px;
         text-align: center;
-        border-radius: 6px;
+        border-radius: 4px;
         position: absolute;
         background-size: 2rem;
        
@@ -393,12 +393,12 @@
     }
     
     .grilladeimagen .point1{
-        grid-column: 3/3;
-        grid-row: 2/3;
+        grid-column: 19/20;
+        grid-row: 3/3;
         color: red;
-        font-size: 1.5rem;
-        align-self: center;
-        justify-self: start;
+        font-size: 0.8rem;
+        align-self: flex-start;
+        justify-self: center;
         max-width: 100%;
         position: relative;
     
@@ -423,12 +423,12 @@
         visibility: visible;
     }
     .grilladeimagen .point2{
-        grid-column: 4/4;
-        grid-row: 3/4;
+        grid-column: 20/20;
+        grid-row: 4/5;
         color: red;
-        font-size: 1.5rem;
+        font-size: 0.8rem;
         align-self: flex-start;
-        justify-content: flex-start;
+        justify-content: center;
         position: relative
     }
     
@@ -452,21 +452,22 @@
     }
     
     .grilladeimagen .point3{
-        grid-column: 5/5;
+        grid-column: 8/10;
         grid-row: 4/5;
         color: red;
-        font-size: 2rem;
-        align-self: flex-end;
+        font-size: 1rem;
+        align-self: flex-start;
+        justify-self: center;
     }
     
     .point3 .tooltiptext3{
         visibility: hidden;
-        width: 10%;
+        width: 12%;
         background-color: lightgray;
         color:black ;
-        font-size: 15px;
+        font-size: 10px;
         text-align: center;
-        border-radius: 6px;
+        border-radius: 4px;
         position: absolute;
         background-size: 2rem;
     }
@@ -476,19 +477,21 @@
     }
     .grilladeimagen .point4{
         grid-column: 6/6;
-        grid-row: 1/2;
+        grid-row: 2/3;
         color: red;
-        font-size: 2rem;
+        font-size: 1rem;
+        align-self: flex-end;
+        justify-self: flex-end;
     }
     
     .point4 .tooltiptext4{
         visibility: hidden;
-        width: 10%;
+        width: 14%;
         background-color: lightgray;
         color:black ;
-        font-size: 15px;
+        font-size: 10px;
         text-align: center;
-        border-radius: 6px;
+        border-radius: 4px;
         position: absolute;
         background-size: 2rem;
     }
@@ -498,20 +501,22 @@
     }
     
     .grilladeimagen .point5{
-        grid-column: 7/7;
+        grid-column: 13/15;
         grid-row: 2/3;
         color: red;
-        font-size: 1.7rem;
+        font-size: 1rem;
+        align-self: flex-end;
+        justify-self: center;
     }
     
     .point5 .tooltiptext5{
         visibility: hidden;
-        width: 10%;
+        width: 14%;
         background-color: lightgray;
         color:black ;
-        font-size: 15px;
+        font-size: 10px;
         text-align: center;
-        border-radius: 6px;
+        border-radius: 4px;
         position: absolute;
         background-size: 2rem;
     }
@@ -520,21 +525,22 @@
         visibility: visible;
     }
     .grilladeimagen .point6{
-        grid-column: 8/8;
-        grid-row: 3/4;
+        grid-column: 2/2;
+        grid-row: 1/2;
         color: red;
-        font-size: 2rem;
-        justify-self: center;
+        font-size: 1rem;
+        justify-self: flex-end;
+        align-self: flex-end;
     }
     
     .point6 .tooltiptext6{
         visibility: hidden;
-        width: 10%;
+        width: 14%;
         background-color: lightgray;
         color:black ;
-        font-size: 15px;
+        font-size: 10px;
         text-align: center;
-        border-radius: 6px;
+        border-radius: 4px;
         position: absolute;
         background-size: 2rem;
     }
@@ -543,21 +549,21 @@
         visibility: visible;
     }
     .grilladeimagen .point7{
-        grid-column: 9/9;
-        grid-row: 4/5;
+        grid-column: 3/3;
+        grid-row: 3/4;
         color: red;
-        font-size: 2rem;
+        font-size: 1rem;
         justify-self: center;
     }
     
     .point7 .tooltiptext7{
         visibility: hidden;
-        width: 10%;
+        width: 14%;
         background-color: lightgray;
         color:black ;
-        font-size: 15px;
+        font-size: 10px;
         text-align: center;
-        border-radius: 6px;
+        border-radius: 4px;
         position: absolute;
         background-size: 2rem;
     }
@@ -566,21 +572,22 @@
         visibility: visible;
     }
     .grilladeimagen .point8{
-        grid-column: 10/10;
-        grid-row:1/2;
+        grid-column: 5/7;
+        grid-row:3/3;
         color: red;
-        font-size: 2rem;
+        font-size: 1rem;
         justify-self: center;
+        align-self: flex-end;
     }
     
     .point8 .tooltiptext8{
         visibility: hidden;
-        width: 10%;
+        width: 14%;
         background-color: lightgray;
         color:black ;
-        font-size: 15px;
+        font-size: 10px;
         text-align: center;
-        border-radius: 6px;
+        border-radius: 4px;
         position: absolute;
         background-size: 2rem;
     }
@@ -589,27 +596,27 @@
         visibility: visible;
     }
     .grilladeimagen .point9{
-        grid-column: 11/11;
-        grid-row: 2/3;
+        grid-column: 19/21;
+        grid-row: 2/2;
         color: red;
-        font-size: 1.5rem;
-        align-self: flex-start;
-        justify-self: flex-end;
+        font-size: 0.9rem;
+        align-self: center;
+        justify-self: center;
         position: relative;
     }
     
     .point9 .tooltiptext9{
         visibility: hidden;
         background-color:lightgray;
-        border-radius: 10px;
+        border-radius: 4px;
         width: 5rem;
         height: auto;
         color:black;
-        font-size: 1rem;
+        font-size: 0.7rem;
         position: absolute;
         text-align: center;
-        padding: 5px;
-        right: 30px;
+        padding: 2px;
+        right: 20px;
         bottom: 1px;
         
     }
@@ -618,36 +625,37 @@
         visibility: visible;
     }
     .grilladeimagen .point10{
-        grid-column: 12/12;
+        grid-column: 16/17;
         grid-row: 3/4;
         color: red;
-        font-size: 1.5rem;
-        align-self: flex-end;
+        font-size: 0.8rem;
+        align-self: flex-start;
         justify-self: flex-end;
     }
     
     .point10 .tooltiptext10{
         visibility: hidden;
-        width: 10%;
+        width: 14%;
         background-color: lightgray;
         color:black ;
-        font-size: 15px;
+        font-size: 8px;
         text-align: center;
-        border-radius: 6px;
+        border-radius: 4px;
         position: absolute;
         background-size: 2rem;
+        
     }
     
     .point10:hover .tooltiptext10{
         visibility: visible;
     }
     .grilladeimagen .point11{
-        grid-column: 13/13;
-        grid-row: 4/5;
+        grid-column: 20/21;
+        grid-row: 3/4;
         color: red;
-        font-size: 1.5rem;
+        font-size: 0.7rem;
         align-self: center;
-        justify-self: end;
+        justify-self: flex-start;
         position: relative;
         
     }
@@ -655,15 +663,15 @@
     .point11 .tooltiptext11{
         visibility: hidden;
         background-color:lightgray;
-        border-radius: 10px;
-        width: 6rem;
+        border-radius: 4px;
+        width: 4rem;
         height: auto;
         color:black;
-        font-size: 1rem;
+        font-size: 0.7rem;
         position: absolute;
         text-align: center;
-        padding: 5px;
-        right: 30px;
+        padding: 3px;
+        right: 20px;
         bottom: 1px;
     }
     
@@ -671,12 +679,12 @@
         visibility: visible;
     }
     .grilladeimagen .point12{
-        grid-column: 14/14;
-        grid-row: 1/2;
+        grid-column: 20/21;
+        grid-row: 3/4;
         color: red;
-        font-size: 1.5rem;
+        font-size: 0.7rem;
         align-self: flex-end;
-        justify-self: flex-end;
+        justify-self: flex-start;
         position: relative;
         
     }
@@ -685,14 +693,14 @@
         visibility: hidden;
         background-color: lightgrey;
         border-radius: 10px;
-        width: 5rem;
+        width: 3rem;
         height: auto;
         color:black;
-        font-size: 1rem;
+        font-size: 0.7rem;
         position: absolute;
         text-align: center;
-        padding: 5px;
-        right: 30px;
+        padding: 3px;
+        right: 20px;
         bottom: 1px;
     }
     
@@ -702,3 +710,5 @@
 
 
 }
+
+/* div class = sino */
