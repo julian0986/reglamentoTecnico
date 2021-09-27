@@ -2,6 +2,8 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
+
+
 .fuente{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -35,10 +37,9 @@ body{
 .grilladeimagen .point{
     grid-column: 27/27;
     grid-row: 9/11;
-    color: red;
-    font-size: 2rem;
-  
 }
+
+
 
 .point .tooltiptext{
     visibility: hidden;
@@ -160,6 +161,13 @@ body{
 
 .point4:hover .tooltiptext4{
     visibility: visible;
+}
+.uno{
+    grid-column: 16/16;
+    grid-row: 6/8;
+    color: rgb(255, 255, 255);
+    justify-self: flex-start;
+    align-self: center;
 }
 
 .grilladeimagen .point5{
@@ -306,37 +314,40 @@ body{
 .point10:hover .tooltiptext10{
     visibility: visible;
 }
+
 .grilladeimagen .point11{
-    grid-column: 56/58;
-    grid-row: 9/11;
+    grid-column: 57/57;
+    grid-row: 9/10;
     color: red;
     font-size: 1.5rem;
-    align-self: center;
-    justify-self: end;
+    align-self: flex-end;
+    justify-self: start;
+    max-width: 100%;
     position: relative;
-    
+
 }
 
 .point11 .tooltiptext11{
     visibility: hidden;
     background-color:lightgray;
     border-radius: 10px;
-    width: 6rem;
+    width: 8rem;
     height: auto;
     color:black;
     font-size: 1rem;
     position: absolute;
     text-align: center;
     padding: 5px;
-    right: 30px;
-    bottom: 1px;
+    top: -5px;
+    right: 105%;
 }
 
 .point11:hover .tooltiptext11{
     visibility: visible;
 }
+
 .grilladeimagen .point12{
-    grid-column: 57/59;
+    grid-column: 58/58;
     grid-row: 10/11;
     color: red;
     font-size: 1.5rem;
@@ -393,6 +404,11 @@ body{
         justify-self: flex-start;
         align-self: center;
       
+    }
+    #tamapunto{
+        width: 100px;
+        height: auto;
+
     }
     
     .point .tooltiptext{
