@@ -2,6 +2,12 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
+p{
+    text-align: justify;
+}
+li{
+    text-align: justify;
+}
 
 
 .fuente{
