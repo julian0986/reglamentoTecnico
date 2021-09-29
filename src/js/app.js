@@ -24,7 +24,7 @@ function update() {
   percent.removeChild(percent.children[0]);
 
   if (checked == 0) {
-    alert("Please select CheckBoxe(s).");
+    alert("Por favor seleccione el campo No/Si.");
   }
   return true;
 }
@@ -62,7 +62,7 @@ function update2() {
   percent2.removeChild(percent2.children[0]);
 
   if (chequedado == 0) {
-    alert("Please select CheckBoxe(s).");
+    alert("Por favor seleccione el campo No/Si.");
   }
   return true;
 }
