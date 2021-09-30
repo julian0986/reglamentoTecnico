@@ -28,3 +28,28 @@ input[type="checkbox"] {
   font-size: 1.5rem;
   border: solid 1px cornflowerblue;
 }
+
+
+#myProgress2 {
+  margin: auto;
+  width: 90%;
+  background-color: lightgray;
+  border: 1px solid darkgray;
+}
+
+#myBar2 {
+  width: 0%;
+  height: 30px;
+  background-color: cadetblue;
+}
+#percent2 p{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+input[type="checkbox"] {
+  font-size: 1.5rem;
+  border: solid 1px cornflowerblue;
+}
