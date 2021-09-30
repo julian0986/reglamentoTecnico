@@ -7,7 +7,7 @@ function update() {
   let options = document.getElementById("options");
 
   //Reference all the CheckBoxes in Table.
-  boxes = options.querySelectorAll("input[type='checkbox']:checked");
+  boxes = options.querySelectorAll("#options input[type='checkbox']:checked");
   checked = boxes.length;
 
   myBar.style.width = (checked / 122) * 100 + "%";
