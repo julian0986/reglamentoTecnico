@@ -32,23 +32,23 @@ countdown(
   "countdown",
   "Mar 30, 2022 12:00:00",
   "Entrada en Vigencia",
-  "Entrada en Vigencia"
+  "Prioridad Alta"
 );
 countdown(
   "countdown2",
   "Mar 30, 2023 12:00:00",
   "Un año de Vigencia",
-  "Etapa 1"
+  "Prioridad Media"
 );
 countdown(
   "countdown3",
   "Mar 30, 2024 12:00:00",
   "Dos años Vigencia",
-  "Etapa 2"
+  "Prioridad Baja"
 );
 countdown(
   "countdown4",
   "Mar 30, 2025 12:00:00",
   "Tres años de Vigencia",
-  "Etapa 3"
+  "Prioridad Baja"
 );
