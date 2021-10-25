@@ -751,7 +751,9 @@ footer section h2{
         visibility: visible;
     }
 
-
+footer #foote{
+    margin: 0;
+}
 }
 
 /* div class = sino */
