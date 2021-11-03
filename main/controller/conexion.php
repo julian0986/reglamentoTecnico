@@ -10,7 +10,7 @@ class conexion
         private static $conexion                  = '';
         
         public function __construct(){
-            self::$servidor         = '66.7.203.39';
+            self::$servidor         = 'localhost';
             self::$db               = 'proyect5_reglamento';
             self::$user             = 'proyect5_reglamento';
             self::$password         = '+Q?jGzla/S9';
