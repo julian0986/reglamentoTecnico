@@ -1,4 +1,10 @@
-<?php ?>
+<?php
+require_once './controller/user_session.php';
+$uSession   = user_session::getInstance();
+$csicom     = base64_decode(isset($_REQUEST['rt'])?$_REQUEST['rt']:'');
+$uSession->setCurrentUserCodSicom($csicom);
+$codSicom   = $uSession->getCurrentUserSicom();
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -23,6 +29,7 @@
 </head>
 
 <body>
+  <form action="./controller/logout.php" method="post" id="form_nav">
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
       <div class="container">
@@ -45,9 +52,16 @@
             <li class="nav-item">
               <a class="nav-link" href="#checklist" tabindex="-1" aria-disabled="true">Checklist</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" tabindex="-1" aria-disabled="true"><?php echo $codSicom; ?></a>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-primary"	type="submit"	id="logout_rt"		name="submit"	value="logout_rt"		>Salir</button>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
   </header>
+  </form>
