@@ -8,7 +8,7 @@ class loginSession extends conexion{
         private String                          $password;   
         private static $instance                  = NULL;
         
-        private Conexion         $objeto;
+        private conexion         $objeto;
         private user_session     $uSession;
        
         
@@ -29,9 +29,9 @@ class loginSession extends conexion{
             $boolean    = false;
             $conexion   = $this->objeto->Conectar();
             
-            //$pass = md5($this->password);
+            $pass = md5($password);
              
-            $consulta   = "SELECT idUsuario, codsicom, password FROM proyect5_reglamento.usuario WHERE codsicom='$codsicom' AND password='$password' ";
+            $consulta   = "SELECT idUsuario, codsicom, password FROM proyect5_reglamento.usuario WHERE codsicom='$codsicom' AND password='$pass' and estado = '1' ";
             $resultado  = $conexion->prepare($consulta);
             $resultado->execute();
             

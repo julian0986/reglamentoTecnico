@@ -1,4 +1,9 @@
-<?php include_once 'view/_head.php';?>
+<?php include_once 'view/_head.php';
+
+if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
+{
+
+?>
 <div class="titulotarjetas">
     <h2>ALMACENAMIENTO Y TUBERÍAS DE CONDUCCIÓN DE COMBUSTIBLE</h2>
   </div>
@@ -1027,4 +1032,13 @@
   </div>
   </div>
   </div>
-<?php include_once 'view/_footer2.php';?>
+<?php 
+include_once 'view/_footer2.php';
+
+}else{
+    $errorLogin = "Acceso denegado !";
+    header("Location: ../index.php");
+    
+}
+
+?>

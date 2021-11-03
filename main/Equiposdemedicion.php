@@ -1,4 +1,9 @@
-<?php include_once 'view/_head.php';?>
+<?php include_once 'view/_head.php';
+
+if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
+{
+    
+    ?>
 <head>
 <title>Equipos de medición</title>
 </head>
@@ -787,4 +792,13 @@
     </div>
   </div>
   <!--Paquete de 4 tarjetas 4-->
-<?php include_once 'view/_footer2.php';?>
+<?php 
+include_once 'view/_footer2.php';
+
+}else{
+    $errorLogin = "Acceso denegado !";
+    header("Location: ../index.php");
+    
+}
+
+?>

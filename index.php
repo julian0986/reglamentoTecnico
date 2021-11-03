@@ -6,8 +6,10 @@ include_once './main/controller/user_session.php';
 $login      = loginSession::getInstance();
 $uSession   = user_session::getInstance();
 
-if(isset($_SESSION['REGLAMENTO']['CODSICOM']))
+if(!empty($_SESSION['CODSICOM']))
 {
+    header("Status: 301 Moved Permanently");
+    header("location: ./main/index.php");
     
 }else{
     if(isset($_POST['codsicom']) || isset($_POST['password']))
@@ -22,10 +24,10 @@ if(isset($_SESSION['REGLAMENTO']['CODSICOM']))
                 $uSession->setCurrentUserCodSicom($codsicom);
                 $uSession->setCurrentID(session_id());
                 $login->setCodsicom($codsicom);
-                
-                $encript = base64_encode($_POST['codsicom']);
-                header("location: ./main/index.php?rt=$encript");
-                //require_once './main/index.php';
+                $_SESSION['REGLAMENTO']['CODSICOM'] = $codsicom;
+               
+                header("Status: 301 Moved Permanently");
+                header("location: ./main/index.php");
             }else
             {
                 $errorLogin = "Codigo Sicom y/o Contraseña incorrectos";

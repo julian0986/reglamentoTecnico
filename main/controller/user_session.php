@@ -5,23 +5,22 @@ class user_session{
     
     public function __construct(){
         session_start();
-        $_SESSION['REGLAMENTO'] = array();
     }
     
     public function setCurrentID($id){
-        $_SESSION['REGLAMENTO']['ID_USUARIO']      = $id;
+        $_SESSION['ID_USUARIO']      = $id;
     }
     
     public function setCurrentUserCodSicom($codsicom){
-        $_SESSION['REGLAMENTO']['CODSICOM']  = $codsicom;
+        $_SESSION['CODSICOM']  = $codsicom;
     }
     
     public function getCurrentUserSicom(){
-        return $_SESSION['REGLAMENTO']['CODSICOM'];
+        return $_SESSION['CODSICOM'];
     }
     
     public function getCurrentIdSession(){
-        return $_SESSION['REGLAMENTO']['ID_USUARIO'];
+        return $_SESSION['ID_USUARIO'];
     }
     
     public static function getInstance()

@@ -1,4 +1,9 @@
-<?php include_once 'view/_head.php';?>
+<?php include_once 'view/_head.php';
+
+if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
+{
+    
+?>
 <head>
 <title>Reglamento Tecnico</title>
 </head>
@@ -3107,4 +3112,13 @@
 
   </main>
 
-<?php include_once 'view/_footer.php';?>
+<?php 
+include_once 'view/_footer.php';
+
+}else{
+    $errorLogin = "Acceso denegado !";
+    header("Location: ../index.php");
+    
+}
+
+?>
