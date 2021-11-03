@@ -32,8 +32,7 @@ class loginSession extends conexion{
             $pass = md5($password);
             $consulta   = "SELECT idUsuario, codsicom, password FROM proyect5_reglamento.usuario WHERE codsicom='$codsicom' AND password='$pass' and estado = '1' ";
              
-            
-            $resultado  = $conexion -> prepare($consulta);
+            $resultado  = $this->$conexion->prepare($consulta);
             $resultado->execute();
             
             if($resultado->rowCount() >= 1)
