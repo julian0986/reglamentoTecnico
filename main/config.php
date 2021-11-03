@@ -1,5 +1,5 @@
 <?php 
 
-define('CONTROLLER', $_SERVER['DOCUMENT_ROOT'].'/reglamentoTecnico/main/controller/');
+define('CONTROLLER', $_SERVER['DOCUMENT_ROOT'].'/main/controller/');
 
 ?>
