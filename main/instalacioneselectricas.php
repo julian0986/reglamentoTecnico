@@ -17,9 +17,9 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row mt-2">
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">4.3.a
-          Cumplimiento norma RETIE Instalaciones existentes</button>
+          Instalación construida antes del 30 de agosto de 2013</button>
         <div class="collapse multi-collapse" id="multiCollapseExample1">
           <div class="card">
             <!--Carrousel-->
@@ -36,9 +36,9 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             <div class="card-body">
               <h5 class="card-title">Condiciones minimas de seguridad</h5>
               <p class="card-text">Toda instalación construida antes del agosto 30 de 2013 que no haya sido ampliada o
-modificada, debe garantizar que sus instalaciones eléctricas no representan alto riesgo para la
-salud o la vida de las personas o animales, o atenten contra el medio ambiente, y en caso
-contrario, debe hacer las modificaciones para eliminar o mitigarel riesgo. Estas instalaciones deben demostrar las condiciones mínimas de seguridad a través de
+                 modificada, debe garantizar que sus instalaciones eléctricas no representan alto riesgo para la
+                salud o la vida de las personas o animales, o atenten contra el medio ambiente, y en caso
+                contrario, debe hacer las modificaciones para eliminar o mitigarel riesgo. Estas instalaciones deben demostrar las condiciones mínimas de seguridad a través de
                 una declaración de cumplimiento emitida por un profesional eléctrico con matricula profesional vigente,
                 conforme con los requisitos de las instalaciones eléctricas especiales del RETIE vigente. La declaración
                 de cumplimiento incluye las Áreas Críticas y clasificadas y deberá estar acompañada de un informe donde
@@ -88,9 +88,9 @@ contrario, debe hacer las modificaciones para eliminar o mitigarel riesgo. Estas
     <!--Tarjeta 2-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">4.3.b
-          Cambio norma RETIE instalaciones nuevas</button>
+          Instalaciones construidas en vigencia a la resolución No. 90708</button>
         <div class="collapse multi-collapse" id="multiCollapseExample2">
           <div class="card">
             <!--Carrousel-->
@@ -151,7 +151,7 @@ contrario, debe hacer las modificaciones para eliminar o mitigarel riesgo. Estas
     <!--Tarjeta 3-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-default btn-lg border border-danger" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">4.3.c
           Certificación
           plena a instalaciones ampliadas</button>
@@ -180,11 +180,11 @@ contrario, debe hacer las modificaciones para eliminar o mitigarel riesgo. Estas
             <!--Lista-->
 
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Este item es de alta priorida ya que entrará en vigencia el 30/03/2022
+              <li class="list-group-item">
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-outline-danger mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModa3">
-                  Este requisito es obligatorio para todas las EDS que se modifiquen o amplien
+                  Este requisito aplica para eds que se construyan, modifiquen o amplíen a partir del 30 de marzo del 2022
                 </button>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModa3" tabindex="-1" aria-labelledby="exampleModalLabel3"
@@ -221,7 +221,7 @@ contrario, debe hacer las modificaciones para eliminar o mitigarel riesgo. Estas
     <!--Tarjeta 4-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-default btn-lg border border-danger" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">4.3.d
           Construcción,
           modificación o ampliación</button>
@@ -248,11 +248,11 @@ contrario, debe hacer las modificaciones para eliminar o mitigarel riesgo. Estas
             <!--Lista-->
 
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Este item es de alta priorida ya que entrará en vigencia el 30/03/2022
+              <li class="list-group-item">
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-outline-danger mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModa4">
-                  Este requisito es obligatorio para todas las EDS que se modifiquen o amplien
+                  Este requisito aplica para eds que se construyan, modifiquen o amplíen a partir del 30 de marzo del 2022
                 </button>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModa4" tabindex="-1" aria-labelledby="exampleModalLabel4"
