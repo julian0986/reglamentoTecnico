@@ -1432,7 +1432,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <hr>
               <div class="row">
-                <div class="col-10 bg-success bg-opacity-25 border border-success">
+                <div class="col-10 bg-warning bg-opacity-25 border border-warning">
                   <b>5.3.1.f</b> Los tanques subterráneos deben contar con boca de visita de descarga o llenado,
                   cumpliendo los
                   siguientes aspectos:
@@ -1543,7 +1543,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <br>
               <div class="row">
-                <div class="col-10 bg-success bg-opacity-25 border border-success">
+                <div class="col-10 bg- bg-opacity-25 border border-danger">
                   <b>5.3.1.g</b> Todo Tanque de Almacenamiento nuevo o intervenido a partir de la expedición de este
                   Reglamento,
                   deberá contar con bocas de inspección del tipo "Acceso hombre" (Manhole), conformado por los
@@ -1552,7 +1552,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   o caja de tanque; iii. El Manhole de piso:
                   <a href="./Tanquesubterraneos.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-success bg-opacity-25 border border-success">
+                <div class="col-2 bg- bg-opacity-25 border border-danger">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault66" value="chb66">
                   </div>
@@ -1582,7 +1582,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <br>
               <div class="row">
-                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-10 bg-success bg-opacity-25 border border-success">
                   <b>5.3.1.hII</b> Las cajas de contención de derrames de tanque o caja de tanque instalados antes de la
                   entrada en
                   vigencia de los presentes requisitos podrán continuar su uso solo si garantizan la estanqueidad
@@ -1599,7 +1599,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   sello.
                   <a href="./Tanquesubterraneos.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-2 bg-success bg-opacity-25 border border-success">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault68" value="chb68">
                   </div>
@@ -1630,14 +1630,14 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <br>
               <div class="row">
-                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-10 bg-warning bg-opacity-25 border border-warning">
                   <b>5.3.1.j</b> Las instalaciones deben disponer de un punto de conexión a tierra para el camión
                   cisterna durante
                   la
                   actividad de descargue.
                   <a href="./Tanquesubterraneos.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-2 bg-warning bg-opacity-25 border border-warning">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault70" value="chb70">
                   </div>

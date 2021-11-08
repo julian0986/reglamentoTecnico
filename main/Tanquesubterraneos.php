@@ -515,7 +515,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 3-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-default btn-lg border border-danger" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample7" aria-expanded="false" aria-controls="multiCollapseExample7">5.3.1.g
           Manhole</button>
         <div class="collapse multi-collapse" id="multiCollapseExample7">
@@ -542,11 +542,11 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             <!--Lista-->
 
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Este item es para EDS que amplíen o modifiquen
+              <li class="list-group-item">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal"
+                <button type="button" class="btn btn-outline-danger mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModa6">
-                  Este requisito es obligatorio para el 30/03/2022
+                  Este requisito aplica para eds que se construyan, modifiquen o amplíen a partir del 30 de marzo del 2022
                 </button>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModa6" tabindex="-1" aria-labelledby="exampleModalLabel6"
