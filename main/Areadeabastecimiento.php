@@ -18,7 +18,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row  mt-2">
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-success btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">5.2.a
           Cubierta para isla (Canopy)</button>
         <div class="collapse multi-collapse" id="multiCollapseExample1">
@@ -82,7 +82,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 2-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">5.2.b
           Tubería de desagüe del canopy</button>
 
@@ -144,7 +144,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 3-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">5.2.c
           Pictogramas en área de almacenamiento</button>
 
@@ -219,7 +219,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 4-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">5.2.d
           Pictogramas en área de abastecimiento</button>
 
