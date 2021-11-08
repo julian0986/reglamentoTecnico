@@ -19,7 +19,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 1-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">5.1.a
           Bases y protección de los equipos</button>
 
@@ -84,7 +84,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 2-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">5.1.b
           válvula <br> de impacto</button>
 
@@ -154,7 +154,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta3-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5">5.1.c
           Anclaje de <br> los equipos</button>
         <div class="collapse multi-collapse" id="multiCollapseExample5">
@@ -180,7 +180,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Este item es de alta prioridad, ya que entrará en vigencia el 30/03/2023.
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal"
+                <button type="button" class="btn btn-warning mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModal4">
                   Este requisito es obligatorio para el 30/03/2023
                 </button>
@@ -281,7 +281,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 1-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample7" aria-expanded="false" aria-controls="multiCollapseExample7">5.1.e
           Especificaciones técnicas de pistolas</button>
         <div class="collapse multi-collapse" id="multiCollapseExample7">
@@ -308,7 +308,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Este item es de alta prioridad, ya que entrará en vigencia el 30/03/2023
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal"
+                <button type="button" class="btn btn-warning mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModa6">
                   Este requisito es obligatorio para el 30/03/2023
                 </button>
@@ -346,7 +346,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 2-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample8" aria-expanded="false" aria-controls="multiCollapseExample8">5.1.f
           Breakaway o dispositivo de rotura</button>
         <div class="collapse multi-collapse" id="multiCollapseExample8">
@@ -378,7 +378,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Este item es de alta prioridad, ya que entrará en vigencia el 30/03/2023
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal"
+                <button type="button" class="btn btn-warning mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModa7">
                   Este requisito es obligatorio para el 30/03/2023
                 </button>
@@ -413,7 +413,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 3-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample9" aria-expanded="false" aria-controls="multiCollapseExample9">5.1.g
           Especificacion de mangueras y codos giratorios</button>
 
@@ -442,7 +442,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Este item es de alta prioridad, ya que entrará en vigencia el 30/03/2023
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal"
+                <button type="button" class="btn btn-warning mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModal8">
                   Este requisito es obligatorio para el 30/03/2023
                 </button>
@@ -732,7 +732,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 4-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample14" aria-expanded="false" aria-controls="multiCollapseExample14">5.1.l
           Ubicación <br> espacial</button>
         <div class="collapse multi-collapse" id="multiCollapseExample14">
@@ -758,7 +758,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Este item es de alta prioridad, ya que entrará en vigencia el 30/03/2023
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal"
+                <button type="button" class="btn btn-warning mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModa19">
                   Este requisito es obligatorio para el 30/03/2023
                 </button>
