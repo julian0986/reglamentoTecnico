@@ -17,7 +17,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row mt-2">
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">5.3.2.a
           Capacidad
           máxima de los tanques</button>
@@ -56,14 +56,10 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel1">Título de aviso</h5>
+                        <h5 class="modal-title" id="exampleModalLabel1"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Aceptar</button>
                       </div>
                     </div>
                   </div>
@@ -84,7 +80,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 2-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">5.3.2.b
           Forma de
           los tanques y tanques de transporte</button>
@@ -124,15 +120,10 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel2">Título 2</h5>
+                        <h5 class="modal-title" id="exampleModalLabel2"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <p>Aqui va un texto enorme</p>
-
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Entendido</button>
                       </div>
                     </div>
                   </div>
@@ -154,7 +145,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 3-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">5.3.2.c
           Revestimiento de tanques</button>
         <div class="collapse multi-collapse" id="multiCollapseExample3">
@@ -191,14 +182,11 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel3">Título 3</h5>
+                        <h5 class="modal-title" id="exampleModalLabel3"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <h2>ola</h2>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Entendido</button>
+                        <h2></h2>
                       </div>
                     </div>
                   </div>
@@ -219,7 +207,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 4-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">5.3.2.d
           Recinto <br> de contención</button>
         <div class="collapse multi-collapse" id="multiCollapseExample4">
@@ -234,16 +222,6 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 </div>
 
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
             </div>
             <!--Titulo principal-->
             <div class="card-body">
@@ -267,14 +245,11 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel3">Título 4</h5>
+                        <h5 class="modal-title" id="exampleModalLabel3"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <h2>ola</h2>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Entendido</button>
+                        <h2></h2>
                       </div>
                     </div>
                   </div>
@@ -302,7 +277,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row mt-2">
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5">5.3.2.e
           Capacidad
           mínima del recinto de contención</button>
@@ -340,14 +315,10 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel4"> title 42</h5>
+                        <h5 class="modal-title" id="exampleModalLabel4"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Aceptar</button>
                       </div>
                     </div>
                   </div>
@@ -367,7 +338,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 2-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample6">5.3.2.f
           Ubicación
           de <br> los tanques</button>
@@ -404,14 +375,10 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel5">Título 6</h5>
+                        <h5 class="modal-title" id="exampleModalLabel5"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Entendido</button>
                       </div>
                     </div>
                   </div>
@@ -432,7 +399,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 3-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample7" aria-expanded="false" aria-controls="multiCollapseExample7">5.3.2.g
           Impermeabilidad del recinto de contención</button>
         <div class="collapse multi-collapse" id="multiCollapseExample7">
@@ -452,16 +419,6 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <img src="./src/img/imgtarjetas/generales/Tanques en Superficie/Tanques en Superficie/5.3.2g/5.3.2g.Dique de contencion a.jpg" class="d-block w-100" alt="...">
                 </div> -->
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls6"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
             </div>
             <!--Titulo principal-->
             <div class="card-body">
@@ -489,14 +446,11 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel6">Título 7</h5>
+                        <h5 class="modal-title" id="exampleModalLabel6"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <h2>ola</h2>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Entendido</button>
+                        <h2></h2>
                       </div>
                     </div>
                   </div>
@@ -516,7 +470,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 4-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample8" aria-expanded="false" aria-controls="multiCollapseExample8">5.3.2.h
           Distancia
           mínima entre tanques</button>
@@ -553,14 +507,11 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel7">Título 8</h5>
+                        <h5 class="modal-title" id="exampleModalLabel7"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <h2>ola</h2>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Entendido</button>
+                        <h2></h2>
                       </div>
                     </div>
                   </div>
@@ -584,7 +535,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row mt-2">
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample9" aria-expanded="false" aria-controls="multiCollapseExample9">5.3.2.i
           Cimientos
           de <br> los tanques</button>
@@ -624,14 +575,11 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel8">Título awui</h5>
+                        <h5 class="modal-title" id="exampleModalLabel8"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
 
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Entendido</button>
                       </div>
                     </div>
                   </div>
@@ -651,7 +599,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 2-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample10" aria-expanded="false" aria-controls="multiCollapseExample10">5.3.2.j
           Material
           incombustible en el recinto de contención</button>
@@ -690,14 +638,11 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel9">Título 2</h5>
+                        <h5 class="modal-title" id="exampleModalLabel9"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
 
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Entendido</button>
                       </div>
                     </div>
                   </div>
@@ -718,7 +663,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 3-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample11" aria-expanded="false" aria-controls="multiCollapseExample11">5.3.2.k
           Pendiente del suelo en el recinto de contención</button>
         <div class="collapse multi-collapse" id="multiCollapseExample11">
@@ -758,14 +703,11 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel10">Título 10</h5>
+                        <h5 class="modal-title" id="exampleModalLabel10"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <h2>ola</h2>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Entendido</button>
+                        <h2></h2>
                       </div>
                     </div>
                   </div>
@@ -785,7 +727,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 4-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample12" aria-expanded="false" aria-controls="multiCollapseExample12">5.3.2.l
           Ventilacion
           y vacíos de presión</button>
@@ -823,14 +765,11 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel11">Título 4</h5>
+                        <h5 class="modal-title" id="exampleModalLabel11"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <h2>ola</h2>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Entendido</button>
+                        <h2></h2>
                       </div>
                     </div>
                   </div>
@@ -866,7 +805,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row mt-2">
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample13" aria-expanded="false" aria-controls="multiCollapseExample13">5.3.2.m
           Protección
           interna</button>
@@ -905,14 +844,11 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel12">Título awui</h5>
+                        <h5 class="modal-title" id="exampleModalLabel12"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
 
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Entendido</button>
                       </div>
                     </div>
                   </div>
@@ -932,7 +868,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 2-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample14" aria-expanded="false" aria-controls="multiCollapseExample14">5.3.2.n
           Aberturas en
           tanques</button>
@@ -969,14 +905,10 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel13">Título 2</h5>
+                        <h5 class="modal-title" id="exampleModalLabel13"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Entendido</button>
                       </div>
                     </div>
                   </div>
@@ -997,7 +929,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 3-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample15" aria-expanded="false" aria-controls="multiCollapseExample15">5.3.2.o
           Anclaje
           de
@@ -1042,14 +974,11 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel14">Título 10</h5>
+                        <h5 class="modal-title" id="exampleModalLabel14"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <h2>ola</h2>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Entendido</button>
+                        <h2></h2>
                       </div>
                     </div>
                   </div>
@@ -1069,7 +998,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 4-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample16" aria-expanded="false" aria-controls="multiCollapseExample16">5.3.2.p
           Barreras
           anti choque</button>
@@ -1109,7 +1038,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel15">Título 4</h5>
+                        <h5 class="modal-title" id="exampleModalLabel15"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
