@@ -1030,7 +1030,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
               <div class="row">
-                <div class="col-10 bg- bg-opacity-25 border border-danger">
+                <div class="col-10 bg-light bg-opacity-25 border border-danger">
                   <H5> Requisito para EDS nueva o que se amplien o modifiquen</H5>
                   <b>5.3.a</b> El sistema de tuberías enterradas y los accesorios utilizados en esta para la conducción
                   de los
@@ -1075,7 +1075,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <hr>
               <div class="row">
-                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-10 bg-warning bg-opacity-25 border border-warning">
                   <b>5.3.c</b> Los tanques de almacenamiento deben estar numerados e identificados con la capacidad de
                   almacenamiento operativo y el tipo de combustible almacenado, de acuerdo a las tablas de aforo.
                   Además, los tanques superficiales deben contar con un rótulo de identificación de riesgos conforme
@@ -1084,7 +1084,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   1496 de 2018.
                   <a href="./Almacenamientoytuberias.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-2 bg-warning bg-opacity-25 border border-warning">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault45" value="chb45">
                   </div>
@@ -1111,7 +1111,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <hr>
               <div class="row">
-                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-10 bg-warning bg-opacity-25 border border-warning">
                   <b>5.3.e</b> En los tanques subterráneos, deberán existir tubos de respiración o venteo por
                   tanque/compartimiento. Las bocas de los tubos de respiración de los tanques deberán salir al aire
                   libre, por encima de tejados, placas o planchas mínimo 1,5 m ± 10% y alejadas de conducciones
@@ -1130,7 +1130,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   de las aberturas de cualquier edificio.
                   <a href="./Almacenamientoytuberias.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-2 bg-warning bg-opacity-25 border border-warning">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault47" value="chb47">
                   </div>
@@ -1141,14 +1141,14 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <hr>
               <div class="row">
-                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-10 bg-warning bg-opacity-25 border border-warning">
                   <b>5.3.f</b> El diámetro de tubo de respiración (desfogue) del tanque no podrá ser menor a % del
                   diámetro de la
                   boca de llenado, pero en ningún caso inferior a treinta y dos (32) mm (1 ,25 pulgadas).
 
                   <a href="./Almacenamientoytuberias.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-2 bg-warning bg-opacity-25 border border-warning">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault48" value="chb48">
                   </div>
@@ -1183,14 +1183,14 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <hr>
               <div class="row">
-                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-10 bg-warning bg-opacity-25 border border-warning">
                   <b>5.3.h</b> Las Estaciones de Servicio que se construyan, modifiquen o amplíen deberán instalar
                   tanques
                   certificados por organismo de certificación de producto acreditados bajo la norma ISO/IEC 17065 o
                   que la modifique o sustituya.
                   <a href="./Almacenamientoytuberias.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-2 bg-warniing bg-opacity-25 border border-warning">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault50" value="chb50">
                   </div>
@@ -1235,7 +1235,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <hr>
               <div class="row">
-                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-10 bg-warning bg-opacity-25 border border-warning">
                   <b>5.3.j</b> Las Estaciones de Servicio que operan antes de la entrada en vigencia de este Reglamento
                   tienen un
                   (1) año para contar con una ficha técnica de cada Tanque de Almacenamiento, con la siguiente
@@ -1247,7 +1247,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   v. Declaración para uso subterráneo o en superficie.
                   <a href="./Almacenamientoytuberias.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-2 bg-warning bg-opacity-25 border border-warning">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault52" value="chb52">
                   </div>
