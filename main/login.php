@@ -28,6 +28,9 @@
        
         <div class="container">
                 <div class="middle respon">
+                  <div class="titulodellogin">
+                  <h3>REGLAMENTO TÉCNICO APLICABLE A LAS EDS, RESOLUCIÓN 40198 DE 2021</h3>
+                  </div>
                       <div id="login">
                       <?php 
                         if(isset($errorLogin)){

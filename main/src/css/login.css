@@ -5,18 +5,7 @@
 
 */
 
-div.main{
-    /* background: #0264d6; /* Old browsers 
-background: -moz-radial-gradient(center, ellipse cover,  #0264d6 1%, #1c2b5a 100%); 
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#0264d6), color-stop(100%,#1c2b5a)); 
-background: -webkit-radial-gradient(center, ellipse cover,  #0264d6 1%,#1c2b5a 100%); 
-background: -o-radial-gradient(center, ellipse cover,  #0264d6 1%,#1c2b5a 100%); 
-background: -ms-radial-gradient(center, ellipse cover,  #0264d6 1%,#1c2b5a 100%); 
-background: radial-gradient(ellipse at center,  #0264d6 1%,#1c2b5a 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0264d6', endColorstr='#1c2b5a',GradientType=1 ); 
-height:calc(100vh);
-width:100%; */
-}
+
 
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
@@ -192,4 +181,3 @@ fieldset{
     }
     
     }
-}
