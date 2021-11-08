@@ -17,7 +17,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row">
     <div class="col-md-3">
       <div>
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">5.5.a
           Equipos de protección contra incendios</button>
         <div class="collapse multi-collapse" id="multiCollapseExample1">
@@ -53,12 +53,10 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Vigente desde el relgamento anterior</h5>
+                        <h5 class="modal-title" id="exampleModalLabel"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
-                      <div class="modal-body">Debido a que este item ya se encontraba vigente en el reglamento
-                        continuará en vigencia
-
+                      <div class="modal-body">
                       </div>
                     </div>
                   </div>
@@ -85,7 +83,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 2-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">5.5.b
           Programa de inspección y mantenimiento de extintores</button>
         <div class="collapse multi-collapse" id="multiCollapseExample2">
@@ -122,12 +120,10 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel1">Vigente desde el reglamento anterior</h5>
+                        <h5 class="modal-title" id="exampleModalLabel1"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        Debido a que este item ya se encontraba vigente en el reglamento continuará en vigencia
-
                       </div>
                     </div>
                   </div>
@@ -147,7 +143,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 3-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">5.5.bII
           Extintor <br> para cargues</button>
         <div class="collapse multi-collapse" id="multiCollapseExample3">
@@ -186,11 +182,10 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel3">Vigente desde el reglamento anterior</h5>
+                        <h5 class="modal-title" id="exampleModalLabel3"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        Debido a que este item ya se encontraba vigente en el reglamento continuará en vigencia
                       </div>
                     </div>
                   </div>
@@ -210,7 +205,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 4-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">5.5.c
           Extintor rodante <br> o satélite</button>
         <div class="collapse multi-collapse" id="multiCollapseExample4">
@@ -250,11 +245,10 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel3">Vigente desde el reglamento anterior</h5>
+                        <h5 class="modal-title" id="exampleModalLabel3"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        Debido a que este item ya se encontraba vigente en el reglamento continuará en vigencia
                       </div>
                     </div>
                   </div>
@@ -277,7 +271,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row mt-2">
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5">5.5.d
           Parada <br> de Emergencia</button>
         <div class="collapse multi-collapse" id="multiCollapseExample5">
@@ -320,13 +314,10 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel4">Este requisito es nuevo o contiene aspectos
-                          aclaratorios</h5>
+                        <h5 class="modal-title" id="exampleModalLabel4"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
-                      <div class="modal-body">Debido a que este item ya se encontraba vigente en el reglamento
-                        continuará en vigencia
-
+                      <div class="modal-body">
                       </div>
                     </div>
                   </div>
@@ -349,7 +340,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 2-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample6">5.5.e
           Entrenamiento del personal</button>
         <div class="collapse multi-collapse" id="multiCollapseExample6">
@@ -363,16 +354,6 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                     class="d-block w-100" alt="...">
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls5"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls5"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
             </div>
             <!--Titulo principal-->
             <div class="card-body">
@@ -396,12 +377,10 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel5">Vigente desde el reglamento anterior</h5>
+                        <h5 class="modal-title" id="exampleModalLabel5"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        Debido a que este item ya se encontraba vigente en el reglamento continuará en vigencia
-
                       </div>
                     </div>
                   </div>
@@ -421,7 +400,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 3-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample7" aria-expanded="false" aria-controls="multiCollapseExample7">5.5.f Plan
           de <br> emergencia</button>
         <div class="collapse multi-collapse" id="multiCollapseExample7">
@@ -459,12 +438,10 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel6">Este equisito es nuevo o contiene aspectos
-                          aclaratorios</h5>
+                        <h5 class="modal-title" id="exampleModalLabel6"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        Este requisito es nuevo y entrará en vigencia en el 2022
                       </div>
                     </div>
                   </div>
