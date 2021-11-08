@@ -82,7 +82,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 2-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">4.1.b
           Material de <br> infraestructura</button>
         <div class="collapse multi-collapse" id="multiCollapseExample2">
@@ -145,7 +145,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 3-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">4.1.c
           Instalaciones <br> sanitarias</button>
         <div class="collapse multi-collapse" id="multiCollapseExample3">
@@ -207,7 +207,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 4-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">4.1.d
           Reportes
           al
@@ -286,7 +286,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row mt-2">
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5">4.1.e
           Documentación
           de los equipos</button>
@@ -346,7 +346,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 2-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample6">4.1.f
           Disposición de
           residuos peligrosos</button>
@@ -407,7 +407,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 3-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample7" aria-expanded="false" aria-controls="multiCollapseExample7">4.1.g
           Estacionamiento de vehículos en la EDS </button>
         <div class="collapse multi-collapse" id="multiCollapseExample7">
@@ -508,11 +508,11 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             <!--Lista-->
 
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Este item es de alta prioridad ya que entrará en vigencia el 30/03/2022
+              <li class="list-group-item">
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-outline-danger mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModa7">
-                  Este requisito es obligatorio para el 30/03/2022 y aplica para EDS nuevas o que se modifiquen
+                  Este requisito aplica para eds que se construyan, modifiquen o amplíen a partir del 30 de marzo del 2022
                 </button>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModa7" tabindex="-1" aria-labelledby="exampleModalLabel7"
@@ -554,7 +554,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row mt-2" >
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-default btn-lg border border-danger" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample9" aria-expanded="false" aria-controls="multiCollapseExample9">4.1.i
           Certificación
           de invtervención</button>
@@ -583,11 +583,11 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             </div>
             <!--Lista-->
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Este item es de alta prioridad ya que entrará en vigencia el 30/03/2022
+              <li class="list-group-item">
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-outline-danger mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModal8">
-                  Este requisito es obligatorio para el 30/03/2022 y aplica para EDS nuevas o que se modifiquen
+                  Este requisito aplica para eds que se construyan, modifiquen o amplíen a partir del 30 de marzo del 2022
                 </button>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel8"
@@ -619,7 +619,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 2-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample10" aria-expanded="false" aria-controls="multiCollapseExample10">4.1.j
           Buenas prácticas manejo Biodiesel</button>
         <div class="collapse multi-collapse" id="multiCollapseExample10">
@@ -695,7 +695,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 3-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample11" aria-expanded="false" aria-controls="multiCollapseExample11">4.1.k
           Buenas prácticas manejo de combustible
         </button>
@@ -759,7 +759,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 4-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample12" aria-expanded="false" aria-controls="multiCollapseExample12">4.1l
           Capacitaciones al personal de la EDS</button>
         <div class="collapse multi-collapse" id="multiCollapseExample12">
