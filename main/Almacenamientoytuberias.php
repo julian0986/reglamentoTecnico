@@ -15,7 +15,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row mt-2">
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-default btn-lg border border-danger" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1"> 5.3.a
           Tuberías de doble contención</button>
         <div class="collapse multi-collapse" id="multiCollapseExample1">
@@ -39,11 +39,11 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             </div>
             <!--Lista-->
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Este item es de alta prioridad
+              <li class="list-group-item">
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-outline-danger mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModal">
-                  Este requisito es obligatorio para el 30/07/2022 y aplica para las EDS nuevas o que se modifiquen
+                  Este requisito aplica para eds que se construyan, modifiquen o amplíen a partir del 30 de marzo del 2022
                 </button>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -82,7 +82,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 2-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-success btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">5.3.b
           Sistema de prevención de sobrellenado</button>
 
@@ -165,7 +165,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 3-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">5.3.c
           Etiquetado y rotulación de tanques SGA</button>
 
@@ -196,7 +196,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <li class="list-group-item">Este item es de alta prioridad, ya que cuenta con un año a partir de la
                 entrada en vigencia para cumplirse
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal"
+                <button type="button" class="btn btn-warning mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModa3">
                   Este requisito es obligatorio para el 30/03/2023
                 </button>
@@ -235,7 +235,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 4-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">5.3.d
           Tanques
           estacionarios en EDS</button>
@@ -307,7 +307,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta1-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5">5.3.e
           Tuberías <br> de ventilación</button>
         <div class="collapse multi-collapse" id="multiCollapseExample5">
@@ -352,9 +352,9 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Este item es de alta prioridad ya que entrará en vigencia el 30/03/2023
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal"
+                <button type="button" class="btn btn-warning mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModal4">
-                  Este requisito contiene items especificos para EDS nuevas o que se modifiquen (Click Aquí)
+                  Este requisito es obligatorio para el 30/03/2023
                 </button>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -419,7 +419,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta2-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample20" aria-expanded="false" aria-controls="multiCollapseExample5">5.3.f
           Diámetro del tubo de desfogue</button>
         <div class="collapse multi-collapse" id="multiCollapseExample20">
@@ -444,7 +444,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Este item es de alta prioridad ya que entrará en vigencia el 30/03/2022
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal"
+                <button type="button" class="btn btn-warning mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModal20">
                   Este requisito es obligatorio para el 30/03/2023
                 </button>
@@ -479,7 +479,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 3-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample6">5.3.g Tipo
           de tanque y usos permitidos</button>
         <div class="collapse multi-collapse" id="multiCollapseExample6">
@@ -562,7 +562,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 4-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample7" aria-expanded="false" aria-controls="multiCollapseExample7">
           5.3.h Certificación de norma técnica del tanque
         </button>
@@ -607,7 +607,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <li class="list-group-item">Este item es de alta prioridad ya que cuenta con un año a partir de la entrada
                 en vigencia para cumplirse
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal"
+                <button type="button" class="btn btn-warning mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModa6">
                   Este requisito es obligatorio para el 30/03/2023
                 </button>
@@ -647,7 +647,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta1-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample8" aria-expanded="false" aria-controls="multiCollapseExample8">5.3.i
           Documentacion de origen del tanque</button>
         <div class="collapse multi-collapse" id="multiCollapseExample8">
@@ -743,7 +743,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 2-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample9" aria-expanded="false" aria-controls="multiCollapseExample9">5.3.j
           Ficha técnica <br> de tanques</button>
         <div class="collapse multi-collapse" id="multiCollapseExample9">
@@ -770,7 +770,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <li class="list-group-item">Este item es de alta prioridad ya que entrará en vigencia dentro de un año
                 luego de la entrada en vigencia del reglamento
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal"
+                <button type="button" class="btn btn-warning mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModal8">
                   Este requisito es obligatorio para el 30/03/2023
                 </button>
@@ -820,7 +820,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 3-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-default btn-lg border border-danger" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample10" aria-expanded="false" aria-controls="multiCollapseExample10">5.3.k
           Cumplimiento procedimiento de instalación</button>
         <div class="collapse multi-collapse" id="multiCollapseExample10">
@@ -843,11 +843,11 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             </div>
             <!--Lista-->
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Este item es de alta prioridad ya que entrará en vigencia en el 2022
+              <li class="list-group-item">
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-outline-danger mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModa9">
-                  Este requisito es obligatorio para el 30/03/2022 y aplica para EDS nuevas o que se modifiquen
+                  Este requisito aplica para eds que se construyan, modifiquen o amplíen a partir del 30 de marzo del 2022
                 </button>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModa9" tabindex="-1" aria-labelledby="exampleModalLabel9"
@@ -882,7 +882,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 4-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-default btn-lg border border-danger" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample11" aria-expanded="false" aria-controls="multiCollapseExample11">5.3.l
           Norma técnica de diseño y construcción de tanques.</button>
         <div class="collapse multi-collapse" id="multiCollapseExample11">
@@ -908,11 +908,11 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             <!--Lista-->
 
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Este item es de alta prioridad ya que entrará en vigencia en el 2022
+              <li class="list-group-item">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal"
+                <button type="button" class="btn btn-outline-danger mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModa10">
-                  Este requisito es obligatorio para el 30/03/2022 y aplica para EDS nuevas o que se modifiquen
+                  Este requisito aplica para eds que se construyan, modifiquen o amplíen a partir del 30 de marzo del 2022
                 </button>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModa10" tabindex="-1" aria-labelledby="exampleModalLabel10"
@@ -958,7 +958,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 1-->
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample12" aria-expanded="false" aria-controls="multiCollapseExample12">5.3.m
           Sistema de invetarios</button>
         <div class="collapse multi-collapse" id="multiCollapseExample12">
