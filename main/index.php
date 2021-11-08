@@ -2252,7 +2252,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <hr>
               <div class="row">
-                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-10 bg-warning bg-opacity-25 border border-danger">
                   <b>5.5.d</b> Así mismo, se debe contar como mínimo con un dispositivo de Parada de emergencia que
                   interrumpa
                   todo
@@ -2265,7 +2265,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   para dar cumplimiento a este requisito.
                   <a href="./Proteccionincendios.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-2 bg-warning bg-opacity-25 border border-danger">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault100" value="chb100">
                   </div>
