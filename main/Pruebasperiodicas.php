@@ -16,7 +16,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <!--Paquete de 4 tarjetas 1-->
   <div class="row mt-2">
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">5.6.2.a
           Líquidos en cajas contenedoras</button>
@@ -79,7 +79,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">5.6.2.b
           Fugas em mangueras de despacho</button>
@@ -147,7 +147,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">5.6.2.c
           Conductividad señal tierra</button>
@@ -205,7 +205,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Pruebas periodicas/5.6.2c/3-Conductividad señal tierra.pdf" class="card-link"
+              <a href="./src/doc/Pruebas periodicas/5.6.2c/3-Conductividad senal tierra.pdf" class="card-link"
                 target="_blank">Ver norma
                 específica</a>
             </div>
@@ -215,7 +215,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">5.6.2.d
           Parada de <br>emergencia </button>
@@ -282,7 +282,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row mt-2">
     <!--Tarjeta 1-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample20" aria-expanded="false" aria-controls="multiCollapseExample5">5.6.2.e
           Inspección a bocas de ingreso y bombas sumergibles</button>
@@ -338,8 +338,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </li>
             </ul>
             <div class="card-body">
-              <a href="#" class="card-link">Ver reglamento completo</a> <br>
-              <a href="#" class="card-link">Ver norma específica</a>
+              <a href="./src/doc/Pruebas periodicas/5.6.2c/3-Conductividad senal tierra.pdf" class="card-link">Ver norma específica</a>
             </div>
           </div>
         </div>
@@ -347,7 +346,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5">5.6.2.f
           Inspecciónes de inatalaciones eléctricas</button>
@@ -359,7 +358,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
-                    src="./src/img/imgtarjetas/generales/Pruebas periodicas/Pruebas periodicas/5.6.2f/Seguridad-instalaciones-eléctricas-10.jpg"
+                    src="./src/img/imgtarjetas/generales/Pruebas periodicas/Pruebas periodicas/5.6.2f/Seguridad-instalaciones-electricas-10.jpg"
                     class="d-block w-100" alt="...">
                 </div>
               </div>
@@ -406,7 +405,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Pruebas periodicas/5.6.2f/5-Inspección a redes electricas.pdf" class="card-link"
+              <a href="./src/doc/Pruebas periodicas/5.6.2f/5-Inspeccion a redes electricas.pdf" class="card-link"
                 target="_blank">Ver
                 norma específica</a>
             </div>
@@ -416,7 +415,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample6">5.6.2.g
           Prueba de sistemas de Sobrellenado</button>
@@ -480,7 +479,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample7" aria-expanded="false" aria-controls="multiCollapseExample7">5.6.2.h
           Pruebas de estanqueidad</button>
@@ -565,7 +564,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row mt-2">
     <!--Tarjeta 1-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample8" aria-expanded="false" aria-controls="multiCollapseExample8">5.6.2.i
           Inspección de dispositivos de seguridad</button>
@@ -630,7 +629,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample9" aria-expanded="false" aria-controls="multiCollapseExample9">5.6.2.j
           Revisión a tanques superficiales</button>
@@ -688,7 +687,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 infraestructura de protección y soporte?</li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Pruebas periodicas/5.6.2j/9-Revisión a tanques superficiales.pdf" class="card-link"
+              <a href="./src/doc/Pruebas periodicas/5.6.2j/9-Revision a tanques superficiales.pdf" class="card-link"
                 target="_blank">Ver
                 norma específica</a>
             </div>
@@ -698,7 +697,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample10" aria-expanded="false" aria-controls="multiCollapseExample10">5.6.2.k
           Revisión del espacio anular</button>
@@ -752,7 +751,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Pruebas periodicas/5.6.2k/10-Revisión del espacio anular.pdf" class="card-link"
+              <a href="./src/doc/Pruebas periodicas/5.6.2k/10-Revision del espacio anular.pdf" class="card-link"
                 target="_blank">Ver
                 norma específica</a>
             </div>
@@ -762,7 +761,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample11" aria-expanded="false" aria-controls="multiCollapseExample11">5.6.2.l
           Prueba de <br> calidad diésel</button>
@@ -838,7 +837,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row mt-2">
     <!--Tarjeta 1-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample12" aria-expanded="false" aria-controls="multiCollapseExample12">5.6.2.m
           Prueba de hermeticidad en tanques</button>
@@ -906,7 +905,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample13" aria-expanded="false" aria-controls="multiCollapseExample13">5.6.2.n
           Hermeticidad a sistemas de conducción</button>
@@ -962,7 +961,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <li class="list-group-item"> ¿Realiza las pruebas de hermeticidad de tuberías de manera periódica?</li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Pruebas periodicas/5.6.2n/13-Hermeticidad a sistemas de conducción.pdf"
+              <a href="./src/doc/Pruebas periodicas/5.6.2n/13-Hermeticidad a sistemas de conduccion.pdf"
                 class="card-link" target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -971,7 +970,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample14" aria-expanded="false" aria-controls="multiCollapseExample14">5.6.2.o
           Simulación <br> de fugas</button>
@@ -1031,7 +1030,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Pruebas periodicas/5.6.2o/14-Simulación de Fugas.pdf" class="card-link"
+              <a href="./src/doc/Pruebas periodicas/5.6.2o/14-Simulacion de Fugas.pdf" class="card-link"
                 target="_blank">Ver norma
                 específica</a>
             </div>
@@ -1041,7 +1040,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample15" aria-expanded="false" aria-controls="multiCollapseExample15">5.6.2.p
           Remisión de <br> resultados</button>
@@ -1099,7 +1098,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 realizados?</li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Pruebas periodicas/5.6.2p/15-Remisión de resultados.pdf" class="card-link"
+              <a href="./src/doc/Pruebas periodicas/5.6.2p/15-Remision de resultados.pdf" class="card-link"
                 target="_blank">Ver norma
                 específica</a>
             </div>
@@ -1116,7 +1115,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row mt-2">
     <!--Tarjeta 1-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample16" aria-expanded="false" aria-controls="multiCollapseExample16">5.6.2.q
           Inspección pozo de monitoreo</button>
@@ -1168,7 +1167,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <li class="list-group-item">¿Realiza la revisión periódica a los pozos de monitoreo?</li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Pruebas periodicas/5.6.2q/16-Inspección pozo de monitoreo.pdf" class="card-link"
+              <a href="./src/doc/Pruebas periodicas/5.6.2q/16-Inspeccion pozo de monitoreo.pdf" class="card-link"
                 target="_blank">Ver
                 norma específica</a>
             </div>
@@ -1178,7 +1177,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample17" aria-expanded="false" aria-controls="multiCollapseExample18">5.6.2.r
           Sensores de <br> derrames</button>
@@ -1261,7 +1260,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample18" aria-expanded="false" aria-controls="multiCollapseExample18">5.6.2.s
           Revisión a tubo de desfogue</button>
@@ -1314,7 +1313,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Pruebas periodicas/5.6.2s/18-Revisión a tubo desfogue.pdf " class="card-link"
+              <a href="./src/doc/Pruebas periodicas/5.6.2s/18-Revision a tubo desfogue.pdf " class="card-link"
                 target="_blank">Ver norma
                 específica</a>
             </div>
@@ -1324,7 +1323,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample19" aria-expanded="false" aria-controls="multiCollapseExample19">5.6.2.t
           Aforo de los <br> tanques</button>

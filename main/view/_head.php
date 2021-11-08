@@ -24,6 +24,7 @@ require_once  constant('CONTROLLER').'user_session.php';
   <link rel="stylesheet" href="./src/css/style.css">
   <link rel="stylesheet" href="./src/css/styleB.css">
   <link rel="shortcut icon" href="https://fendipetroleo.com/nuevoF/public/icon/favicon.ico">
+  
 </head>
 
 <body>

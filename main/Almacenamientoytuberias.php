@@ -14,7 +14,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <!--Paquete de 4 tarjetas 1-->
   <div class="row mt-2">
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1"> 5.3.a
           Tuberías de doble contención</button>
@@ -25,7 +25,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
-                    src="./src/img/imgtarjetas/generales/Almacenamiento y tuberias/5.3A/Tuberia de doble contención.jpg"
+                    src="./src/img/imgtarjetas/generales/Almacenamiento y tuberias/5.3A/Tuberia de doble contencion.jpg"
                     class="d-block w-100" alt="...">
                 </div>
               </div>
@@ -81,7 +81,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">5.3.b
           Sistema de prevención de sobrellenado</button>
@@ -93,7 +93,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
-                    src="./src/img/imgtarjetas/generales/Almacenamiento y tuberias/5.3b/5.3b valvulasobrellenado.jpeg"
+                    src="./src/img/imgtarjetas/generales/Almacenamiento y tuberias/5.3B/53bvalvulasobrellenado.jpeg"
                     class="d-block w-100" alt="...">
                 </div>
               </div>
@@ -164,7 +164,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">5.3.c
           Etiquetado y rotulación de tanques SGA</button>
@@ -225,7 +225,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <li class="list-group-item">¿Los tanques subterráneos cuentan con placa de identificación y aforo?</li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Almacenamiento y tuberias/Almacenamiento y tuberias/5.3C/5.3c Decreto 1496 de 2018 Etiquetado y rotulación de tanques SGA.pdf"
+              <a href="./src/doc/Almacenamiento y tuberias/Almacenamiento y tuberias/5.3C/5.3c Decreto 1496 de 2018 Etiquetado y rotulacion de tanques SGA.pdf"
                 class="card-link" target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -234,7 +234,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">5.3.d
           Tanques
@@ -306,7 +306,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row mt-2">
     <!--Tarjeta1-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5">5.3.e
           Tuberías <br> de ventilación</button>
@@ -409,7 +409,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Almacenamiento y tuberias/Almacenamiento y tuberias/5.3e/5.3e Tuberias de ventilación.pdf"
+              <a href="./src/doc/Almacenamiento y tuberias/Almacenamiento y tuberias/5.3e/5.3e Tuberias de ventilacion.pdf"
                 class="card-link" target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -418,7 +418,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample20" aria-expanded="false" aria-controls="multiCollapseExample5">5.3.f
           Diámetro del tubo de desfogue</button>
@@ -469,7 +469,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Almacenamiento y tuberias/Almacenamiento y tuberias/5.3f/5.3f Diámetro del tubo de desfogue.pdf"
+              <a href="./src/doc/Almacenamiento y tuberias/Almacenamiento y tuberias/5.3f/5.3f Diametro del tubo de desfogue.pdf"
                 class="card-link" target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -478,7 +478,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample6">5.3.g Tipo
           de tanque y usos permitidos</button>
@@ -561,7 +561,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample7" aria-expanded="false" aria-controls="multiCollapseExample7">
           5.3.h Certificación de norma técnica del tanque
@@ -632,7 +632,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 ISO/IEC 17065? </li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Almacenamiento y tuberias/Almacenamiento y tuberias/5.3h/5.3h Certificación de Norma técnica del tanque.pdf"
+              <a href="./src/doc/Almacenamiento y tuberias/Almacenamiento y tuberias/5.3h/5.3h Certificacion de Norma tecnica del tanque.pdf"
                 class="card-link" target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -646,7 +646,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row mt-2">
     <!--Tarjeta1-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample8" aria-expanded="false" aria-controls="multiCollapseExample8">5.3.i
           Documentacion de origen del tanque</button>
@@ -742,7 +742,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample9" aria-expanded="false" aria-controls="multiCollapseExample9">5.3.j
           Ficha técnica <br> de tanques</button>
@@ -819,7 +819,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample10" aria-expanded="false" aria-controls="multiCollapseExample10">5.3.k
           Cumplimiento procedimiento de instalación</button>
@@ -830,7 +830,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
-                    src="./src/img/imgtarjetas/generales/Almacenamiento y tuberias/Almacenamiento y tuberias/5.3k/instalación tanques.png"
+                    src="./src/img/imgtarjetas/generales/Almacenamiento y tuberias/Almacenamiento y tuberias/5.3k/instalacion tanques.png"
                     class="d-block w-100" alt="...">
                 </div>
               </div>
@@ -881,7 +881,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample11" aria-expanded="false" aria-controls="multiCollapseExample11">5.3.l
           Norma técnica de diseño y construcción de tanques.</button>
@@ -957,7 +957,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row mt-2">
     <!--Tarjeta 1-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample12" aria-expanded="false" aria-controls="multiCollapseExample12">5.3.m
           Sistema de invetarios</button>

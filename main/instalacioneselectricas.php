@@ -16,7 +16,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <!--Paquete de 4 tarjetas 1-->
   <div class="row mt-2">
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">4.3.a
           Cumplimiento norma RETIE Instalaciones existentes</button>
@@ -84,7 +84,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">4.3.b
           Cambio norma RETIE instalaciones nuevas</button>
@@ -147,7 +147,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">4.3.c
           Certificación
@@ -208,7 +208,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 tramitada?</li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Instalaciones electricas/4.3c/3-Certificación plena a instalaciones ampliadas.pdf"
+              <a href="./src/doc/Instalaciones electricas/4.3c/3-Certificacion plena a instalaciones ampliadas.pdf"
                 class="card-link" target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -217,7 +217,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">4.3.d
           Construcción,
@@ -275,7 +275,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Instalaciones electricas/4.3d/4-Construcción, modificación o ampliación.pdf"
+              <a href="./src/doc/Instalaciones electricas/4.3d/4-Construccion modificacion o ampliacion.pdf"
                 class="card-link" target="_blank">Ver norma específica</a>
             </div>
           </div>

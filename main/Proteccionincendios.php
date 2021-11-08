@@ -27,7 +27,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
-                    src="./src/img/imgtarjetas/generales/Protección contra incendios/5.5a/WhatsApp Image 2021-10-12 at 12.54.07 PM.jpeg"
+                    src="./src/img/imgtarjetas/generales/Proteccion contra incendios/5.5a/img2a.jpeg"
                     class="d-block w-100" alt="...">
                 </div>
               </div>
@@ -75,7 +75,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 servicio adicional.</li>
             </ul>
             <div class="card-body">
-              <a href="src/doc/Protección contra incendios/5.5a/Equipos de protección contra incendios 5.5a.pdf "
+              <a href="src/doc/Proteccion contra incendios/5.5a/Equipos de proteccion contra incendios 5.5a.pdf "
                 class="card-link" target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -84,7 +84,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">5.5.b
           Programa de inspección y mantenimiento de extintores</button>
@@ -94,7 +94,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="./src/img/imgtarjetas/generales/Protección contra incendios/5.5b/extintor1.jpg"
+                  <img src="./src/img/imgtarjetas/generales/Proteccion contra incendios/5.5b/extintor1.jpg"
                     class="d-block w-100" alt="...">
                 </div>
               </div>
@@ -137,7 +137,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 caso de los extintores de la EDS?</li>
             </ul>
             <div class="card-body">
-              <a href="src/doc/Protección contra incendios/5.5b1/Programa de inspeccion y mantenimeinto a extintores 5.5b.pdf"
+              <a href="src/doc/Proteccion contra incendios/5.5b1/Programa de inspeccion y mantenimeinto a extintores 5.5b.pdf"
                 class="card-link" target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -146,7 +146,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">5.5.bII
           Extintor <br> para cargues</button>
@@ -157,7 +157,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
-                    src="./src/img/imgtarjetas/generales/Protección contra incendios/5.5a/WhatsApp Image 2021-10-05 at 12.15.56 PM.jpeg"
+                    src="./src/img/imgtarjetas/generales/Proteccion contra incendios/5.5a/WhatsApp Image 2021-10-05 at 12.15.56 PM.jpeg"
                     class="d-block w-100" alt="Imagen pendiente">
                 </div>
               </div>
@@ -200,7 +200,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </li>
             </ul>
             <div class="card-body">
-              <a href="src/doc/Protección contra incendios/5.5b2/Extintor para cargues 5.5b.pdf" class="card-link"
+              <a href="src/doc/Proteccion contra incendios/5.5b2/Extintor para cargues 5.5b.pdf" class="card-link"
                 target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -209,7 +209,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">5.5.c
           Extintor rodante <br> o satélite</button>
@@ -220,7 +220,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
-                    src="./src/img/imgtarjetas/generales/Protección contra incendios/5.5c/WhatsApp Image 2021-10-05 at 12.22.07 PM.jpeg"
+                    src="./src/img/imgtarjetas/generales/Proteccion contra incendios/5.5c/WhatsApp Image 2021-10-05 at 12.22.07 PM.jpeg"
                     class="d-block w-100" alt="...">
                 </div>
               </div>
@@ -263,7 +263,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <li class="list-group-item">¿La estación cuenta con extintores rodantes o satelital?</li>
             </ul>
             <div class="card-body">
-              <a href="src/doc/Protección contra incendios/5.5c/Extintor rodante o satelite 5.5c.pdf" class="card-link"
+              <a href="src/doc/Proteccion contra incendios/5.5c/Extintor rodante o satelite 5.5c.pdf" class="card-link"
                 target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -276,7 +276,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <!--Paquete de 4 tarjetas 1-->
   <div class="row mt-2">
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5">5.5.d
           Parada <br> de Emergencia</button>
@@ -287,7 +287,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
-                    src="./src/img/imgtarjetas/generales/Protección contra incendios/Protección contra incendios/5.5d/WhatsApp Image 2021-09-20 at 12.33.52 PM.jpeg"
+                    src="./src/img/imgtarjetas/generales/Proteccion contra incendios/Proteccion contra incendios/5.5d/WhatsApp Image 2021-09-20 at 12.33.52 PM.jpeg"
                     class="d-block w-100" alt="...">
                 </div>
               </div>
@@ -339,7 +339,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 metros del punto más cercano de la isla?</li>
             </ul>
             <div class="card-body">
-              <a href="src/doc/Protección contra incendios/5.5d/Parada de emergencia 5.5d.pdf" class="card-link"
+              <a href="src/doc/Proteccion contra incendios/5.5d/Parada de emergencia 5.5d.pdf" class="card-link"
                 target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -348,7 +348,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample6">5.5.e
           Entrenamiento del personal</button>
@@ -411,7 +411,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 contingencias?</li>
             </ul>
             <div class="card-body">
-              <a href="src/doc/Protección contra incendios/5.5e/Entrenamiento del personal 5.5e.pdf" class="card-link"
+              <a href="src/doc/Proteccion contra incendios/5.5e/Entrenamiento del personal 5.5e.pdf" class="card-link"
                 target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -420,7 +420,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample7" aria-expanded="false" aria-controls="multiCollapseExample7">5.5.f Plan
           de <br> emergencia</button>
@@ -431,7 +431,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
-                    src="./src/img/imgtarjetas/generales/Protección contra incendios/Protección contra incendios/5.5f/Plan-de-emergencia-de-una-empresa.png"
+                    src="./src/img/imgtarjetas/generales/Proteccion contra incendios/Proteccion contra incendios/5.5f/Plan-de-emergencia-de-una-empresa.png"
                     class="d-block w-100" alt="...">
                 </div>
               </div>
@@ -475,7 +475,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </li>
             </ul>
             <div class="card-body">
-              <a href="src/doc/Protección contra incendios/5.5f/Plan de emergencias 5.5.f.pdf" class="card-link"
+              <a href="src/doc/Proteccion contra incendios/5.5f/Plan de emergencias 5.5.f.pdf" class="card-link"
                 target="_blank">Ver norma específica</a>
             </div>
           </div>

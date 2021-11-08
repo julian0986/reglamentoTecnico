@@ -16,7 +16,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <!--Paquete de 4 tarjetas 1-->
   <div class="row mt-2">
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">5.3.2.a
           Capacidad
@@ -74,7 +74,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 con la normativa previamente establecida?</li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Tanques en Superficie/5.3.2a/Capacidad máxima de los tanques 5.3.2a.pdf"
+              <a href="./src/doc/Tanques en Superficie/5.3.2a/Capacidad maxima de los tanques 5.3.2a.pdf"
                 class="card-link" target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -83,7 +83,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">5.3.2.b
           Forma de
@@ -145,7 +145,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </l1>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Tanques en Superficie//" class="card-link" target="_blank">Ver norma específica</a>
+              <a href="./src/doc/Tanques en Superficie/5.3.2a/Capacidad maxima de los tanques 5.3.2a.pdf" class="card-link" target="_blank">Ver norma específica</a>
             </div>
           </div>
         </div>
@@ -153,7 +153,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">5.3.2.c
           Revestimiento de tanques</button>
@@ -218,7 +218,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">5.3.2.d
           Recinto <br> de contención</button>
@@ -301,7 +301,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <!--Paquete de 4 tarjetas 2-->
   <div class="row mt-2">
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5">5.3.2.e
           Capacidad
@@ -366,7 +366,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample6">5.3.2.f
           Ubicación
@@ -422,7 +422,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
 
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Tanques en Superficie/5.3.2f/Ubicación de los tanques 5.3.2f.pdf" class="card-link"
+              <a href="./src/doc/Tanques en Superficie/5.3.2f/Ubicacion de los tanques 5.3.2f.pdf" class="card-link"
                 target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -431,7 +431,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample7" aria-expanded="false" aria-controls="multiCollapseExample7">5.3.2.g
           Impermeabilidad del recinto de contención</button>
@@ -515,7 +515,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample8" aria-expanded="false" aria-controls="multiCollapseExample8">5.3.2.h
           Distancia
@@ -583,7 +583,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <!--Paquete de 4 tarjetas 3-->
   <div class="row mt-2">
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample9" aria-expanded="false" aria-controls="multiCollapseExample9">5.3.2.i
           Cimientos
@@ -650,7 +650,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample10" aria-expanded="false" aria-controls="multiCollapseExample10">5.3.2.j
           Material
@@ -717,7 +717,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample11" aria-expanded="false" aria-controls="multiCollapseExample11">5.3.2.k
           Pendiente del suelo en el recinto de contención</button>
@@ -784,7 +784,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample12" aria-expanded="false" aria-controls="multiCollapseExample12">5.3.2.l
           Ventilacion
@@ -865,7 +865,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <!--Paquete de 4 tarjetas 4-->
   <div class="row mt-2">
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample13" aria-expanded="false" aria-controls="multiCollapseExample13">5.3.2.m
           Protección
@@ -931,7 +931,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample14" aria-expanded="false" aria-controls="multiCollapseExample14">5.3.2.n
           Aberturas en
@@ -996,7 +996,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample15" aria-expanded="false" aria-controls="multiCollapseExample15">5.3.2.o
           Anclaje
@@ -1068,7 +1068,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample16" aria-expanded="false" aria-controls="multiCollapseExample16">5.3.2.p
           Barreras

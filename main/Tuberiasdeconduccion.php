@@ -16,7 +16,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <!--Paquete de 3 tarjetas 1-->
   <div class="row mt-2">
     <div class="col-md-4">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1"> 4.2 Doble
           contención con espacio anular</button>
@@ -67,7 +67,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </l1>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Tuberias de conduccion de combustible/4.2/Doble contención con espacio anular 4.2.pdf"
+              <a href="./src/doc/Tuberias de conduccion de combustible/4.2/Doble contencion con espacio anular 4.2.pdf"
                 class="card-link" target="_blank" target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -76,7 +76,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-4">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">4.2.a
           Sistemas de tuberías subterráneas</button>
@@ -152,7 +152,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-4">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">4.2.b
           Información de tuberías</button>
@@ -209,7 +209,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Tuberias de conduccion de combustible/4.2b/Información de las tuberías 4.2b.pdf"
+              <a href="./src/doc/Tuberias de conduccion de combustible/4.2b/Informacion de las tuberias 4.2b.pdf"
                 class="card-link" target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -221,7 +221,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <!--Tarjeta 1-->
   <div class="row mt-2">
     <div class="col-md-4">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">4.2.c
           Flexibilidad de las tuberías</button>
@@ -283,7 +283,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 2-->
     <!--Paquete de 4 tarjetas 1-->
     <div class="col-md-4">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5">4.2.d
           Tubería instalada bajo los surtidores </button>
@@ -350,7 +350,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-4">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample6">4.2.e
           Inspección a tuberías aéreas</button>
@@ -402,7 +402,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Tuberias de conduccion de combustible/4.2e/Inspección a tuberías 4.2e.pdf"
+              <a href="./src/doc/Tuberias de conduccion de combustible/4.2e/Inspeccion a tuberias 4.2e.pdf"
                 class="card-link" target="_blank">Ver norma específica</a>
             </div>
           </div>

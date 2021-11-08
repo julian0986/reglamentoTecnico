@@ -15,7 +15,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <!--Tarjeta 1-->
   <div class="row mt-2">
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">5.a Aviso
           de precios</button>
@@ -67,7 +67,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <li class="list-group-item">¿La estación cuenta con tótems/aviso de precios?</li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Disposiciones EDS/5a/1-Resolución 181518 de 2009 o sus modificatorias.pdf"
+              <a href="./src/doc/Disposiciones EDS/5a/1-Resolucion 181518 de 2009 o sus modificatorias.pdf"
                 class="card-link" target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -76,7 +76,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">5.b
           Bandera mayorista</button>
@@ -141,7 +141,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">5.c
           Entrada a la estación</button>
@@ -194,7 +194,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 (carriles de aceleración, distancia a la vía, estructura de separación, etc)?</li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Equipos de medicion de combustibles/5c/1-Entrada a la estación.pdf" class="card-link"
+              <a href="./src/doc/Equipos de medicion de combustibles/5d/2-Bitacora de mantenimiento.pdf" class="card-link"
                 target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -203,7 +203,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5">5.d
           Bitácora de mantenimiento</button>

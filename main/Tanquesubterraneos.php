@@ -17,7 +17,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row mt-2">
     <!--Tarjeta 1-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">5.3.1.a
           Doble
@@ -84,7 +84,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">5.3.1.b
           Chaflán
@@ -151,7 +151,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </l1>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Tanques subterraneos/5.3.1b/Chaflán del tanque 5.3.1b.pdf" class="card-link"
+              <a href="./src/doc/Tanques subterraneos/5.3.1b/Chaflan del tanque 5.3.1b.pdf" class="card-link"
                 target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -160,7 +160,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">5.3.1.c
           Repotenciación
@@ -240,7 +240,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Tanques subterraneos/5.3.1c/Repotenciación de tanques 5.3.1c.pdf" class="card-link"
+              <a href="./src/doc/Tanques subterraneos/5.3.1c/Repotenciacion de tanques 5.3.1c.pdf" class="card-link"
                 target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -249,7 +249,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">5.3.1.d
           Certificación de tanques repotenciados</button>
@@ -330,7 +330,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <!--Paquete de 4 tarjetas 2-->
   <div class="row mt-2">
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5">5.3.1.e
           Pozo de
@@ -405,7 +405,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample6">5.3.1.f
           Boca de
@@ -507,17 +507,14 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             <div class="card-body">
               <a href="./src/doc/Tanques subterraneos/5.3.1f/Boca de llenado de los tanques 5.3.1f.pdf"
                 class="card-link" target="_blank">Ver norma específica</a>
-              <br>
-              <a href="./src/doc/Tanques subterraneos/5.3.1f.1/Boca de llenado de los tanques 5.3.1f.pdf "
-                class="card-link" target="_blank">Ver segunda pagina</a>
-            </div>
+             </div>
           </div>
         </div>
       </div>
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample7" aria-expanded="false" aria-controls="multiCollapseExample7">5.3.1.g
           Manhole</button>
@@ -580,7 +577,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample8" aria-expanded="false" aria-controls="multiCollapseExample8">5.3.1.h
           Caja de
@@ -647,7 +644,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 bombas?</li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Tanques subterraneos/5.3.1h/Requerimientos de cajas de contención 5.3.1h.pdf"
+              <a href="./src/doc/Tanques subterraneos/5.3.1h/Requerimientos de cajas de contencion 5.3.1h.pdf"
                 class="card-link" target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -660,7 +657,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <!--Paquete de 4 tarjetas 3-->
   <div class="row mt-2">
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample9" aria-expanded="false" aria-controls="multiCollapseExample9">5.3.1.hII
           Especificaciones de las cajas de contención</button>
@@ -734,8 +731,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </li>
             </ul>
             <div class="card-body">
-              <a href="#" class="card-link">Ver reglamento completo</a> <br>
-              <a href="#" class="card-link" target="_blank">Ver norma específica</a>
+              <a href="./src/doc/Tanques subterraneos/5.3.1h/Requerimientos de cajas de contencion 5.3.1h.pdf" class="card-link" target="_blank">Ver norma específica</a>
             </div>
           </div>
         </div>
@@ -743,7 +739,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample10" aria-expanded="false" aria-controls="multiCollapseExample10">5.3.1.i
           Tuberías
@@ -820,7 +816,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample11" aria-expanded="false" aria-controls="multiCollapseExample11">5.3.1.j
           Punto de conexión
@@ -833,7 +829,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
-                    src="./src/img/imgtarjetas/generales/Tanques subterraneos/Tanques subterraneos/5.3.1j/5.3.1j.Puesta a tierra de camiónb.jpg"
+                    src="./src/img/imgtarjetas/generales/Tanques subterraneos/Tanques subterraneos/5.3.1j/5.3.1j.Puesta a tierra de camionb.jpg"
                     class="d-block w-100" alt="...">
                 </div>
               </div>
@@ -885,7 +881,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <li class="list-group-item">¿Se cuenta con sistema de polo a tierra en la zona de descargue?</li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Tanques subterraneos/5.3.1j/Conexión a tierra 5.3.1j.pdf" class="card-link"
+              <a href="./src/doc/Tanques subterraneos/5.3.1j/Conexion a tierra 5.3.1j.pdf" class="card-link"
                 target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -894,7 +890,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample12" aria-expanded="false" aria-controls="multiCollapseExample12">5.3.1.k
           Construcción
@@ -976,7 +972,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <!--Paquete de 4 tarjetas 4-->
   <div class="row mt-2">
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample13" aria-expanded="false" aria-controls="multiCollapseExample13">5.3.1.l
           Profundidad mínima del tanque</button>

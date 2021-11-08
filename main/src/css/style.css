@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    padding:1rem;
 }
 p{
     text-align: justify;
@@ -37,6 +38,7 @@ div{
     
     grid-template-columns: repeat(60,1fr);
     grid-template-rows: repeat(14,1fr);
+    
 }
 .grilladeimagen :nth-child(1){
     grid-column: 1/61;
@@ -403,6 +405,11 @@ footer section h2{
 }
 
 @media only screen and (max-width: 760px){
+    
+    body{
+        padding:0;
+    }
+ 
    #imglogo{
    width: 10%;    
       
@@ -415,6 +422,7 @@ footer section h2{
         display: grid;
         grid-template-columns: repeat(20,1fr);
         grid-template-rows: repeat(4, 1fr);
+        padding:0 !important;
     }
 
     .grilladeimagen :nth-child(1){
@@ -749,6 +757,9 @@ footer section h2{
     
     .point12:hover .tooltiptext12{
         visibility: visible;
+    }
+    .rounded-pill {
+    border-radius: 3rem!important;
     }
 
 footer #foote{

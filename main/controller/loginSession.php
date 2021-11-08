@@ -2,12 +2,12 @@
     include_once 'conexion.php';
     include_once 'user_session.php';
 class loginSession extends conexion{
-        private String                          $id;
-        private String                          $codsicom;
-        private String                          $password;   
+        private                          $id;
+        private                          $codsicom;
+        private                          $password;   
         private static $instance                  = NULL;
-        private conexion         $objeto;
-        private user_session     $uSession;
+        private          $objeto;
+        private      $uSession;
         
         public function __construct(){
             $this->objeto       = conexion::getInstance();

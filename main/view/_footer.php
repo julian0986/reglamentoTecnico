@@ -18,7 +18,7 @@
     </section>
   </footer>
 
-
+  <script src="./src/js/bloc.js"></script>
   <script src="./src/js/app.js"></script>
   <script src="./src/js/app2.js"></script>
   <script src="./src/js/app3.js"></script>

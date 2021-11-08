@@ -17,7 +17,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <!--Tarjeta 1-->
   <div class="row  mt-2">
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">5.2.a
           Cubierta para isla (Canopy)</button>
@@ -81,7 +81,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">5.2.b
           Tubería de desagüe del canopy</button>
@@ -134,7 +134,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 canales/tubería?</li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Area de abastecimiento/5.2b/2-Tubería de desague del Canopi.pdf" class="card-link"
+              <a href="./src/doc/Area de abastecimiento/5.2b/2-Tuberia de desague del Canopi.pdf" class="card-link"
                 target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -143,7 +143,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">5.2.c
           Pictogramas en área de almacenamiento</button>
@@ -209,7 +209,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
 
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Area de abastecimiento/5.2c/3-Pictogramas de información en area de almacenamiento.pdf"
+              <a href="./src/doc/Area de abastecimiento/5.2c/3-Pictogramas de informacion en area de almacenamiento.pdf"
                 class="card-link" target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -218,7 +218,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">5.2.d
           Pictogramas en área de abastecimiento</button>
@@ -285,7 +285,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <li class="list-group-item">¿El área de abastecimiento de la estación cuenta con estos pictogramas?</li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Area de abastecimiento/5.2d/4-Pictograma de información en area de Abastecimiento.pdf"
+              <a href="./src/doc/Area de abastecimiento/5.2d/4-Pictograma de informacion en area de Abastecimiento.pdf"
                 class="card-link" target="_blank">Ver norma específica</a>
             </div>
           </div>

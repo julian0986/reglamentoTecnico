@@ -18,7 +18,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row mt-2">
     <!--Tarjeta 1-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">5.1.a
           Bases y protección de los equipos</button>
@@ -83,7 +83,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">5.1.b
           válvula <br> de impacto</button>
@@ -153,7 +153,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5">5.1.c
           Anclaje de <br> los equipos</button>
@@ -214,7 +214,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample6">5.1.d
           Instalación, operación y mantenimiento de equipos</button>
@@ -280,7 +280,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
 
     <!--Tarjeta 1-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample7" aria-expanded="false" aria-controls="multiCollapseExample7">5.1.e
           Especificaciones técnicas de pistolas</button>
@@ -345,7 +345,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample8" aria-expanded="false" aria-controls="multiCollapseExample8">5.1.f
           Breakaway o dispositivo de rotura</button>
@@ -412,10 +412,10 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample9" aria-expanded="false" aria-controls="multiCollapseExample9">5.1.g
-          Especificacion técnicas de mangueras y codos giratorios</button>
+          Especificacion de mangueras y codos giratorios</button>
 
         <div class="collapse multi-collapse" id="multiCollapseExample9">
           <div class="card">
@@ -477,7 +477,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample10" aria-expanded="false" aria-controls="multiCollapseExample10">5.1.h
           Material<br> sellante</button>
@@ -542,7 +542,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
 
     <!--Tarjeta 1-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample11" aria-expanded="false" aria-controls="multiCollapseExample11">5.1.i
           Caja de contención de derrames</button>
@@ -606,7 +606,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample12" aria-expanded="false" aria-controls="multiCollapseExample12">5.1.j
           Información que refleja el equipo de medición</button>
@@ -659,7 +659,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 </li>
               </ul>
               <div class="card-body">
-                <a href="./src/doc/Equipos de medicion de combustibles/5.1j/12-Información que debe desplegar el equipo de medición.pdf"
+                <a href="./src/doc/Equipos de medicion de combustibles/5.1j/12-Informacion que debe desplegar el equipo de medicion.pdf"
                   class="card-link" target="_blank">Ver norma específica</a>
               </div>
             </div>
@@ -669,7 +669,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample13" aria-expanded="false" aria-controls="multiCollapseExample13">5.1.k
           Calibración <br> de equipos
@@ -722,7 +722,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </l1>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Equipos de medicion de combustibles/5.1k/13-Calibración de Equipos.pdf"
+              <a href="./src/doc/Equipos de medicion de combustibles/5.1k/13-Calibracion de Equipos.pdf"
                 class="card-link" target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -731,7 +731,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample14" aria-expanded="false" aria-controls="multiCollapseExample14">5.1.l
           Ubicación <br> espacial</button>
@@ -783,7 +783,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 requeridas?</li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Equipos de medicion de combustibles/5.1l/14-Ubicación espacial.pdf" class="card-link"
+              <a href="./src/doc/Equipos de medicion de combustibles/5.1l/14-Ubicacion espacial.pdf" class="card-link"
                 target="_blank">Ver norma específica</a>
             </div>
           </div>

@@ -169,3 +169,27 @@ fieldset{
   display: flex;
   width: 600px;
 }
+
+@media (max-width: 575.98px){
+    body{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        
+    }
+    
+    .respon{
+        display: flex;
+        flex-direction:column-reverse;
+        
+    }
+    #login{
+        margin:0;
+      
+    }
+    .logo{
+        margin:0;
+    }
+    
+    }
+}

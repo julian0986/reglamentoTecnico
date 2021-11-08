@@ -941,7 +941,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   usarse como la barrera de protección mencionada en el literal a) del numeral 5. I . La estructura
                   para la cubierta será de material Incombustible y estará calculada para las diversas cargas que la
                   afecten.
-                  <a href="./Area de abastecimiento.php">Mas información</a>
+                  <a href="./Areadeabastecimiento.php">Mas información</a>
                 </div>
                 <div class="col-2 bg-success bg-opacity-25 border border-success">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
@@ -959,7 +959,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   prohibida su
                   caída
                   libre.
-                  <a href="./Area de abastecimiento.php">Mas información</a>
+                  <a href="./Areadeabastecimiento.php">Mas información</a>
                 </div>
                 <div class="col-2 bg-warning bg-opacity-25 border border-warning">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
@@ -978,7 +978,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   o pictogramas:
                   i. No fumar I Prohibido fumar.
                   ii. Apagar celulares o cualquier dispositivo electrónico o eléctrico.
-                  <a href="./Area de abastecimiento.php">Mas información</a>
+                  <a href="./Areadeabastecimiento.php">Mas información</a>
                 </div>
                 <div class="col-2 bg-danger bg-opacity-25 border border-danger">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
@@ -1004,7 +1004,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   iv. Prohibido suministrar combustible en contenedores inadecuados.
                   v. Prohibido suministrar combustible a servicio publico con pasajeros a bordo.
                   vi. Prohibido suministrar combustible a motos sin descender de la motocicleta.
-                  <a href="./Area de abastecimiento.php">Mas información</a>
+                  <a href="./Areadeabastecimiento.php">Mas información</a>
                 </div>
                 <div class="col-2 bg-danger bg-opacity-25 border border-danger">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
@@ -2780,10 +2780,10 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     </div>
     </div>
-    <div class="card generales" id="option2">
+    <!--<div class="card generales" id="option2">
       <h5 class="card-header">REQUISITOS ESPECÍFICOS (Automotriz)</h5>
       <!-- Barra de Requisitos Especificos -->
-      <div id="percent2">
+      <!--<div id="percent2">
         <p>0%</p>
       </div>
       <div id="myProgress2">
@@ -2793,7 +2793,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
         <div class="accordion" id="accordionExample">
           <!--Primer acordeon-->
           <!--Primer acordeon-->
-          <div class="accordion-item">
+          <!--<div class="accordion-item">
             <h2 class="accordion-header" id="headingOneespc">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneespc"
                 aria-expanded="true" aria-controls="collapseOneespc">
@@ -2868,7 +2868,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             </div>
           </div>
           <!--Segundo acordeon-->
-          <div class="accordion-item">
+         <!-- <div class="accordion-item">
             <h2 class="accordion-header" id="headingsecondspc">
               <button class="accordion-button" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsesecondspc" aria-expanded="true" aria-controls="collapsesecond">
@@ -3025,7 +3025,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             </div>
           </div>
           <!--Tercer acordeon-->
-          <div class="accordion-item">
+         <!-- <div class="accordion-item">
             <h2 class="accordion-header" id="headingthreespc">
               <button class="accordion-button" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsethreespc" aria-expanded="true" aria-controls="collapsethreespc">
@@ -3102,7 +3102,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
         </div>
       </div>
 
-    </div>
+    </div>-->
 
     <div class="d-grid gap-2 col-6 mx-auto mb-5">
       <button onclick="save()" class="btn btn-outline-success">Guardar Progreso</button>

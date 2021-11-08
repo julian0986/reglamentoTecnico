@@ -16,7 +16,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <!--Tarjeta 1-->
   <div class="row mt-2">
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">5.4.a
           Tanques temporales o clausurados</button>
@@ -81,7 +81,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample2">5.4.b
           Condiciones obligatorias de tanques fuera de uso</button>
@@ -136,7 +136,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </l1>
             </ul>
             <div class="card-body">
-              <a href="#" class="card-link" target="_blank">Ver norma específica</a>
+              <a href="./src/doc/tanques fuera de uso/5.4a/Tanques temporales o clausurados 5.4a.pdf" class="card-link" target="_blank">Ver norma específica</a>
             </div>
           </div>
         </div>
@@ -144,7 +144,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">5.4.c
           Retiro de tanques y notificación a las autoridades</button>
@@ -205,7 +205,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">5.4.d
           Tanques clausurados que no fueron retirados</button>
@@ -272,7 +272,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <!--Tarjeta 1-->
   <div class="row mt-2">
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">5.4.e
           Cierre permanente de la estación</button>

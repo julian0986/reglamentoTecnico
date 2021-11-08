@@ -17,8 +17,8 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <!--Paquete de 4 tarjetas 1-->
   <div class="row mt-2">
     <div class="col-md-3">
-      <div class="d-grid gap-2">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+      <div class="d-grid gap-2 py-1">
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">4.1.a EDS
           Nuevas <br> o modificadas</button>
         <div class="collapse multi-collapse" id="multiCollapseExample1">
@@ -81,7 +81,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">4.1.b
           Material de <br> infraestructura</button>
@@ -144,7 +144,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">4.1.c
           Instalaciones <br> sanitarias</button>
@@ -155,7 +155,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
-                    src="./src/img/imgtarjetas/generales/Disposiciones todas las instalaciones/Disposiciones todas las instalaciones/4.1c/Baños.jpg"
+                    src="./src/img/imgtarjetas/generales/Disposiciones todas las instalaciones/Disposiciones todas las instalaciones/4.1c/Banos.jpg"
                     class="d-block w-100" alt="...">
                 </div>
               </div>
@@ -206,7 +206,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">4.1.d
           Reportes
@@ -285,7 +285,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <!--Paquete de 4 tarjetas 2-->
   <div class="row mt-2">
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5">4.1.e
           Documentación
@@ -336,7 +336,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Disposiciones todas las instalaciones/4.1e/#" class="card-link" target="_blank">Ver
+              <a href="./src/doc/Disposiciones todas las instalaciones/4.1d/4-Reportes al ministerio de minas y energia.pdf" class="card-link" target="_blank">Ver
                 norma específica</a>
             </div>
           </div>
@@ -345,7 +345,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample6">4.1.f
           Disposición de
@@ -397,7 +397,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 peligrosos y cumplen con la normatividad ambiental vigente?</li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Disposiciones todas las instalaciones/4.1f/6-Disposición de residuos peligrosos.pdf"
+              <a href="./src/doc/Disposiciones todas las instalaciones/4.1f/6-Disposicion de residuos peligrosos.pdf"
                 class="card-link" target="_blank">Ver norma específica</a>
             </div>
           </div>
@@ -406,7 +406,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample7" aria-expanded="false" aria-controls="multiCollapseExample7">4.1.g
           Estacionamiento de vehículos en la EDS </button>
@@ -467,7 +467,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 requisitos?</li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Disposiciones todas las instalaciones/4.1g/#" class="card-link" target="_blank">Ver
+              <a href="./src/doc/Disposiciones todas las instalaciones/4.1d/4-Reportes al ministerio de minas y energia.pdf" class="card-link" target="_blank">Ver
                 norma específica</a>
             </div>
           </div>
@@ -476,8 +476,8 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+      <div class="d-grid gap-2 py-1">
+        <button class="btn btn-default btn-lg border border-danger" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample8" aria-expanded="false" aria-controls="multiCollapseExample8">4.1.h
           Memorias
           de
@@ -538,8 +538,8 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 constructivos y/o de modificación/ampliación de la EDS?</li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Disposiciones todas las instalaciones/4.1h/8-Memorias de intervención a la estación.pdf"
-                class="card-link">Ver norma específica</a>
+              <a href="./src/doc/Disposiciones todas las instalaciones/4.1h/8-Memorias de intervencion a la estacion.pdf"
+                class="card-link" target="_blank">Ver norma específica</a>
             </div>
           </div>
         </div>
@@ -551,9 +551,9 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   </p>
   <!--Tarjeta 1-->
   <!--Paquete de 4 tarjetas 3-->
-  <div class="row mt-2">
+  <div class="row mt-2" >
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample9" aria-expanded="false" aria-controls="multiCollapseExample9">4.1.i
           Certificación
@@ -609,8 +609,8 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 remodelación o modificación de la EDS acorde a la Norma ISP/IEC 17050-1 y 17050-2?</li>
             </ul>
             <div class="card-body">
-              <a href="./src/doc/Disposiciones todas las instalaciones/4.1i/9-Certificación de intervención.pdf"
-                class="card-link">Ver norma específica</a>
+              <a href="./src/doc/Disposiciones todas las instalaciones/4.1i/9-Certificacion de intervencion.pdf"
+                class="card-link" target="_blank">Ver norma específica</a>
             </div>
           </div>
         </div>
@@ -618,7 +618,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample10" aria-expanded="false" aria-controls="multiCollapseExample10">4.1.j
           Buenas prácticas manejo Biodiesel</button>
@@ -694,7 +694,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample11" aria-expanded="false" aria-controls="multiCollapseExample11">4.1.k
           Buenas prácticas manejo de combustible
@@ -758,7 +758,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample12" aria-expanded="false" aria-controls="multiCollapseExample12">4.1l
           Capacitaciones al personal de la EDS</button>
