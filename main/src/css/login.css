@@ -158,6 +158,9 @@ fieldset{
   display: flex;
   width: 600px;
 }
+.titulodellogin{
+  margin-bottom: 3rem;
+}
 
 @media (max-width: 575.98px){
     body{
@@ -179,5 +182,7 @@ fieldset{
     .logo{
         margin:0;
     }
-    
+    .titulodellogin{
+      text-align: center;
     }
+}
