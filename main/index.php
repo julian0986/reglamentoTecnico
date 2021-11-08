@@ -591,7 +591,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
           <h2 class="accordion-header" id="headingFour">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-              <b>5.DISPOSICIONES PARA ESTACIONES DE SERVICIO</b>
+              <b>5. DISPOSICIONES PARA ESTACIONES DE SERVICIO</b>
             </button>
           </h2>
           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
@@ -2195,7 +2195,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <hr>
               <div class="row">
-                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-10 bg-warning bg-opacity-25 border border-warning">
                   <b>5.5.b</b> Los extintores deben estar incluidos en un programa de inspección y Mantenimiento y,
                   además, deben
                   estar ubicados en lugares de fácil acceso, libres de cualquier obstáculo y deben estar en
