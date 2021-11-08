@@ -17,7 +17,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row mt-2">
     <div class="col-md-4">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-default btn-lg border border-danger" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1"> 4.2 Doble
           contención con espacio anular</button>
         <div class="collapse multi-collapse" id="multiCollapseExample1">
@@ -41,7 +41,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             </div>
             <!--Lista-->
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Este item es de alta prioridad ya que entrará en vigencia el 30/03/2022
+              <li class="list-group-item">
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-outline-danger mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModal">
@@ -77,7 +77,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 3-->
     <div class="col-md-4">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-default btn-lg border border-danger" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">4.2.a
           Sistemas de tuberías subterráneas</button>
         <div class="collapse multi-collapse" id="multiCollapseExample2">
@@ -116,11 +116,11 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             </div>
             <!--Lista-->
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Este item es de alta prioridad ya que entrará en vigencia el 30/03/2022
+              <li class="list-group-item">
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-outline-danger mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModa1">
-                  Este requisito es obligatorio para el 30/03/2022 y aplica para EDS nuevas o que se modifiquen
+                  Este requisito aplica para eds que se construyan, modifiquen o amplíen a partir del 30 de marzo del 2022
                 </button>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModa1" tabindex="-1" aria-labelledby="exampleModalLabel1"
@@ -153,7 +153,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 3-->
     <div class="col-md-4">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-default btn-lg border border-danger" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">4.2.b
           Información de tuberías</button>
         <div class="collapse multi-collapse" id="multiCollapseExample3">
@@ -183,11 +183,11 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             <!--Lista-->
 
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Este item es de alta prioridad ya que entrará en vigencia el 30/03/2022
+              <li class="list-group-item">
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-outline-danger mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModa3">
-                  Este requisito es obligatorio para el 30/03/2022 y aplica para EDS nuevas o que se modifiquen
+                  Este requisito aplica para eds que se construyan, modifiquen o amplíen a partir del 30 de marzo del 2022
                 </button>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModa3" tabindex="-1" aria-labelledby="exampleModalLabel3"
@@ -222,7 +222,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row mt-2">
     <div class="col-md-4">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-default btn-lg border border-danger" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">4.2.c
           Flexibilidad de las tuberías</button>
         <div class="collapse multi-collapse" id="multiCollapseExample4">
@@ -247,11 +247,11 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             <!--Lista-->
 
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Este item es de alta prioridad ya que entrará en vigencia en el 2022
+              <li class="list-group-item">
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-outline-danger mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModa4">
-                  Este requisito es obligatorio para el 30/03/2022 y aplica para EDS nuevas o que se modifiquen
+                  Este requisito aplica para eds que se construyan, modifiquen o amplíen a partir del 30 de marzo del 2022
                 </button>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModa4" tabindex="-1" aria-labelledby="exampleModalLabel4"
@@ -284,7 +284,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Paquete de 4 tarjetas 1-->
     <div class="col-md-4">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-default btn-lg border border-danger" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5">4.2.d
           Tubería instalada bajo los surtidores </button>
         <div class="collapse multi-collapse" id="multiCollapseExample5">
@@ -311,11 +311,11 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             </div>
             <!--Lista-->
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Este item es de alta prioridad ya que entrará en vigencia el 30/03/2022
+              <li class="list-group-item">
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-outline-danger mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModal4">
-                  Este requisito es obligatorio para el 30/03/2022 y aplica para EDS nuevas o que se modifiquen
+                  Este requisito aplica para eds que se construyan, modifiquen o amplíen a partir del 30 de marzo del 2022
                 </button>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4"
@@ -351,7 +351,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 3-->
     <div class="col-md-4">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-default btn-lg border border-danger" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample6">4.2.e
           Inspección a tuberías aéreas</button>
 
@@ -376,11 +376,11 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             </div>
             <!--Lista-->
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Este item es de alta prioridad ya que entrará en vifencia el 30/03/2022
+              <li class="list-group-item">
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-outline-danger mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModa5">
-                  Este requisito es obligatorio para el 30/03/2022 y aplica para EDS nuevas o que se modifiquen
+                  Este requisito aplica para eds que se construyan, modifiquen o amplíen a partir del 30 de marzo del 2022
                 </button>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModa5" tabindex="-1" aria-labelledby="exampleModalLabel5"
