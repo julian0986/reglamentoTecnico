@@ -35,7 +35,10 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             <!--Titulo principal-->
             <div class="card-body">
               <h5 class="card-title">Condiciones minimas de seguridad</h5>
-              <p class="card-text">Estas instalaciones deben demostrar las condiciones mínimas de seguridad a través de
+              <p class="card-text">Toda instalación construida antes del agosto 30 de 2013 que no haya sido ampliada o
+modificada, debe garantizar que sus instalaciones eléctricas no representan alto riesgo para la
+salud o la vida de las personas o animales, o atenten contra el medio ambiente, y en caso
+contrario, debe hacer las modificaciones para eliminar o mitigarel riesgo. Estas instalaciones deben demostrar las condiciones mínimas de seguridad a través de
                 una declaración de cumplimiento emitida por un profesional eléctrico con matricula profesional vigente,
                 conforme con los requisitos de las instalaciones eléctricas especiales del RETIE vigente. La declaración
                 de cumplimiento incluye las Áreas Críticas y clasificadas y deberá estar acompañada de un informe donde
