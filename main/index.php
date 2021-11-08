@@ -620,7 +620,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   público.
                   <a href="./Disposicioneseds.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-2 bg-warning bg-opacity-25 border border-warning">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault24" value="chb24">
                   </div>
@@ -730,7 +730,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <hr>
               <div class="row">
-                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-10 bg-warning bg-opacity-25 border border-warning">
                   <b>5.1.c</b> El equipo de medición deberá estar anclado según las recomendaciones del fabricante y
                   deberá
                   contar
@@ -738,7 +738,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   donde pudiera estar presente o fluir una mezcla inflamable debe conectarse a tierra.
                   <a href="./Equiposdemedicion.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-2 bg-warning bg-opacity-25 border border-warning">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault29" value="chb29">
                   </div>
@@ -765,7 +765,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <hr>
               <div class="row">
-                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-10 bg-warning bg-opacity-25 border border-warning">
                   <b>5.1.e</b> Se deberán instalar pistolas que minimicen los picos de presión y la generación de golpe
                   de ariete
                   y
@@ -774,7 +774,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   de sobrellenado y de seguridad.
                   <a href="./Equiposdemedicion.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-2 bg-warning bg-opacity-25 border border-warning">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault31" value="chb31">
                   </div>
@@ -785,7 +785,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <br>
               <div class="row">
-                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-10 bg-warning bg-opacity-25 border border-warning">
                   <b>5.1.f</b> En la manguera del Medidor de Combustible deberá colocarse un dispositivo de rotura de
                   emergencia
                   (breakaway), resistente al producto que vaya a manejar, que interrumpa el flujo de combustible en
@@ -799,7 +799,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   requisitos para su cumplimiento.
                   <a href="./Equiposdemedicion.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-2 bg-warning bg-opacity-25 border border-warning">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault32" value="chb32">
                   </div>
@@ -810,7 +810,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <br>
               <div class="row">
-                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-10 bg-warning bg-opacity-25 border border-warning">
                   <b>5.1.g</b> Las mangueras serán resistentes a combustibles, con alma de acero que aseguren que la
                   conexión a
                   tierra sea firme, no deben tener empalmes, y deberán contar con un destorcedor (Swivel) que
@@ -821,7 +821,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   un (1) año a partir de la entrada en vigencia de este reglamento
                   <a href="./Equiposdemedicion.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-2 bg-warning bg-opacity-25 border border-warning">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault33" value="chb33">
                   </div>
@@ -903,14 +903,14 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <br>
               <div class="row">
-                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-10 bg-warning bg-opacity-25 border border-warning">
                   <b>5.1.l</b> El equipo de medición debe situarse alejado de Fuentes de Ignición, a una distancia
                   mínima de 6 m
                   horizontalmente en todas las direcciones de la caja contenedora y hasta 0,45 m sobre el nivel del
                   suelo.
                   <a href="./Equiposdemedicion.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-2 bg-warning bg-opacity-25 border border-warning">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault38" value="chb38">
                   </div>
