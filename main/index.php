@@ -613,7 +613,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <hr>
               <div class="row">
-                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-10 bg-warning bg-opacity-25 border border-warning">
                   <b>5.b</b> Se deberá exhibir la marca representativa del distribuidor mayorista en la cubierta, así
                   como en
                   cada uno de los Medidores de Combustibles y en el aviso en donde se indique los precios al
@@ -2195,7 +2195,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <hr>
               <div class="row">
-                <div class="col-10 bg-warning bg-opacity-25 border border-warning">
+                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
                   <b>5.5.b</b> Los extintores deben estar incluidos en un programa de inspección y Mantenimiento y,
                   además, deben
                   estar ubicados en lugares de fácil acceso, libres de cualquier obstáculo y deben estar en
