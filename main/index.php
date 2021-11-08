@@ -1438,7 +1438,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   siguientes aspectos:
                   <a href="./Tanquesubterraneos.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-success bg-opacity-25 border border-success">
+                <div class="col-2 bg-warning bg-opacity-25 border border-warning">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault61" value="chb61">
                   </div>
@@ -1449,7 +1449,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <br>
               <div class="row">
-                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-10 bg-warning bg-opacity-25 border border-warning">
                   <b>5.3.1.fI</b> El Contenedor de Derrames (spill container) en la boca de descarga o llenado deberá
                   ser de doble
                   contención y contar con una válvula de drenaje. El espacio anular entre el contenedor primario y
@@ -1483,7 +1483,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <br>
               <div class="row">
-                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-10 bg-warning bg-opacity-25 border border-warning">
                   <b>5.3.1.fII</b> El acople de descarga además de ser hermético debe permitir movimiento tipo
                   rodamiento
                   (destorcedor)
@@ -1507,7 +1507,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <br>
               <div class="row">
-                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-10 bg-warning bg-opacity-25 border border-warning">
                   <b>5.3.1.fIII</b> La boca de llenado deberá contar con tapones herméticos.
                   <a href="./Tanquesubterraneos.php">Mas información</a>
                 </div>
@@ -1522,7 +1522,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <br>
               <div class="row">
-                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-10 bg-warning bg-opacity-25 border border-warning">
                   <b>5.3.1.fIV</b> Si se instala el sistema de llenado remoto, éste deberá ser inspeccionable y
                   garantizar que en
                   caso
