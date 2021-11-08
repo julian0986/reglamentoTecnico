@@ -302,9 +302,9 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             </div>
             <!--Lista-->
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Este item es de alta prioridad, ya que entrará en vigencia el 30/03/2023
+              <li class="list-group-item">Este item es de media prioridad, ya que entrará en vigencia el 30/03/2023
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal"
+                <button type="button" class="btn btn-warning mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModal4">
                   Este requisito es obligatorio para el 30/03/2023
                 </button>
