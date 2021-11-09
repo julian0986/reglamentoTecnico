@@ -15,44 +15,44 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Reemplazar por codigo de la imagen-->
     <div class="grilladeimagen">
       <img src="./src/img/imgppal1.png" class="img-fluid" alt="...">
-      <a href="./Areadeabastecimiento.php" target="_blank" class="point"><img id="tamapunto"
+      <a href="./Areadeabastecimiento.php"  class="point"><img id="tamapunto"
           src="./src/img/punteros/p52.png" alt=""><span class="tooltiptext fuente">5.2 Area de
           abastecimiento</span><span class="numerales"></span></i></a>
-      <a href="./Tanquesubterraneos.php" target="_blank" class="point1"><img src="./src/img/punteros/p531.png"
+      <a href="./Tanquesubterraneos.php"  class="point1"><img src="./src/img/punteros/p531.png"
           alt=""><span class="tooltiptext1 fuente">5.3.1 Tanques Subterraneos</span></i></a>
-      <a href="./Almacenamientoytuberias.php" target="_blank" class="point2"><img src="./src/img/punteros/p53.png"
+      <a href="./Almacenamientoytuberias.php"  class="point2"><img src="./src/img/punteros/p53.png"
           alt=""><span class="tooltiptext2 fuente">5.3 Almacenamiento y
           Tuberias</span></i></a>
-      <a href="./Disposicioneseds.php" target="_blank" class="point3"><img src="./src/img/punteros/p5.png" alt=""><span
+      <a href="./Disposicioneseds.php"  class="point3"><img src="./src/img/punteros/p5.png" alt=""><span
           class="tooltiptext3 fuente">5. Disposiciónes para Estaciones de
           Servicios</span></i></a>
-      <a href="./Disposiciontodasinst.php" target="_blank" class="point4"><img src="./src/img/punteros/p41.png"
+      <a href="./Disposiciontodasinst.php"  class="point4"><img src="./src/img/punteros/p41.png"
           alt=""><span class="tooltiptext4 fuente">4.1 Disposiciónes Todas las
           Instalaciones</span></i></a>
 
-      <a href="./Pruebasalaeds.php" target="_blank" class="point5"><img src="./src/img/punteros/p561.png" alt=""><span
+      <a href="./Pruebasalaeds.php"  class="point5"><img src="./src/img/punteros/p561.png" alt=""><span
           class="tooltiptext5 fuente">5.6.1 Pruebas de la estacion de servicio</span></i></a>
 
-      <a href="./instalacioneselectricas.php" target="_blank" class="point6"><img src="./src/img/punteros/p43.png"
+      <a href="./instalacioneselectricas.php"  class="point6"><img src="./src/img/punteros/p43.png"
           alt=""><span class="tooltiptext6 fuente">4.3 Instalaciones Electricas</span></i></a>
 
-      <a href="./Equiposdemedicion.php" target="_blank" class="point7"><img src="./src/img/punteros/p51.png"
+      <a href="./Equiposdemedicion.php"  class="point7"><img src="./src/img/punteros/p51.png"
           alt=""><span class="tooltiptext7 fuente">5.1 Equipos de medición de combustible</span></i></a>
 
-      <a href="./Pruebasperiodicas.php" target="_blank" class="point8"><img src="./src/img/punteros/p562.png"
+      <a href="./Pruebasperiodicas.php"  class="point8"><img src="./src/img/punteros/p562.png"
           alt=""><span class="tooltiptext8 fuente">5.6.2 Pruebas periodicas</span></i></a>
 
-      <a href="./Proteccionincendios.php" target="_blank" class="point9"><img src="./src/img/punteros/p55.png"
+      <a href="./Proteccionincendios.php"  class="point9"><img src="./src/img/punteros/p55.png"
           alt=""><span class="tooltiptext9 fuente">5.5 Sistema contra incendios</span></i></a>
 
-      <a href="./Tuberiasdeconduccion.php" target="_blank" class="point10"><img src="./src/img/punteros/p42.png"
+      <a href="./Tuberiasdeconduccion.php"  class="point10"><img src="./src/img/punteros/p42.png"
           alt=""><span class="tooltiptext10 fuente">4.2 Tuberias de conduccción de combustible</span></i></a>
 
-      <a href="./Disposiciontanquessuperficie.php" target="_blank" class="point11"><img
+      <a href="./Disposiciontanquessuperficie.php"  class="point11"><img
           src="./src/img/punteros/p532.png" alt=""><span class="tooltiptext11 fuente">5.3.2 Tanques
           Superficiales</span></i></a>
 
-      <a href="./Tanquesfueradeuso.php" target="_blank" class="point12"><img src="./src/img/punteros/p54.png"
+      <a href="./Tanquesfueradeuso.php"  class="point12"><img src="./src/img/punteros/p54.png"
           alt=""><span class="tooltiptext12 fuente">5.4 Tanques fuera de uso</span></i></a>
 
 
