@@ -17,7 +17,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row mt-2">
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-danger bg-opacity-25 btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">5.6.2.a
           Líquidos en cajas contenedoras</button>
         <div class="collapse multi-collapse" id="multiCollapseExample1">
