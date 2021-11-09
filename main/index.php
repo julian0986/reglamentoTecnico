@@ -2928,7 +2928,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
           <!--Segundo acordeon-->
          <div class="accordion-item">
             <h2 class="accordion-header" id="headingquince">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              <button class="accordion-button collapse" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsequince" aria-expanded="true" aria-controls="collapsequince">
                 <b>6.2 ÁREA DE ABASTECIMIENTO</b>
               </button>
