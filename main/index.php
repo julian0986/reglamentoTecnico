@@ -2794,73 +2794,131 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
           <!--Primer acordeon-->
           <!--Primer acordeon-->
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOneespc">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneespc"
-                aria-expanded="true" aria-controls="collapseOneespc">
-                <b>6.3ALMACENAMIENTO</b>
+            <h2 class="accordion-header" id="headingthreespc">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsethreespc" aria-expanded="true" aria-controls="collapsethreespc">
+                <b>6.1 REQUISITOS PARTICULARES</b>
               </button>
             </h2>
-            <div id="collapseOneespc" class="accordion-collapse collapse" aria-labelledby="headingOneespc"
+            <div id="collapsethreespc" class="accordion-collapse collapse" aria-labelledby="headingthreespc"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <div class="row">
                   <div class="col-10 bg-success bg-opacity-25">
-                    Los equipos de medición deben ubicarse en el Área de Abastecimiento, de manera tal que todas las
-                    partes del vehículo a abastecer se encuentren dentro del predio de las Estaciones de Servicio.
-                    Este
-                    requisito aplica para todas las Estaciones de Servicio a partir de la entrada en vigor de este
-                    Reglamento
+                  <b>6.1.a</b> Toda Estación de Servicio debe contar con un sistema de pretratamiento de aguas industriales que conste, como mínimo, de un sedimentador, una trampa de grasas y una caja de muestreo o un Sistema de Contención de Derrames que prevenga el vertimiento de los contaminantes al alcantarillado, a las aguas superficiales o al suelo. El sistema de pretratamiento o de contención debe estar diseñado de acuerdo al área y ubicación del establecimiento.
                     <a href="#">Mas información</a>
                   </div>
                   <div class="col-2 bg-success bg-opacity-25">
                     <div class="mx-3 col-6 mx-3 form-check form-switch">
-                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault126" value="chb126">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault136" value="chb136">
                     </div>
                     <div>
-                      <label class="form-check-label" for="flexSwitchCheckDefault126">No/Si</label>
+                      <label class="form-check-label" for="flexSwitchCheckDefault136">No/Si</label>
                     </div>
                   </div>
                 </div>
                 <hr>
                 <div class="row">
                   <div class="col-10 bg-success bg-opacity-25">
-                    La estación de servicio automotriz deberá instalar tanques de almacenamiento de combustible
-                    cilíndrico, horizontales subterráneos que deberán contar con doble pared con espacio anular.
-                    Podrán
-                    tener varios compartimientos, para almacenar diferentes tipos de productos.
+                    <b>6.1.b</b> Las Áreas de Abastecimiento y Almacenamiento en la Estación de Servicio deberán ser pavimentadas en concreto, garantizando la impermeabilidad del piso; en todos los casos deberá permitir la circulación del agua hacia el sistema de pretratamiento o contención de derrames. Se otorga un plazo de 4 años a partir de la entrada en vigencia expedición de los presentes requisitos para su cumplimiento.
                     <a href="#">Mas información</a>
                   </div>
                   <div class="col-2 bg-success bg-opacity-25">
                     <div class="mx-3 col-6 mx-3 form-check form-switch">
-                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault127" value="chb127">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault137" value="chb137">
                     </div>
                     <div>
-                      <label class="form-check-label" for="flexSwitchCheckDefault127">No/Si</label>
+                      <label class="form-check-label" for="flexSwitchCheckDefault137">No/Si</label>
                     </div>
                   </div>
                 </div>
                 <hr>
                 <div class="row">
-                  <div class="col-10 bg-warning bg-opacity-25">
-                    La instalación de los Tanques de Almacenamiento sobre el nivel del suelo o en superficie se
-                    podrá
-                    hacer única y exclusivamente: En sitios donde existan condiciones geológicas especiales o
-                    elevado
-                    nivel freático, siempre que estas condiciones se comprueben mediante la Certificación emitida
-                    por
-                    un
-                    geólogo que acompañe su tarjeta profesional. En estos casos, su instalación deberá estar
-                    soportada
-                    por un estudio técnico que justifique las condiciones exigidas en este literal.
-                    Las estaciones de servicio privadas.
+                  <div class="col-10 bg-success bg-opacity-25">
+                  <b>6.1.c</b> Las Áreas de Abastecimiento y Almacenamiento en la Estación de Servicio deberán ser pavimentadas en concreto, garantizando la impermeabilidad del piso; en todos los casos deberá permitir la circulación del agua hacia el sistema de pretratamiento o contención de derrames. Se otorga un plazo de 4 años a partir de la entrada en vigencia expedición de los presentes requisitos para su cumplimiento.
                     <a href="#">Mas información</a>
                   </div>
-                  <div class="col-2 bg-warning bg-opacity-25">
+                  <div class="col-2 bg-success bg-opacity-25">
                     <div class="mx-3 col-6 mx-3 form-check form-switch">
-                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault128" value="chb128">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault137" value="chb137">
                     </div>
                     <div>
-                      <label class="form-check-label" for="flexSwitchCheckDefault128">No/Si</label>
+                      <label class="form-check-label" for="flexSwitchCheckDefault137">No/Si</label>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-10 bg-success bg-opacity-25">
+                  <b>6.1.d</b> El Área de Abastecimiento y la zona de descarga de carro Tanques en las Estaciones de Servicio Automotrices deben contar con un Canal de Aguas Hidrocarburadas. El canal de conducción de aguas hidrocarburadas debe garantizar la captación de líquidos hidrocarburadas. Para las Estaciones de Servicio que a la entrada en vigencia de este Reglamento no cuenten con este canal, las áreas de ingreso y circulación deberán ser de concreto, asfalto u otro material impermeable y toda el agua de escorrentía deberá dirigirse al sistema de pretratamiento de aguas industriales.
+                    <a href="#">Mas información</a>
+                  </div>
+                  <div class="col-2 bg-success bg-opacity-25">
+                    <div class="mx-3 col-6 mx-3 form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault137" value="chb137">
+                    </div>
+                    <div>
+                      <label class="form-check-label" for="flexSwitchCheckDefault137">No/Si</label>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-10 bg-success bg-opacity-25">
+                  <b>6.1.e</b> El canal del que trata el ítem anterior no debe captar agua lluvia de escorrentía no contaminada con hidrocarburos. Para esto, la losa externa debe contar con una pendiente mínima de 1% hacia la Rejilla de Aguas Lluvias perimetral o sumidero. Este punto aplica para Estaciones de Servicio que se construyan, modifiquen o amplíen, a partir de la entrada en vigencia de este reglamento.
+                    <a href="#">Mas información</a>
+                  </div>
+                  <div class="col-2 bg-success bg-opacity-25">
+                    <div class="mx-3 col-6 mx-3 form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault137" value="chb137">
+                    </div>
+                    <div>
+                      <label class="form-check-label" for="flexSwitchCheckDefault137">No/Si</label>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-10 bg-success bg-opacity-25">
+                  <b>6.1.f</b> No se permite el abastecimiento de combustibles a los vehículos por fuera del canal perimetral, teniendo en cuenta lo indicado por el literal c de este numeral.
+                    <a href="#">Mas información</a>
+                  </div>
+                  <div class="col-2 bg-success bg-opacity-25">
+                    <div class="mx-3 col-6 mx-3 form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault137" value="chb137">
+                    </div>
+                    <div>
+                      <label class="form-check-label" for="flexSwitchCheckDefault137">No/Si</label>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-10 bg-success bg-opacity-25">
+                  <b>6.1.g</b> Las Estaciones de Servicio Automotrices deberán estar provistas de los siguientes sistemas de drenaje: Pluvial, Aguas Residuales Domésticas y Aguas Residuales No Domésticas
+                    <a href="#">Mas información</a>
+                  </div>
+                  <div class="col-2 bg-success bg-opacity-25">
+                    <div class="mx-3 col-6 mx-3 form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault137" value="chb137">
+                    </div>
+                    <div>
+                      <label class="form-check-label" for="flexSwitchCheckDefault137">No/Si</label>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-10 bg-success bg-opacity-25">
+                  <b>6.1.h</b> El volumen de agua recolectada en el Área de Almacenamiento y abastecimiento pasará por el sistema de pretratamiento de aguas no domésticas, antes de conectarse al alcantarillado municipal o como lo estipule la autoridad ambiental de la jurisdicción territorial. También podrá ser almacenado en el Sistema de Contención de Derrames de combustible para ser dispuesto de forma adecuada. Por ningún motivo se conectarán los drenajes que contengan Aguas Residuales Domésticas -ARD y aguas lluvia con las Aguas Residuales No Domésticas -ARnD antes del sistema de pretratamiento
+                    <a href="#">Mas información</a>
+                  </div>
+                  <div class="col-2 bg-success bg-opacity-25">
+                    <div class="mx-3 col-6 mx-3 form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault137" value="chb137">
+                    </div>
+                    <div>
+                      <label class="form-check-label" for="flexSwitchCheckDefault137">No/Si</label>
                     </div>
                   </div>
                 </div>
@@ -3027,6 +3085,81 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
         </div>
           <!--Tercer acordeon-->
           <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOneespc">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneespc"
+                aria-expanded="true" aria-controls="collapseOneespc">
+                <b>6.3ALMACENAMIENTO</b>
+              </button>
+            </h2>
+            <div id="collapseOneespc" class="accordion-collapse collapse" aria-labelledby="headingOneespc"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="row">
+                  <div class="col-10 bg-success bg-opacity-25">
+                    Los equipos de medición deben ubicarse en el Área de Abastecimiento, de manera tal que todas las
+                    partes del vehículo a abastecer se encuentren dentro del predio de las Estaciones de Servicio.
+                    Este
+                    requisito aplica para todas las Estaciones de Servicio a partir de la entrada en vigor de este
+                    Reglamento
+                    <a href="#">Mas información</a>
+                  </div>
+                  <div class="col-2 bg-success bg-opacity-25">
+                    <div class="mx-3 col-6 mx-3 form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault126" value="chb126">
+                    </div>
+                    <div>
+                      <label class="form-check-label" for="flexSwitchCheckDefault126">No/Si</label>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-10 bg-success bg-opacity-25">
+                    La estación de servicio automotriz deberá instalar tanques de almacenamiento de combustible
+                    cilíndrico, horizontales subterráneos que deberán contar con doble pared con espacio anular.
+                    Podrán
+                    tener varios compartimientos, para almacenar diferentes tipos de productos.
+                    <a href="#">Mas información</a>
+                  </div>
+                  <div class="col-2 bg-success bg-opacity-25">
+                    <div class="mx-3 col-6 mx-3 form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault127" value="chb127">
+                    </div>
+                    <div>
+                      <label class="form-check-label" for="flexSwitchCheckDefault127">No/Si</label>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-10 bg-warning bg-opacity-25">
+                    La instalación de los Tanques de Almacenamiento sobre el nivel del suelo o en superficie se
+                    podrá
+                    hacer única y exclusivamente: En sitios donde existan condiciones geológicas especiales o
+                    elevado
+                    nivel freático, siempre que estas condiciones se comprueben mediante la Certificación emitida
+                    por
+                    un
+                    geólogo que acompañe su tarjeta profesional. En estos casos, su instalación deberá estar
+                    soportada
+                    por un estudio técnico que justifique las condiciones exigidas en este literal.
+                    Las estaciones de servicio privadas.
+                    <a href="#">Mas información</a>
+                  </div>
+                  <div class="col-2 bg-warning bg-opacity-25">
+                    <div class="mx-3 col-6 mx-3 form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault128" value="chb128">
+                    </div>
+                    <div>
+                      <label class="form-check-label" for="flexSwitchCheckDefault128">No/Si</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         <!--Cuarto acordeon-->
+        <div class="accordion-item">
             <h2 class="accordion-header" id="headingthreespc">
               <button class="accordion-button" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsethreespc" aria-expanded="true" aria-controls="collapsethreespc">
@@ -3069,143 +3202,9 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
             </div>
           </div>
-          
-        <!--Cuarto acordeon-->
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingthreespc">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapsethreespc" aria-expanded="true" aria-controls="collapsethreespc">
-                <b>6.1 REQUISITOS PARTICULARES</b>
-              </button>
-            </h2>
-            <div id="collapsethreespc" class="accordion-collapse collapse" aria-labelledby="headingthreespc"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <div class="row">
-                  <div class="col-10 bg-success bg-opacity-25">
-                  <b>6.1.a</b> Toda Estación de Servicio debe contar con un sistema de pretratamiento de aguas industriales que conste, como mínimo, de un sedimentador, una trampa de grasas y una caja de muestreo o un Sistema de Contención de Derrames que prevenga el vertimiento de los contaminantes al alcantarillado, a las aguas superficiales o al suelo. El sistema de pretratamiento o de contención debe estar diseñado de acuerdo al área y ubicación del establecimiento.
-                    <a href="#">Mas información</a>
-                  </div>
-                  <div class="col-2 bg-success bg-opacity-25">
-                    <div class="mx-3 col-6 mx-3 form-check form-switch">
-                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault136" value="chb136">
-                    </div>
-                    <div>
-                      <label class="form-check-label" for="flexSwitchCheckDefault136">No/Si</label>
-                    </div>
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                  <div class="col-10 bg-success bg-opacity-25">
-                    <b>6.1.b</b> Las Áreas de Abastecimiento y Almacenamiento en la Estación de Servicio deberán ser pavimentadas en concreto, garantizando la impermeabilidad del piso; en todos los casos deberá permitir la circulación del agua hacia el sistema de pretratamiento o contención de derrames. Se otorga un plazo de 4 años a partir de la entrada en vigencia expedición de los presentes requisitos para su cumplimiento.
-                    <a href="#">Mas información</a>
-                  </div>
-                  <div class="col-2 bg-success bg-opacity-25">
-                    <div class="mx-3 col-6 mx-3 form-check form-switch">
-                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault137" value="chb137">
-                    </div>
-                    <div>
-                      <label class="form-check-label" for="flexSwitchCheckDefault137">No/Si</label>
-                    </div>
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                  <div class="col-10 bg-success bg-opacity-25">
-                  <b>6.1.c</b> Las Áreas de Abastecimiento y Almacenamiento en la Estación de Servicio deberán ser pavimentadas en concreto, garantizando la impermeabilidad del piso; en todos los casos deberá permitir la circulación del agua hacia el sistema de pretratamiento o contención de derrames. Se otorga un plazo de 4 años a partir de la entrada en vigencia expedición de los presentes requisitos para su cumplimiento.
-                    <a href="#">Mas información</a>
-                  </div>
-                  <div class="col-2 bg-success bg-opacity-25">
-                    <div class="mx-3 col-6 mx-3 form-check form-switch">
-                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault137" value="chb137">
-                    </div>
-                    <div>
-                      <label class="form-check-label" for="flexSwitchCheckDefault137">No/Si</label>
-                    </div>
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                  <div class="col-10 bg-success bg-opacity-25">
-                  <b>6.1.d</b> El Área de Abastecimiento y la zona de descarga de carro Tanques en las Estaciones de Servicio Automotrices deben contar con un Canal de Aguas Hidrocarburadas. El canal de conducción de aguas hidrocarburadas debe garantizar la captación de líquidos hidrocarburadas. Para las Estaciones de Servicio que a la entrada en vigencia de este Reglamento no cuenten con este canal, las áreas de ingreso y circulación deberán ser de concreto, asfalto u otro material impermeable y toda el agua de escorrentía deberá dirigirse al sistema de pretratamiento de aguas industriales.
-                    <a href="#">Mas información</a>
-                  </div>
-                  <div class="col-2 bg-success bg-opacity-25">
-                    <div class="mx-3 col-6 mx-3 form-check form-switch">
-                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault137" value="chb137">
-                    </div>
-                    <div>
-                      <label class="form-check-label" for="flexSwitchCheckDefault137">No/Si</label>
-                    </div>
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                  <div class="col-10 bg-success bg-opacity-25">
-                  <b>6.1.e</b> El canal del que trata el ítem anterior no debe captar agua lluvia de escorrentía no contaminada con hidrocarburos. Para esto, la losa externa debe contar con una pendiente mínima de 1% hacia la Rejilla de Aguas Lluvias perimetral o sumidero. Este punto aplica para Estaciones de Servicio que se construyan, modifiquen o amplíen, a partir de la entrada en vigencia de este reglamento.
-                    <a href="#">Mas información</a>
-                  </div>
-                  <div class="col-2 bg-success bg-opacity-25">
-                    <div class="mx-3 col-6 mx-3 form-check form-switch">
-                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault137" value="chb137">
-                    </div>
-                    <div>
-                      <label class="form-check-label" for="flexSwitchCheckDefault137">No/Si</label>
-                    </div>
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                  <div class="col-10 bg-success bg-opacity-25">
-                  <b>6.1.f</b> No se permite el abastecimiento de combustibles a los vehículos por fuera del canal perimetral, teniendo en cuenta lo indicado por el literal c de este numeral.
-                    <a href="#">Mas información</a>
-                  </div>
-                  <div class="col-2 bg-success bg-opacity-25">
-                    <div class="mx-3 col-6 mx-3 form-check form-switch">
-                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault137" value="chb137">
-                    </div>
-                    <div>
-                      <label class="form-check-label" for="flexSwitchCheckDefault137">No/Si</label>
-                    </div>
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                  <div class="col-10 bg-success bg-opacity-25">
-                  <b>6.1.g</b> Las Estaciones de Servicio Automotrices deberán estar provistas de los siguientes sistemas de drenaje: Pluvial, Aguas Residuales Domésticas y Aguas Residuales No Domésticas
-                    <a href="#">Mas información</a>
-                  </div>
-                  <div class="col-2 bg-success bg-opacity-25">
-                    <div class="mx-3 col-6 mx-3 form-check form-switch">
-                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault137" value="chb137">
-                    </div>
-                    <div>
-                      <label class="form-check-label" for="flexSwitchCheckDefault137">No/Si</label>
-                    </div>
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                  <div class="col-10 bg-success bg-opacity-25">
-                  <b>6.1.h</b> El volumen de agua recolectada en el Área de Almacenamiento y abastecimiento pasará por el sistema de pretratamiento de aguas no domésticas, antes de conectarse al alcantarillado municipal o como lo estipule la autoridad ambiental de la jurisdicción territorial. También podrá ser almacenado en el Sistema de Contención de Derrames de combustible para ser dispuesto de forma adecuada. Por ningún motivo se conectarán los drenajes que contengan Aguas Residuales Domésticas -ARD y aguas lluvia con las Aguas Residuales No Domésticas -ARnD antes del sistema de pretratamiento
-                    <a href="#">Mas información</a>
-                  </div>
-                  <div class="col-2 bg-success bg-opacity-25">
-                    <div class="mx-3 col-6 mx-3 form-check form-switch">
-                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault137" value="chb137">
-                    </div>
-                    <div>
-                      <label class="form-check-label" for="flexSwitchCheckDefault137">No/Si</label>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
+    
 
     <div class="d-grid gap-2 col-6 mx-auto mb-5">
       <button onclick="save()" class="btn btn-outline-success">Guardar Progreso</button>
