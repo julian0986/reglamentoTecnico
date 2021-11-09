@@ -2797,7 +2797,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             <h2 class="accordion-header" id="headingOneespc">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneespc"
                 aria-expanded="true" aria-controls="collapseOneespc">
-                <b>ALMACENAMIENTO</b>
+                <b>6.3ALMACENAMIENTO</b>
               </button>
             </h2>
             <div id="collapseOneespc" class="accordion-collapse collapse" aria-labelledby="headingOneespc"
@@ -2872,7 +2872,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             <h2 class="accordion-header" id="headingsecondspc">
               <button class="accordion-button" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsesecondspc" aria-expanded="true" aria-controls="collapsesecond">
-                <b>ÁREA DE ABASTECIMIENTO</b>
+                <b>6.2 ÁREA DE ABASTECIMIENTO</b>
               </button>
             </h2>
             <div id="collapsesecondspc" class="accordion-collapse collapse" aria-labelledby="headingsecondspc"
@@ -3024,12 +3024,13 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
             </div>
           </div>
+        </div>
           <!--Tercer acordeon-->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingthreespc">
               <button class="accordion-button" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsethreespc" aria-expanded="true" aria-controls="collapsethreespc">
-                <b>ESTACIONES DE SERVICIO PRIVADAS</b>
+                <b>6.4 ESTACIONES DE SERVICIO PRIVADAS</b>
               </button>
             </h2>
             <div id="collapsethreespc" class="accordion-collapse collapse" aria-labelledby="headingthreespc"
@@ -3068,13 +3069,13 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
             </div>
           </div>
-        </div>
+          
         <!--Cuarto acordeon-->
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingthreespc">
               <button class="accordion-button" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsethreespc" aria-expanded="true" aria-controls="collapsethreespc">
-                <b>REQUISITOS PARTICULARES</b>
+                <b>6.1 REQUISITOS PARTICULARES</b>
               </button>
             </h2>
             <div id="collapsethreespc" class="accordion-collapse collapse" aria-labelledby="headingthreespc"
