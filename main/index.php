@@ -3074,7 +3074,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             <h2 class="accordion-header" id="headingthreespc">
               <button class="accordion-button" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsethreespc" aria-expanded="true" aria-controls="collapsethreespc">
-                <b>Requisitos Particulares</b>
+                <b>REQUISITOS PARTICULARES</b>
               </button>
             </h2>
             <div id="collapsethreespc" class="accordion-collapse collapse" aria-labelledby="headingthreespc"
@@ -3124,6 +3124,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                     </div>
                   </div>
                 </div>
+                <hr>
                 <div class="row">
                   <div class="col-10 bg-success bg-opacity-25">
                   <b>6.1.d</b> El Área de Abastecimiento y la zona de descarga de carro Tanques en las Estaciones de Servicio Automotrices deben contar con un Canal de Aguas Hidrocarburadas. El canal de conducción de aguas hidrocarburadas debe garantizar la captación de líquidos hidrocarburadas. Para las Estaciones de Servicio que a la entrada en vigencia de este Reglamento no cuenten con este canal, las áreas de ingreso y circulación deberán ser de concreto, asfalto u otro material impermeable y toda el agua de escorrentía deberá dirigirse al sistema de pretratamiento de aguas industriales.
@@ -3138,6 +3139,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                     </div>
                   </div>
                 </div>
+                <hr>
                 <div class="row">
                   <div class="col-10 bg-success bg-opacity-25">
                   <b>6.1.e</b> El canal del que trata el ítem anterior no debe captar agua lluvia de escorrentía no contaminada con hidrocarburos. Para esto, la losa externa debe contar con una pendiente mínima de 1% hacia la Rejilla de Aguas Lluvias perimetral o sumidero. Este punto aplica para Estaciones de Servicio que se construyan, modifiquen o amplíen, a partir de la entrada en vigencia de este reglamento.
@@ -3152,6 +3154,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                     </div>
                   </div>
                 </div>
+                <hr>
                 <div class="row">
                   <div class="col-10 bg-success bg-opacity-25">
                   <b>6.1.f</b> No se permite el abastecimiento de combustibles a los vehículos por fuera del canal perimetral, teniendo en cuenta lo indicado por el literal c de este numeral.
@@ -3166,6 +3169,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                     </div>
                   </div>
                 </div>
+                <hr>
                 <div class="row">
                   <div class="col-10 bg-success bg-opacity-25">
                   <b>6.1.g</b> Las Estaciones de Servicio Automotrices deberán estar provistas de los siguientes sistemas de drenaje: Pluvial, Aguas Residuales Domésticas y Aguas Residuales No Domésticas
@@ -3180,6 +3184,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                     </div>
                   </div>
                 </div>
+                <hr>
                 <div class="row">
                   <div class="col-10 bg-success bg-opacity-25">
                   <b>6.1.h</b> El volumen de agua recolectada en el Área de Almacenamiento y abastecimiento pasará por el sistema de pretratamiento de aguas no domésticas, antes de conectarse al alcantarillado municipal o como lo estipule la autoridad ambiental de la jurisdicción territorial. También podrá ser almacenado en el Sistema de Contención de Derrames de combustible para ser dispuesto de forma adecuada. Por ningún motivo se conectarán los drenajes que contengan Aguas Residuales Domésticas -ARD y aguas lluvia con las Aguas Residuales No Domésticas -ARnD antes del sistema de pretratamiento
