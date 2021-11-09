@@ -3162,7 +3162,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingdiecisiete">
               <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapsedieisiete" aria-expanded="true" aria-controls="collapsedieisiete">
+                data-bs-target="#collapsedieisiete" aria-expanded="false" aria-controls="collapsedieisiete">
                 <b>6.4 ESTACIONES DE SERVICIO PRIVADAS</b>
               </button>
             </h2>
