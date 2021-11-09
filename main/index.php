@@ -2794,13 +2794,13 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
           <!--Primer acordeon-->
           <!--Primer acordeon-->
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingthreespc">
+            <h2 class="accordion-header" id="headingcatorce">
               <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapsethreespc" aria-expanded="true" aria-controls="collapsethreespc">
+                data-bs-target="#collapsecatorce" aria-expanded="true" aria-controls="collapsecatorce">
                 <b>6.1 REQUISITOS PARTICULARES</b>
               </button>
             </h2>
-            <div id="collapsethreespc" class="accordion-collapse collapse" aria-labelledby="headingthreespc"
+            <div id="collapsecatorce" class="accordion-collapse collapse" aria-labelledby="headingcatorce"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <div class="row">
@@ -2927,13 +2927,13 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
           </div>
           <!--Segundo acordeon-->
          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingsecondspc">
+            <h2 class="accordion-header" id="headingquince">
               <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapsesecondspc" aria-expanded="true" aria-controls="collapsesecond">
+                data-bs-target="#collapsequince" aria-expanded="true" aria-controls="collapsequince">
                 <b>6.2 ÁREA DE ABASTECIMIENTO</b>
               </button>
             </h2>
-            <div id="collapsesecondspc" class="accordion-collapse collapse" aria-labelledby="headingsecondspc"
+            <div id="collapsequince" class="accordion-collapse collapse" aria-labelledby="headingquince"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <div class="row">
@@ -3085,13 +3085,13 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
         </div>
           <!--Tercer acordeon-->
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOneespc">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneespc"
-                aria-expanded="true" aria-controls="collapseOneespc">
+            <h2 class="accordion-header" id="headingdieciseis">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsedieciseis"
+                aria-expanded="true" aria-controls="collapsedieciseis">
                 <b>6.3ALMACENAMIENTO</b>
               </button>
             </h2>
-            <div id="collapseOneespc" class="accordion-collapse collapse" aria-labelledby="headingOneespc"
+            <div id="collapsedieciseis" class="accordion-collapse collapse" aria-labelledby="headingdieciseis"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <div class="row">
@@ -3160,13 +3160,13 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
           </div>
          <!--Cuarto acordeon-->
         <div class="accordion-item">
-            <h2 class="accordion-header" id="headingthreespc">
+            <h2 class="accordion-header" id="headingdiecisiete">
               <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapsethreespc" aria-expanded="true" aria-controls="collapsethreespc">
+                data-bs-target="#collapsedieisiete" aria-expanded="true" aria-controls="collapsedieisiete">
                 <b>6.4 ESTACIONES DE SERVICIO PRIVADAS</b>
               </button>
             </h2>
-            <div id="collapsethreespc" class="accordion-collapse collapse" aria-labelledby="headingthreespc"
+            <div id="collapsedieisiete" class="accordion-collapse collapse" aria-labelledby="headingdiecisiete"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <div class="row">
@@ -3204,7 +3204,6 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
           </div>
       </div>
     </div>
-    
 
     <div class="d-grid gap-2 col-6 mx-auto mb-5">
       <button onclick="save()" class="btn btn-outline-success">Guardar Progreso</button>
