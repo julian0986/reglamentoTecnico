@@ -2780,10 +2780,10 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     </div>
     </div>
-    <!--<div class="card generales" id="option2">
+    <div class="card generales" id="option2">
       <h5 class="card-header">REQUISITOS ESPECÍFICOS (Automotriz)</h5>
       <!-- Barra de Requisitos Especificos -->
-      <!--<div id="percent2">
+      <div id="percent2">
         <p>0%</p>
       </div>
       <div id="myProgress2">
@@ -2793,7 +2793,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
         <div class="accordion" id="accordionExample">
           <!--Primer acordeon-->
           <!--Primer acordeon-->
-          <!--<div class="accordion-item">
+          <div class="accordion-item">
             <h2 class="accordion-header" id="headingOneespc">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneespc"
                 aria-expanded="true" aria-controls="collapseOneespc">
@@ -2868,7 +2868,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             </div>
           </div>
           <!--Segundo acordeon-->
-         <!-- <div class="accordion-item">
+         <div class="accordion-item">
             <h2 class="accordion-header" id="headingsecondspc">
               <button class="accordion-button" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsesecondspc" aria-expanded="true" aria-controls="collapsesecond">
@@ -3025,7 +3025,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             </div>
           </div>
           <!--Tercer acordeon-->
-         <!-- <div class="accordion-item">
+         <div class="accordion-item">
             <h2 class="accordion-header" id="headingthreespc">
               <button class="accordion-button" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsethreespc" aria-expanded="true" aria-controls="collapsethreespc">
@@ -3102,7 +3102,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
         </div>
       </div>
 
-    </div>-->
+    </div>
 
     <div class="d-grid gap-2 col-6 mx-auto mb-5">
       <button onclick="save()" class="btn btn-outline-success">Guardar Progreso</button>
