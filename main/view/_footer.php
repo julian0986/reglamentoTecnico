@@ -12,10 +12,10 @@
       <!-- <h2>Cuenta Regresiva3</h2> -->
       <div id="countdown3" class="text-success text-center"></div>
     </section>
-    <section id="regresivo4">
-      <!-- <h2>Cuenta Regresiva3</h2> -->
+    <!-- <section id="regresivo4">
+       <h2>Cuenta Regresiva3</h2>
       <div id="countdown4" class="text-secondary text-center"></div>
-    </section>
+    </section> -->
   </footer>
 
   <script src="./src/js/bloc.js"></script>

@@ -18,9 +18,9 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="row mt-2">
     <div class="col-md-3">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
-          data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">4.1.a EDS
-          Nuevas <br> o modificadas</button>
+        <button class="btn btn-default btn-lg border border-danger" type="button" data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">4.1.a Modificación
+          civil <br> a EDS</button>
         <div class="collapse multi-collapse" id="multiCollapseExample1">
           <div class="card">
             <!--Carrousel-->
@@ -42,11 +42,11 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             </div>
             <!--Lista-->
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Este item es de alta prioridad ya que entrará en vigencia el 30/03/2022
+              <li class="list-group-item">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal"
+                <button type="button" class="btn btn-outline-danger mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModal">
-                  Este requisito es obligatorio para el 30/03/2022
+                  Este requisito aplica para eds que se construyan, modifiquen o amplíen a partir del 30 de marzo del 2022
                 </button>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
