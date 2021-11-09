@@ -49,12 +49,12 @@ function update2() {
   chequedado = boxes.length;
   console.log(chequedado);
 
-  myBar2.style.width = (chequedado / 13) * 100 + "%";
+  myBar2.style.width = (chequedado / 20) * 100 + "%";
 
   //console.log(percent.children);
   let porcentaje2 = document.createElement("p");
 
-  let valor2 = ((chequedado / 13) * 100).toFixed(1);
+  let valor2 = ((chequedado / 20) * 100).toFixed(1);
   //console.log(valor);
   porcentaje2.innerHTML = `${valor2}%`;
   
