@@ -15,7 +15,7 @@ function update() {
   //console.log(percent.children);
   let porcentaje = document.createElement("p");
 
-  let valor = ((checked / 122) * 100).toFixed(1);
+  let valor = ((checked / 125) * 100).toFixed(1);
   //console.log(valor);
   porcentaje.innerHTML = `${valor}%`;
   console.log(porcentaje);
