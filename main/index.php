@@ -2795,8 +2795,8 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
           <!--Primer acordeon-->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingcatorce">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapsecatorce" aria-expanded="false" aria-controls="collapsecatorce">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsecatorce" aria-expanded="true" aria-controls="collapsecatorce">
                 <b>6.1 REQUISITOS PARTICULARES</b>
               </button>
             </h2>
@@ -2928,8 +2928,8 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
           <!--Segundo acordeon-->
          <div class="accordion-item">
             <h2 class="accordion-header" id="headingquince">
-              <button class="accordion-button collapse" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapsequince" aria-expanded="false" aria-controls="collapsequince">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsequince" aria-expanded="true" aria-controls="collapsequince">
                 <b>6.2 ÁREA DE ABASTECIMIENTO</b>
               </button>
             </h2>
@@ -3086,9 +3086,9 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
           <!--Tercer acordeon-->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingdieciseis">
-              <button class="accordion-button collapse" type="button" data-bs-toggle="collapse" data-bs-target="#collapsedieciseis"
-                aria-expanded="false" aria-controls="collapsedieciseis">
-                <b>6.3 ALMACENAMIENTO</b>
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsedieciseis"
+                aria-expanded="true" aria-controls="collapsedieciseis">
+                <b>6.3ALMACENAMIENTO</b>
               </button>
             </h2>
             <div id="collapsedieciseis" class="accordion-collapse collapse" aria-labelledby="headingdieciseis"
@@ -3161,8 +3161,8 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
          <!--Cuarto acordeon-->
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingdiecisiete">
-              <button class="accordion-button collapse" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapsedieisiete" aria-expanded="false" aria-controls="collapsedieisiete">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsedieisiete" aria-expanded="true" aria-controls="collapsedieisiete">
                 <b>6.4 ESTACIONES DE SERVICIO PRIVADAS</b>
               </button>
             </h2>
