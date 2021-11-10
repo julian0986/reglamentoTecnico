@@ -10,7 +10,7 @@ function update() {
   boxes = options.querySelectorAll("#options input[type='checkbox']:checked");
   checked = boxes.length;
 
-  myBar.style.width = (checked / 125) * 100 + "%";
+  myBar.style.width = (checked / 125) * 100 + "% Porcentaje Cumplimiento";
 
   //console.log(percent.children);
   let porcentaje = document.createElement("p");
