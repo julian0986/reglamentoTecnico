@@ -19,10 +19,8 @@ div{
     font-weight: 400;
 }
 
-#tituloreglamen{
-    text-align: center;
-}
- .tituloreglamento{
+
+ #tituloreglamento{
     position: sticky;
     top:0;
     left: 0;
