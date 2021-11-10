@@ -2785,7 +2785,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <div class="styky" id="tituloreglamento2">
       <h2 class="text-primary">LISTA DE CHEQUEO, RESOLUCIÓN 40198 DE 2021.</h2>
       <div  id="percent2">
-        <p>0% Porcentaje de cumplimiento requisitos especificos automotriz</p>
+        <p>0% Porcentaje de cumplimiento requisitos específicos automotriz</p>
       </div>
       <div id="myProgress2">
         <div id="myBar2"></div>
