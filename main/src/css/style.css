@@ -18,6 +18,10 @@ div{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
+
+#tituloreglamento{
+    text-align: center;
+}
  .tituloreglamento{
     position: sticky;
     top:1px;
