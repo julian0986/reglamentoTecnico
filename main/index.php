@@ -77,7 +77,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
           <div class="accordion-item" id="checklist">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                aria-expanded="true" aria-controls="collapseOne">
+                aria-expanded="false" aria-controls="collapseOne">
                 <b>4.1 DISPOSICIONES TODAS LAS INSTALACIONES</b>
               </button>
             </h2>
