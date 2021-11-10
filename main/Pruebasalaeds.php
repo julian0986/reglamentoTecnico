@@ -107,7 +107,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             </div>
             <!--Lista-->
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Este item es de alta prioridad
+              <li class="list-group-item">
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-outline-danger mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModa2">
@@ -170,7 +170,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             <!--Lista-->
 
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Este item es de alta prioridad
+              <li class="list-group-item">
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-outline-danger mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModa3">
