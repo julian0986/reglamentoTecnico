@@ -2802,7 +2802,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
         <div id="myBar2"></div>
       </div> -->
       <div class="card-body">
-        <div class="accordion" id="accordionExample">
+        
           <!--Primer acordeon-->
           <!--Primer acordeon-->
           <div class="accordion-item">
@@ -3113,7 +3113,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
             </div>
           </div>
-        </div>
+        
           <!--Tercer acordeon-->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingdieciseis">
