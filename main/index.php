@@ -72,7 +72,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
       <!--Aqui voy a poner la primera barra de progreso-->
      
       <div class="card-body">
-        <div class="accordion" id="accordionExample">
+        
           <!--Primer acordeon-->
           <div class="accordion-item" id="checklist">
             <h2 class="accordion-header" id="headingOne">
@@ -346,7 +346,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
             </div>
           </div>
-        </div>
+        
         <!-- Segundo acordeon-->
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingtrece">
