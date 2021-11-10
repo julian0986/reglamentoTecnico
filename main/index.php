@@ -2781,14 +2781,15 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     </div>
     </div>
-    <div class="card generales styky" id="option2">
+    <div class="card generales" id="option2">
       <h5 class="card-header">REQUISITOS ESPECÍFICOS (Automotriz)</h5>
       <!-- Barra de Requisitos Especificos -->
-      <div id="percent2">
+      <div class="styky" id="percent2">
         <p>0%</p>
-      </div>
+     
       <div id="myProgress2">
         <div id="myBar2"></div>
+      </div>
       </div>
       <div class="card-body">
         <div class="accordion" id="accordionExample">
