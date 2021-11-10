@@ -17,7 +17,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <!--Paquete de 4 tarjetas 1-->
   <div class="row">
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">6.1.a
           Pretratamiento <br> de aguas</button>
@@ -76,7 +76,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-success btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">6.1.b
           Pavimentación <br> de la EDS</button>
@@ -138,7 +138,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">6.1.c
           Manejo de <br> aguas lluvias</button>
@@ -198,7 +198,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">6.1.d Canal
           de aguas hidrocarburadas</button>
@@ -265,7 +265,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <!--Paquete de 4 tarjetas 1-->
   <div class="row mt-2">
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-default btn-lg border border-danger" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5">6.1.e
           Requisito con referencia al el numeral 6.1.d</button>
@@ -329,7 +329,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample6">6.1.f
           Prohibicion de abastecimiento a vehículos</button>
@@ -387,7 +387,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample8" aria-expanded="false" aria-controls="multiCollapseExample8">6.1.g
           Sistemas de <br> drenaje</button>
@@ -446,7 +446,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample7" aria-expanded="false" aria-controls="multiCollapseExample7">6.1.h
           Pretratamiento de <br> aguas no domesticas</button>

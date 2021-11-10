@@ -20,7 +20,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <div class="col-md-2">
   </div>
     <div class="col-md-4">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">6.3.a Instalación de tanques subterraneos</button>
         <div class="collapse multi-collapse" id="multiCollapseExample1">
@@ -72,7 +72,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-4">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">6.3.b Instalación de tanques superficiales</button>
 

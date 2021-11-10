@@ -16,7 +16,7 @@ if (isset($_SESSION) && !empty($_SESSION['CODSICOM'])) {
   <!--Paquete de 4 tarjetas 1-->
   <div class="row">
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">6.2.a Ingreso y salida de <br> vehículos</button>
         <div class="collapse multi-collapse" id="multiCollapseExample1">
           <div class="card">
@@ -66,7 +66,7 @@ if (isset($_SESSION) && !empty($_SESSION['CODSICOM'])) {
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">6.2.b distancia entre los carriles de abastecimiento</button>
         <div class="collapse multi-collapse" id="multiCollapseExample2">
           <div class="card">
@@ -116,7 +116,7 @@ if (isset($_SESSION) && !empty($_SESSION['CODSICOM'])) {
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">6.2.c Distancia minima entre equipos de medición</button>
         <div class="collapse multi-collapse" id="multiCollapseExample3">
           <div class="card">
@@ -169,7 +169,7 @@ if (isset($_SESSION) && !empty($_SESSION['CODSICOM'])) {
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">6.2.d Distancia de los equipos de medición</button>
         <div class="collapse multi-collapse" id="multiCollapseExample4">
           <div class="card">
@@ -226,7 +226,7 @@ if (isset($_SESSION) && !empty($_SESSION['CODSICOM'])) {
   <!--Paquete de 4 tarjetas 1-->
   <div class="row mt-2">
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-default btn-lg border border-danger" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5">6.2.e Demarcado de los carriles de Abastecimiento</button>
         <div class="collapse multi-collapse" id="multiCollapseExample5">
           <div class="card">
@@ -279,7 +279,7 @@ if (isset($_SESSION) && !empty($_SESSION['CODSICOM'])) {
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample6">6.2.f Largo máximo de la manguera de distribución</button>
         <div class="collapse multi-collapse" id="multiCollapseExample6">
           <div class="card">
@@ -328,7 +328,7 @@ if (isset($_SESSION) && !empty($_SESSION['CODSICOM'])) {
     </div>
     <!--Tarjeta 3-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample8" aria-expanded="false" aria-controls="multiCollapseExample8">6.2.fI Reglamento para pistolas con mangueras de 6m o mas</button>
         <div class="collapse multi-collapse" id="multiCollapseExample8">
           <div class="card">
@@ -380,7 +380,7 @@ if (isset($_SESSION) && !empty($_SESSION['CODSICOM'])) {
     </div>
     <!--Tarjeta 4-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample7" aria-expanded="false" aria-controls="multiCollapseExample7">6.2.g Ubicación del equipo de medición dentro de la EDS</button>
         <div class="collapse multi-collapse" id="multiCollapseExample7">
           <div class="card">

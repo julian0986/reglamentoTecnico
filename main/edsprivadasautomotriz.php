@@ -17,7 +17,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <!--Tarjeta 1-->
   <div class="row mt-2">
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">6.4.a EDS con <br>autoservicio</button>
         <div class="collapse multi-collapse" id="multiCollapseExample1">
@@ -71,7 +71,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <!--Tarjeta 2-->
     <div class="col-md-3">
-      <div class="d-grid gap-2">
+      <div class="d-grid gap-2 py-1">
         <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">6.4.b Señalización en EDS privadas</button>
 
