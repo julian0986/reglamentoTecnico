@@ -2326,7 +2326,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
               <div class="row">
-                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-10 bg- bg-opacity-25 border border-danger">
                   <b>5.6.1.a</b> Para las Estaciones de Servicio que se construyan, modifiquen o amplíen bajo la
                   vigencia de los
                   presentes requisitos, el fabricante del Tanque debe garantizar la integridad del mismo antes de su
@@ -2334,7 +2334,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   realización de la respectiva Prueba de Hermeticidad.
                   <a href="./Pruebasalaeds.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-2 bg- bg-opacity-25 border border-danger">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault103" value="chb103">
                   </div>
@@ -2345,7 +2345,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <hr>
               <div class="row">
-                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-10 bg- bg-opacity-25 border border-danger">
                   <b>5.6.1.b</b> Se realizarán dos Pruebas de Hermeticidad iniciales. La primera se debe realizar con
                   los Tanques
                   fijados en su posición final y antes de realizar el proceso de relleno y tapado del mismo. La
@@ -2354,7 +2354,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   constancia de esto para posterior verificación por parte del Organismo de inspección.
                   <a href="./Pruebasalaeds.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-2 bg- bg-opacity-25 border border-danger">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault104" value="chb104">
                   </div>
@@ -2365,7 +2365,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </div>
               <hr>
               <div class="row">
-                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-10 bg- bg-opacity-25 border border-danger">
                   <b>5.6.1.c</b> Se deben realizar dos Pruebas de Hermeticidad a las tuberías en las diferentes etapas
                   de
                   instalación, El fabricante debe especificar la presión de diseño máxima a la cual podrá ser
@@ -2373,7 +2373,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   la tubería de producto y la tubería secundaria o de contención.
                   <a href="./Pruebasalaeds.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-2 bg- bg-opacity-25 border border-danger">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault105" value="chb105">
                   </div>
