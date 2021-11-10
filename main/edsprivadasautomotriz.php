@@ -1,9 +1,7 @@
-<?php 
+<?php include_once 'view/_head.php';
 
 if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
 {
-  include_once 'view/_head.php';
-    
     ?>
 
 <head>
