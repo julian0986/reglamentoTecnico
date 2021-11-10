@@ -1,7 +1,7 @@
 //document.oncontextmenu = function(){return false}
 
 let barra= document.getElementById('tituloreglamento');
-let barra2=document.getElementById('option2')
+let barra2=document.getElementById('tituloreglamento2')
 let altura= barra.offsetTop;
 let altura2=barra2.offsetTop;
 
