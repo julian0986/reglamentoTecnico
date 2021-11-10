@@ -77,7 +77,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
           <div class="accordion-item" id="checklist">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                aria-expanded="false" aria-controls="collapseOne">
+                aria-expanded="true" aria-controls="collapseOne">
                 <b>4.1 DISPOSICIONES TODAS LAS INSTALACIONES</b>
               </button>
             </h2>
@@ -351,7 +351,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingtrece">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapsetrece" aria-expanded="false" aria-controls="collapsetrece">
+              data-bs-target="#collapsetrece" aria-expanded="true" aria-controls="collapsetrece">
               <b>4.2 TUBERÍAS DE CONDUCCIÓN DE COMBUSTIBLE</b>
             </button>
           </h2>
@@ -494,7 +494,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingeight">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+              data-bs-target="#collapseeight" aria-expanded="true" aria-controls="collapseeight">
               <b>4.3 INSTALACIONES ELÉCTRICAS</b>
             </button>
           </h2>
@@ -591,7 +591,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingFour">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
               <b>5. DISPOSICIONES PARA ESTACIONES DE SERVICIO</b>
             </button>
           </h2>
@@ -673,7 +673,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingFive">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
               <b>5.1 EQUIPOS DE MEDICIÓN DE COMBUSTIBLE</b>
             </button>
           </h2>
@@ -927,7 +927,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
               <b>5.2 ÁREA DE ABASTECIMIENTO</b>
             </button>
           </h2>
@@ -1023,7 +1023,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
               <b>5.3 ALMACENAMIENTO Y TUBERÍAS DE CONDUCCIÓN DE COMBUSTIBLE</b>
             </button>
           </h2>
@@ -1324,7 +1324,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingSeven">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+              data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
               <b>5.3.1 INSTALACIÓN DE TANQUES SUBTERRÁNEOS</b>
             </button>
           </h2>
@@ -1694,7 +1694,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingSix">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
               <b>5.3.2 INSTALACIÓN DE TANQUES EN SUPERFICIE</b>
             </button>
           </h2>
@@ -2053,7 +2053,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingtwelve">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapsetwelve" aria-expanded="false" aria-controls="collapsetwelve">
+              data-bs-target="#collapsetwelve" aria-expanded="true" aria-controls="collapsetwelve">
               <b>5.4 TANQUES FUERA DE USO</b>
             </button>
           </h2>
@@ -2163,7 +2163,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingeleven">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseeleven" aria-expanded="false" aria-controls="collapseeleven">
+              data-bs-target="#collapseeleven" aria-expanded="true" aria-controls="collapseeleven">
               <b>5.5 SISTEMAS DE PROTECCIÓN CONTRAINCENDIOS, PREPARACIÓN Y RESPUESTA ANTE EMERGENCIAS.</b>
             </button>
           </h2>
@@ -2318,7 +2318,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingNine">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+              data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
               <b>5.6.1. PRUEBAS DE LA ESTACIÓN DE SERVICIO</b>
             </button>
           </h2>
@@ -2389,7 +2389,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTen">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+              data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
               <b>5.6.2 PRUEBAS PERIÓDICAS</b>
             </button>
           </h2>
