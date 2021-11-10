@@ -17,6 +17,8 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
   <!--Multiple collapse titles-->
   <!--Tarjeta 1-->
   <div class="row mt-2">
+  <div class="col-md-3">
+  </div>
     <div class="col-md-3">
       <div class="d-grid gap-2">
         <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
