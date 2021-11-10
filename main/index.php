@@ -407,7 +407,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <hr>
               <div class="row">
                 <div class="col-10 bg- bg-opacity-25 border border-danger">
-                  <H5> Requisito para EDS nueva o que se amplien o modifiquen</H5>
+                  <h5> Requisito para EDS nueva o que se amplien o modifiquen</h5>
                   <b>4.2.b.</b> Se deberá mantener la siguiente información sobre la tubería, suministrada por el
                   fabricante: 1.
                   Nombre del fabricante, 2. Fecha de fabricación, 3. Dimensiones: diámetro, 4. Procedimiento y
@@ -419,6 +419,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 <div class="col-2 bg- bg-opacity-25 border border-danger">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault15" value="chb15">
+                  </div>
                     <div>
                       <label class="form-check-label" for="flexSwitchCheckDefault15">No/Si</label>
                     </div>
@@ -1190,7 +1191,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   que la modifique o sustituya.
                   <a href="./Almacenamientoytuberias.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-warniing bg-opacity-25 border border-warning">
+                <div class="col-2 bg-warning bg-opacity-25 border border-warning">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault50" value="chb50">
                   </div>
@@ -1472,7 +1473,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   o reemplazados.
                   <a href="./Tanquesubterraneos.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-2 bg-warning bg-opacity-25 border border-warning">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault62" value="chb62">
                   </div>
@@ -1496,7 +1497,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   para su cumplimiento.
                   <a href="./Tanquesubterraneos.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-2 bg-warning bg-opacity-25 border border-warning">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault63" value="chb63">
                   </div>
@@ -1511,7 +1512,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   <b>5.3.1.fIII</b> La boca de llenado deberá contar con tapones herméticos.
                   <a href="./Tanquesubterraneos.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-2 bg-warning bg-opacity-25 border border-warning">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault64" value="chb64">
                   </div>
@@ -1532,7 +1533,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   de tres (3) metros con respecto a una construcción.
                   <a href="./Tanquesubterraneos.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-danger bg-opacity-25 border border-danger">
+                <div class="col-2 bg-warning bg-opacity-25 border border-warning">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault65" value="chb65">
                   </div>
@@ -2396,13 +2397,13 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
               <div class="row">
-                <div class="col-10 bg-danger bg-opacity-25">
+                <div class="col-10 bg-danger bg-opacity-25 border border-danger">
                   <b>5.6.2.a</b> Verificar la ausencia de líquido en las cajas contenedoras de equipos y bombas,
                   realizando una
                   inspección visual, por lo menos cada mes.
                   <a href="./Pruebasperiodicas.php">Mas información</a>
                 </div>
-                <div class="col-2 bg-danger bg-opacity-25">
+                <div class="col-2 bg-danger bg-opacity-25 border border-danger">
                   <div class="mx-3 col-6 mx-3 form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault106" value="chb106">
                   </div>
@@ -2806,7 +2807,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 <div class="row">
                   <div class="col-10 bg-danger bg-opacity-25 border border-danger">
                   <b>6.1.a</b> Toda Estación de Servicio debe contar con un sistema de pretratamiento de aguas industriales que conste, como mínimo, de un sedimentador, una trampa de grasas y una caja de muestreo o un Sistema de Contención de Derrames que prevenga el vertimiento de los contaminantes al alcantarillado, a las aguas superficiales o al suelo. El sistema de pretratamiento o de contención debe estar diseñado de acuerdo al área y ubicación del establecimiento.
-                    <a href="#">Mas información</a>
+                    <a href="./Requisitosparticulaesautomotriz.php">Mas información</a>
                   </div>
                   <div class="col-2 bg-danger bg-opacity-25 border border-danger">
                     <div class="mx-3 col-6 mx-3 form-check form-switch">
@@ -2821,7 +2822,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 <div class="row">
                   <div class="col-10 bg-success bg-opacity-25 border border-success">
                     <b>6.1.b</b> Las Áreas de Abastecimiento y Almacenamiento en la Estación de Servicio deberán ser pavimentadas en concreto, garantizando la impermeabilidad del piso; en todos los casos deberá permitir la circulación del agua hacia el sistema de pretratamiento o contención de derrames. Se otorga un plazo de 4 años a partir de la entrada en vigencia expedición de los presentes requisitos para su cumplimiento.
-                    <a href="#">Mas información</a>
+                    <a href="./Requisitosparticulaesautomotriz.php">Mas información</a>
                   </div>
                   <div class="col-2 bg-success bg-opacity-25 border border-success">
                     <div class="mx-3 col-6 mx-3 form-check form-switch">
@@ -2836,7 +2837,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 <div class="row">
                   <div class="col-10 bg-danger bg-opacity-25 border border-danger">
                   <b>6.1.c</b> Las Áreas de Abastecimiento y Almacenamiento en la Estación de Servicio deberán ser pavimentadas en concreto, garantizando la impermeabilidad del piso; en todos los casos deberá permitir la circulación del agua hacia el sistema de pretratamiento o contención de derrames. Se otorga un plazo de 4 años a partir de la entrada en vigencia expedición de los presentes requisitos para su cumplimiento.
-                    <a href="#">Mas información</a>
+                    <a href="./Requisitosparticulaesautomotriz.php">Mas información</a>
                   </div>
                   <div class="col-2 bg-danger bg-opacity-25 border border-danger">
                     <div class="mx-3 col-6 mx-3 form-check form-switch">
@@ -2851,7 +2852,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 <div class="row">
                   <div class="col-10 bg-danger bg-opacity-25 border border-danger">
                   <b>6.1.d</b> El Área de Abastecimiento y la zona de descarga de carro Tanques en las Estaciones de Servicio Automotrices deben contar con un Canal de Aguas Hidrocarburadas. El canal de conducción de aguas hidrocarburadas debe garantizar la captación de líquidos hidrocarburadas. Para las Estaciones de Servicio que a la entrada en vigencia de este Reglamento no cuenten con este canal, las áreas de ingreso y circulación deberán ser de concreto, asfalto u otro material impermeable y toda el agua de escorrentía deberá dirigirse al sistema de pretratamiento de aguas industriales.
-                    <a href="#">Mas información</a>
+                    <a href="./Requisitosparticulaesautomotriz.php">Mas información</a>
                   </div>
                   <div class="col-2 bg-danger bg-opacity-25 border border-danger">
                     <div class="mx-3 col-6 mx-3 form-check form-switch">
@@ -2866,7 +2867,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 <div class="row">
                   <div class="col-10 bg- bg-opacity-25 border border-danger">
                   <b>6.1.e</b> El canal del que trata el ítem anterior no debe captar agua lluvia de escorrentía no contaminada con hidrocarburos. Para esto, la losa externa debe contar con una pendiente mínima de 1% hacia la Rejilla de Aguas Lluvias perimetral o sumidero. Este punto aplica para Estaciones de Servicio que se construyan, modifiquen o amplíen, a partir de la entrada en vigencia de este reglamento.
-                    <a href="#">Mas información</a>
+                    <a href="./Requisitosparticulaesautomotriz.php">Mas información</a>
                   </div>
                   <div class="col-2 bg- bg-opacity-25 border border-danger">
                     <div class="mx-3 col-6 mx-3 form-check form-switch">
@@ -2881,7 +2882,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 <div class="row">
                   <div class="col-10 bg-danger bg-opacity-25 border border-danger">
                   <b>6.1.f</b> No se permite el abastecimiento de combustibles a los vehículos por fuera del canal perimetral, teniendo en cuenta lo indicado por el literal c de este numeral.
-                    <a href="#">Mas información</a>
+                    <a href="./Requisitosparticulaesautomotriz.php">Mas información</a>
                   </div>
                   <div class="col-2 bg-danger bg-opacity-25 border border-danger">
                     <div class="mx-3 col-6 mx-3 form-check form-switch">
@@ -2896,7 +2897,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 <div class="row">
                   <div class="col-10 bg-danger bg-opacity-25 border border-danger">
                   <b>6.1.g</b> Las Estaciones de Servicio Automotrices deberán estar provistas de los siguientes sistemas de drenaje: Pluvial, Aguas Residuales Domésticas y Aguas Residuales No Domésticas
-                    <a href="#">Mas información</a>
+                    <a href="./Requisitosparticulaesautomotriz.php">Mas información</a>
                   </div>
                   <div class="col-2 bg-danger bg-opacity-25 border border-danger">
                     <div class="mx-3 col-6 mx-3 form-check form-switch">
@@ -2911,7 +2912,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 <div class="row">
                   <div class="col-10 bg-danger bg-opacity-25 border border-danger">
                   <b>6.1.h</b> El volumen de agua recolectada en el Área de Almacenamiento y abastecimiento pasará por el sistema de pretratamiento de aguas no domésticas, antes de conectarse al alcantarillado municipal o como lo estipule la autoridad ambiental de la jurisdicción territorial. También podrá ser almacenado en el Sistema de Contención de Derrames de combustible para ser dispuesto de forma adecuada. Por ningún motivo se conectarán los drenajes que contengan Aguas Residuales Domésticas -ARD y aguas lluvia con las Aguas Residuales No Domésticas -ARnD antes del sistema de pretratamiento
-                    <a href="#">Mas información</a>
+                    <a href="./Requisitosparticulaesautomotriz.php">Mas información</a>
                   </div>
                   <div class="col-2 bg-danger bg-opacity-25 border border-danger">
                     <div class="mx-3 col-6 mx-3 form-check form-switch">
@@ -2946,7 +2947,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                     radio de giro del vehículo a abastecer sin que obstaculice el normal desarrollo de la movilidad
                     del
                     área.
-                    <a href="#">Mas información</a>
+                    <a href="./areaabastecimientoautomotriz.php">Mas información</a>
                   </div>
                   <div class="col-2 bg-danger bg-opacity-25 border border-danger">
                     <div class="mx-3 col-6 mx-3 form-check form-switch">
@@ -2968,7 +2969,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                     la
                     distancia mínima entre dos Islas paralelas debe ser de 7 metros libres para el tránsito de
                     vehiculas.
-                    <a href="#">Mas información</a>
+                    <a href="./areaabastecimientoautomotriz.php">Mas información</a>
                   </div>
                   <div class="col-2 bg-danger bg-opacity-25 border border-danger">
                     <div class="mx-3 col-6 mx-3 form-check form-switch">
@@ -2988,7 +2989,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                     y,
                     los equipos de suministro de las estaciones de carga de vehículos eléctricos, de GNVC y GLP
                     vehicular, deberá ser mayor a 6 metros.
-                    <a href="#">Mas información</a>
+                    <a href="./areaabastecimientoautomotriz.php">Mas información</a>
                   </div>
                   <div class="col-2 bg-danger bg-opacity-25 border border-danger">
                     <div class="mx-3 col-6 mx-3 form-check form-switch">
@@ -3009,7 +3010,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                     de Servicio, se otorga un plazo de un año a partir de la expedición de los presentes requisitos
                     para
                     su cumplimiento.
-                    <a href="#">Mas información</a>
+                    <a href="./areaabastecimientoautomotriz.php">Mas información</a>
                   </div>
                   <div class="col-2 bg-warning bg-opacity-25 border border-warning">
                     <div class="mx-3 col-6 mx-3 form-check form-switch">
@@ -3028,7 +3029,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                     las Estaciones de Servicio, se otorga un plazo de 6 meses a partir de la entrada en vigor de
                     este
                     Reglamento.
-                    <a href="#">Mas información</a>
+                    <a href="./areaabastecimientoautomotriz.php">Mas información</a>
                   </div>
                   <div class="col-2 bg- bg-opacity-25 border border-danger">
                     <div class="mx-3 col-6 mx-3 form-check form-switch">
@@ -3047,7 +3048,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                     lo establecido por la Resolución 77507 de 2016, numeral 7.10.5, de la Superintendencia de
                     Industria
                     y Comercio, o aquellas que la modifiquen, amplíen o sustituyan.
-                    <a href="#">Mas información</a>
+                    <a href="./areaabastecimientoautomotriz.php">Mas información</a>
                   </div>
                   <div class="col-2 bg-danger bg-opacity-25 border border-danger">
                     <div class="mx-3 col-6 mx-3 form-check form-switch">
@@ -3068,7 +3069,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                     cumplir con la norma UL-2586. Este literal aplica a todas las Estaciones de Servicio Automotriz
                     y
                     Fluvial a partir de la entrada en vigor de este Reglamento.
-                    <a href="#">Mas información</a>
+                    <a href="./areaabastecimientoautomotriz.php">Mas información</a>
                   </div>
                   <div class="col-2 bg-danger bg-opacity-25 border border-danger">
                     <div class="mx-3 col-6 mx-3 form-check form-switch">
@@ -3087,7 +3088,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                     Este
                     requisito aplica para todas las Estaciones de Servicio a partir de la entrada en vigor de este
                     Reglamento
-                    <a href="#">Mas información</a>
+                    <a href="./areaabastecimientoautomotriz.php">Mas información</a>
                   </div>
                   <div class="col-2 bg-danger bg-opacity-25 border border-danger">
                     <div class="mx-3 col-6 mx-3 form-check form-switch">
@@ -3119,7 +3120,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                     cilíndrico, horizontales subterráneos que deberán contar con doble pared con espacio anular.
                     Podrán
                     tener varios compartimientos, para almacenar diferentes tipos de productos.
-                    <a href="#">Mas información</a>
+                    <a href="./Almacenamientoautomotriz.php">Mas información</a>
                   </div>
                   <div class="col-2 bg-danger bg-opacity-25 border border-danger">
                     <div class="mx-3 col-6 mx-3 form-check form-switch">
@@ -3144,7 +3145,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                     soportada
                     por un estudio técnico que justifique las condiciones exigidas en este literal.
                     Las estaciones de servicio privadas.
-                    <a href="#">Mas información</a>
+                    <a href="./Almacenamientoautomotriz.php">Mas información</a>
                   </div>
                   <div class="col-2 bg-danger bg-opacity-25 border border-danger">
                     <div class="mx-3 col-6 mx-3 form-check form-switch">
@@ -3172,7 +3173,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 <div class="row">
                   <div class="col-10 bg-danger bg-opacity-25 border border-danger">
                   6.4.a Los autoservicios son aquellas Estaciones de Servicio, en las cuales la operación de suministro de los combustibles no se efectúa por personal del establecimiento, sino que la realiza directamente el usuario. A partir de la entrada en vigor de esta Resolución o de acuerdo con los plazos expresamente establecidos, aplican las siguientes disposiciones y requerimientos mínimos de funcionamiento: este tipo de establecimientos debe operar con al menos una (1 ) persona por cada 4 equipos de medición que deberán observar y controlar las normas de seguridad, siendo su responsabilidad, entre otras, controlar las Fuentes de Ignición, actuar en derrames y manejar extintores.
-                    <a href="#">Mas información</a>
+                    <a href="./edsprivadasautomotriz.php">Mas información</a>
                   </div>
                   <div class="col-2 bg-danger bg-opacity-25 border border-danger">
                     <div class="mx-3 col-6 mx-3 form-check form-switch">
@@ -3186,8 +3187,8 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 <hr>
                 <div class="row">
                   <div class="col-10 bg-danger bg-opacity-25 border border-danger">
-                  6.4. Señalización: deberán disponerse, próximos a los Medidores de Combustible, avisos con instrucciones de operación y funcionamiento. Adicionalmente, la Estación de Servicio deberá brindar cualquier otro tipo de información que le permita a sus usuarios familiarizarse con su funcionamiento y con las medidas de seguridad mínimas aplicables a este tipo de establecimientos.
-                    <a href="#">Mas información</a>
+                  6.4.b Señalización: deberán disponerse, próximos a los Medidores de Combustible, avisos con instrucciones de operación y funcionamiento. Adicionalmente, la Estación de Servicio deberá brindar cualquier otro tipo de información que le permita a sus usuarios familiarizarse con su funcionamiento y con las medidas de seguridad mínimas aplicables a este tipo de establecimientos.
+                    <a href="./edsprivadasautomotriz.php">Mas información</a>
                   </div>
                   <div class="col-2 bg-danger bg-opacity-25 border border-danger">
                     <div class="mx-3 col-6 mx-3 form-check form-switch">
