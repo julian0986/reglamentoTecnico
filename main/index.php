@@ -13,7 +13,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
 </div>
   <main>
     <!--Reemplazar por codigo de la imagen-->
-    <div class="grilladeimagen">
+    <div class="grilladeimagen" id="grillaprincipal">
       <img src="./src/img/imgppal1.png" class="img-fluid" alt="...">
       <a href="./Areadeabastecimiento.php"  class="point"><img id="tamapunto"
           src="./src/img/punteros/p52.png" alt=""><span class="tooltiptext fuente">5.2 Area de

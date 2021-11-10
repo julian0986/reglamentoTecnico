@@ -12,7 +12,9 @@ li{
 div{
     text-align: justify;
 }
-
+#grillaprincipal{
+    padding: 0;
+}
 
 .fuente{
     font-family: 'Roboto', sans-serif;
