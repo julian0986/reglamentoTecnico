@@ -81,7 +81,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 2-->
     <div class="col-md-4">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-default btn-lg border border-danger" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">5.6.1b
           Pruebas de hermeticidad</button>
         <div class="collapse multi-collapse" id="multiCollapseExample2">
@@ -109,9 +109,9 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Este item es de alta prioridad
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal"
+                <button type="button" class="btn btn-outline-danger mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModa2">
-                  Este requisito es obligatorio para el 30/03/2022
+                  Este requisito aplica para eds que se construyan, modifiquen o amplíen a partir del 30 de marzo del 2022
                 </button>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModa2" tabindex="-1" aria-labelledby="exampleModalLabel2"
@@ -143,7 +143,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <!--Tarjeta 3-->
     <div class="col-md-4">
       <div class="d-grid gap-2 py-1">
-        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
+        <button class="btn btn-default btn-lg border border-danger" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">5.6.1C
           Pruebas de hermeticidad a tuberías </button>
         <div class="collapse multi-collapse" id="multiCollapseExample3">
@@ -172,9 +172,9 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Este item es de alta prioridad
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger mt-1 m-auto" data-bs-toggle="modal"
+                <button type="button" class="btn btn-outline-danger mt-1 m-auto" data-bs-toggle="modal"
                   data-bs-target="#exampleModa3">
-                  Este requisito es obligatorio para el 30/03/2022
+                  Este requisito aplica para eds que se construyan, modifiquen o amplíen a partir del 30 de marzo del 2022
                 </button>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModa3" tabindex="-1" aria-labelledby="exampleModalLabel3"
