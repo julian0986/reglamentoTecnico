@@ -1,48 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include_once 'view/_head.php';
+
+if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
+{
+    
+    ?>
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./src/css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,300;1,400&display=swap"
-    rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <title>Requisitos particulares para estaciones automotrices</title>
-
 </head>
 
-<body class="p-3">
-  <!--Navabar-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-    <div class="container">
-      <a class="navbar-brand" href="#"><img src="./src/img/Logo50f.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto fs-4">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Descarga</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Foro</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#checklist" tabindex="-1" aria-disabled="true">Checklist</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
   <div class="titulotarjetas">
     <h2>REQUISITOS PARTICULARES EDS AUTOMOTRIZ</h2>
   </div>
@@ -544,19 +510,13 @@
     </div>
   </div>
 
+  <?php 
+include_once 'view/_footer2.php';
 
+}else{
+    $errorLogin = "Acceso denegado !";
+    header("Location: ../index.php");
+    
+}
 
-
-  <script>var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-      return new bootstrap.Tooltip(tooltipTriggerEl)
-    })</script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
-    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
-    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
-    crossorigin="anonymous"></script>
-</body>
-
-</html>
+?> 
