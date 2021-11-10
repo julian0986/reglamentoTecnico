@@ -60,7 +60,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <div class="styky" id="tituloreglamento">
       <h2 class="text-primary">LISTA DE CHEQUEO, RESOLUCIÓN 40198 DE 2021.</h2>
       <div  id="percent">
-        <p>0% Procentaje de cumplimiento requisitos generales</p>
+        <p>0% Porcentaje de cumplimiento requisitos generales</p>
       </div>
       <div id="myProgress">
         <div id="myBar"></div>
@@ -2781,15 +2781,17 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     </div>
     </div>
-    <div class="card generales" id="option2">
-      <h5 class="card-header">REQUISITOS ESPECÍFICOS (Automotriz)</h5>
-      <!-- Barra de Requisitos Especificos -->
-      <div class="styky" id="percent2">
-        <p>0%</p>
+    <div class="styky" id="percent2">
+      <h2 class="text-primary">LISTA DE CHEQUEO, RESOLUCIÓN 40198 DE 2021.</h2>
+        <p>0% Porcentaje de cumplimiento requisitos generales</p>
       </div>
       <div id="myProgress2">
         <div id="myBar2"></div>
       </div>
+    <div class="card generales" id="option2">
+      <h5 class="card-header">REQUISITOS ESPECÍFICOS (Automotriz)</h5>
+      <!-- Barra de Requisitos Especificos -->
+      
       <div class="card-body">
         <div class="accordion" id="accordionExample">
           <!--Primer acordeon-->
