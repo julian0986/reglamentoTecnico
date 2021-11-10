@@ -12,7 +12,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
 
 
   <div class="titulotarjetas">
-    <h2>ALMACENAMIENTO (EDS Vehículares)</h2>
+    <h2>ALMACENAMIENTO (EDS AUTOMOTRIZ)</h2>
   </div>
   <!--Multiple collapse titles-->
   <!--Tarjeta 1-->
