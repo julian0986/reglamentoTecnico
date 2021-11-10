@@ -60,7 +60,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <div class="styky" id="tituloreglamento">
       <h2 class="text-primary">LISTA DE CHEQUEO, RESOLUCIÓN 40198 DE 2021.</h2>
       <div  id="percent">
-        <p>0% Porcentaje de cumplimiento requisitos generales</p>
+        <p>0% Pocentaje de cumplimiento requisitos generales</p>
       </div>
       <div id="myProgress">
         <div id="myBar"></div>
@@ -2783,7 +2783,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <div class="styky" id="percent2">
       <h2 class="text-primary">LISTA DE CHEQUEO, RESOLUCIÓN 40198 DE 2021.</h2>
-        <p>0% Porcentaje de cumplimiento requisitos generales</p>
+        <p>0% </p>
       </div>
       <div id="myProgress2">
         <div id="myBar2"></div>
