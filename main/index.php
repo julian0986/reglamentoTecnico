@@ -60,7 +60,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     <div id="tituloreglamento">
       <h2 class="text-primary">LISTA DE CHEQUEO, RESOLUCIÓN 40198 DE 2021.</h2>
       <div id="percent">
-        <p>0%</p>
+        <p>0% Procentaje de cumplimiento</p>
       </div>
       <div id="myProgress">
         <div id="myBar"></div>
