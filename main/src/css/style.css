@@ -18,7 +18,9 @@ div{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
-
+#tituloreglamento{
+    text-align: center;
+}
 
  .styky{
     position: sticky;
