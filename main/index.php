@@ -3108,7 +3108,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             <h2 class="accordion-header" id="headingdieciseis">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsedieciseis"
                 aria-expanded="true" aria-controls="collapsedieciseis">
-                <b>6.3ALMACENAMIENTO</b>
+                <b>6.3 ALMACENAMIENTO</b>
               </button>
             </h2>
             <div id="collapsedieciseis" class="accordion-collapse collapse" aria-labelledby="headingdieciseis"
