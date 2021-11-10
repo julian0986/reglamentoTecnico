@@ -1,4 +1,4 @@
-document.oncontextmenu = function(){return false}
+//document.oncontextmenu = function(){return false}
 
 let barra= document.getElementById('tituloreglamento');
 let barra2=document.getElementById('percent2')
