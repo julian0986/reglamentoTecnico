@@ -43,7 +43,7 @@ require_once  constant('CONTROLLER').'user_session.php';
               <a class="nav-link active" aria-current="page" href="./index.php">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../src/doc/ReglamentoCompleto/Resolucion-40198-2021ReglamentoTecnico.pdf">Descarga</a>
+              <a class="nav-link" href="../main/src/doc/ReglamentoCompleto/Resolucion-40198-2021ReglamentoTecnico.pdf">Descarga</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://reglamentotecnico.foroactivo.com/">Foro</a>
