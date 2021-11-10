@@ -16,8 +16,8 @@ window.addEventListener('scroll', function(){
 })
 
    window.addEventListener('scroll', function(){
-    if(window.scrollY===altura2){
-        barra.classList.remove('styky') && barra2.classList.add('styky')
+    if(window.scrollY>altura2){
+        barra.classList.remove('styky')
         
     }
     
