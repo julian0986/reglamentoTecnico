@@ -375,7 +375,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <hr>
               <div class="row">
                 <div class="col-10 bg- bg-opacity-25 border border-danger">
-                  <H5> Requisito para EDS nueva o que se amplien o modifiquen</H5>
+                  <h5> Requisito para EDS nueva o que se amplien o modifiquen</h5>
                   <b>4.2.a.</b> Los sistemas de tuberías subterráneas están conformados por la tubería, conexiones y
                   accesorios
                   que
@@ -424,7 +424,6 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                       <label class="form-check-label" for="flexSwitchCheckDefault15">No/Si</label>
                     </div>
                   </div>
-                </div>
               </div>
               <hr>
               <div class="row">
