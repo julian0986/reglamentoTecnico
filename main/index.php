@@ -59,17 +59,18 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
     </div>
     <div id="tituloreglamento">
       <h2 class="text-primary">LISTA DE CHEQUEO, RESOLUCIÓN 40198 DE 2021.</h2>
-    </div>
-    <!---Tarjeta Madre que contiene los contenidos generales-->
-    <div class="card generales" id="options">
-      <h5 class="card-header">REQUISITOS GENERALES</h5>
-      <!--Aqui voy a poner la primera barra de progreso-->
       <div id="percent">
         <p>0%</p>
       </div>
       <div id="myProgress">
         <div id="myBar"></div>
       </div>
+    </div>
+    <!---Tarjeta Madre que contiene los contenidos generales-->
+    <div class="card generales" id="options">
+      <h5 class="card-header">REQUISITOS GENERALES</h5>
+      <!--Aqui voy a poner la primera barra de progreso-->
+     
       <div class="card-body">
         <div class="accordion" id="accordionExample">
           <!--Primer acordeon-->
