@@ -2979,7 +2979,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                     Abastecimiento. En caso de no tener Isla, la distancia será desde el equipo medidor. Por tanto,
                     la
                     distancia mínima entre dos Islas paralelas debe ser de 7 metros libres para el tránsito de
-                    vehiculas.
+                    vehículos.
                     <a href="./areaabastecimientoautomotriz.php">Mas información</a>
                   </div>
                   <div class="col-2 bg-danger bg-opacity-25 border border-danger">

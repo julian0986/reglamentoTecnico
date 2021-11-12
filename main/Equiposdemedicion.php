@@ -654,8 +654,8 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                     </div>
                   </div>
                 </li>
-                <li class="list-group-item">¿los equipos de medición suministran la informacion del combustible en
-                  cuanto al tipo precio, cantidad en terminos de volumen?
+                <li class="list-group-item">¿los equipos de medición suministran la información del combustible en
+                  cuanto al tipo precio, cantidad en términos de volumen?
                 </li>
               </ul>
               <div class="card-body">
@@ -717,7 +717,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   </div>
                 </div>
               </li>
-              <l1 class="list-group-item">¿Los equipos de medicion se encuentran debidaente calibrados cumpliendo con la
+              <l1 class="list-group-item">¿Los equipos de medicion se encuentran debidamente calibrados cumpliendo con la
                 Resolución 77507 de 2016, numeral 7.10.5 de la SIC?
               </l1>
             </ul>
@@ -779,7 +779,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   </div>
                 </div>
               </li>
-              <li class="list-group-item"> ¿Los equipos de medicio cumplen con las distancias de seguridad anteriormente
+              <li class="list-group-item"> ¿Los equipos de medición cumplen con las distancias de seguridad anteriormente
                 requeridas?</li>
             </ul>
             <div class="card-body">

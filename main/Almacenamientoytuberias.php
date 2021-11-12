@@ -217,7 +217,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   </div>
                 </div>
               </li>
-              <li class="list-group-item">¿Los tanques superficiales se encuentran debidamente identificaos y rotulados
+              <li class="list-group-item">¿Los tanques superficiales se encuentran debidamente identificados y rotulados
                 con la matriz SGA con el tipo de
                 almacenamiento y cantidad de almacenamiento?
               </li>
@@ -464,7 +464,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   </div>
                 </div>
               </li>
-              <li class="list-group-item">¿El diámetro de las tuberías de ventilación corresponen a los diámetros
+              <li class="list-group-item">¿El diámetro de las tuberías de ventilación corresponden a los diámetros
                 anteriormente establecidos?
               </li>
             </ul>
@@ -940,7 +940,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               </li>
 
               <li class="list-group-item">¿Los tanques de la estación cumplen con alguna de las certificaciones
-                internacionales anterioemente mencionadas?</li>
+                internacionales anteriormente mencionadas?</li>
             </ul>
             <div class="card-body">
               <a href="./src/doc/Almacenamiento y tuberias/Almacenamiento y tuberias/5.3l/5.3l Normas Internacionales.pdf"

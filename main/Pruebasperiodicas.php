@@ -81,7 +81,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
       <div class="d-grid gap-2 py-1">
         <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse"
           data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">5.6.2.b
-          Fugas em mangueras de despacho</button>
+          Fugas en mangueras de despacho</button>
         <div class="collapse multi-collapse" id="multiCollapseExample2">
           <div class="card">
             <!--Carrousel-->
@@ -662,7 +662,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 </div>
               </li>
               <li class="list-group-item">
-                <h5>Se deben realizar mensualemente</h5>
+                <h5>Se deben realizar mensualmente</h5>
               </li>
               <li class="list-group-item">¿Realiza inspección periódica a la estructura del tanque y demás
                 infraestructura de protección y soporte?</li>
@@ -724,7 +724,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 </div>
               </li>
               <li class="list-group-item">
-                <h5>Se debe realizar mensualemente</h5>
+                <h5>Se debe realizar mensualmente</h5>
               </li>
               <li class="list-group-item">¿Realiza las revisiones periódicas al espacio anular de los tanques?
               </li>
@@ -794,7 +794,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                 <h5>Debe realizarse al momento del descargue del combustible</h5>
               </li>
               <li class="list-group-item">¿Realiza prueba de calidad del Diésel al momento de la descarga y de manera
-                periódica en el tanque de almacencamiento?</li>
+                periódica en el tanque de almacenamiento?</li>
             </ul>
             <div class="card-body">
               <a href="./src/doc/Pruebas periodicas/5.6.2l/11-Prueba de calidad DIESEL.pdf" class="card-link"
@@ -1235,7 +1235,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             </div>
             <!--Titulo principal-->
             <div class="card-body">
-              <h5 class="card-title">Verficicación tuberías de desfogue</h5>
+              <h5 class="card-title">Verificación tuberías de desfogue</h5>
               <p class="card-text">Verificar el estado y funcionamiento de la tubería de desfogue, por lo menos CADA (2)
                 AÑOS. Se deberá dejar evidencia escrita de este procedimiento.</p>
             </div>
@@ -1265,7 +1265,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <li class="list-group-item">
                 <h5>Se debe realizar cada dos años</h5>
               </li>
-              <li class="list-group-item">¿Realiza la prueba periodica de funcionamiento a las tuberías de desfogue?
+              <li class="list-group-item">¿Realiza la prueba periódica de funcionamiento a las tuberías de desfogue?
               </li>
             </ul>
             <div class="card-body">

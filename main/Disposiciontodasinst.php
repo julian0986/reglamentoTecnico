@@ -573,7 +573,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             </div>
             <!--Titulo principal-->
             <div class="card-body">
-              <h5 class="card-title">Certificacion del constructor</h5>
+              <h5 class="card-title">Certificación del constructor</h5>
               <p class="card-text">El constructor de instalaciones deberá entregar el Certificado de Primera Parte de la
                 construcción, remodelación o modificación, de acuerdo a la ISO/IEC 17050-1 Y 17050-2 o la norma que lo
                 modifique o sustituya. La instalación de los tanques y la tubería de distribución y desfogue deberá
@@ -682,7 +682,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
                   </div>
                 </div>
               </li>
-              <li class="list-group-item">¿La EDS cumple con las buenas prácticas establecidas anteiorimente?</li>
+              <li class="list-group-item">¿La EDS cumple con las buenas prácticas establecidas anteriorimente?</li>
             </ul>
             <div class="card-body">
               <a href="./src/doc/Disposiciones todas las instalaciones/4.1j/10-NTC 6032.pdf" class="card-link"
@@ -813,7 +813,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
               <li class="list-group-item">Descarga de combustible</li>
               <li class="list-group-item">Despacho de combustible</li>
               <li class="list-group-item">Atención al cliente</li>
-              <li class="list-group-item">Deteccion de condiciones subestándares</li>
+              <li class="list-group-item">Detección de condiciones subestándares</li>
               <li class="list-group-item">¿Los vendedores de servicios se encuentran capacitados con base a los
                 anteriores
                 requisitos?</li>

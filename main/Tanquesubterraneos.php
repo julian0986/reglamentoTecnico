@@ -1000,7 +1000,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
             </div>
             <!--Titulo principal-->
             <div class="card-body">
-              <h5 class="card-title">Profundida mínima del tanque</h5>
+              <h5 class="card-title">Profundidad mínima del tanque</h5>
               <p class="card-text">La parte superior de los tanques subterráneos en una Estación de Servicio no podrá
                 estar a menos de cuarenta y cinco (45) cm bajo el nivel del piso. En todo caso deberá seguir la
                 recomendación del fabricante

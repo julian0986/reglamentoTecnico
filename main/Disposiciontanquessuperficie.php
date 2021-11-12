@@ -9,7 +9,7 @@ if(isset($_SESSION) && !empty($_SESSION['CODSICOM']))
 </head>
 <br/>
 <div class="titulotarjetas">
-    <h2>INSTLACIÓN DE TANQUES EN SUPERFICIE</h2>
+    <h2>INSTALACIÓN DE TANQUES EN SUPERFICIE</h2>
   </div>
   <!--Multiple collapse titles 1-->
   <!--Tarjeta 1-->
