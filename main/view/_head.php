@@ -49,7 +49,7 @@ require_once  constant('CONTROLLER').'user_session.php';
               <a class="nav-link" href="https://reglamentotecnico.foroactivo.com/" target="_blank">Foro</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#checklist" tabindex="-1" aria-disabled="true">Checklist</a>
+              <a class="nav-link" href="#checklist" tabindex="-1" aria-disabled="true">Lista de chequeo</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" tabindex="-1" aria-disabled="true">EDS <?php echo $codSicom; ?></a>
