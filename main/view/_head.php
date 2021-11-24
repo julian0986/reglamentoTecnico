@@ -42,17 +42,17 @@ require_once  constant('CONTROLLER').'user_session.php';
             <li class="nav-item border-end border-3">
               <a class="nav-link active" aria-current="page" href="./index.php">Inicio</a>
             </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="../main/src/doc/ReglamentoCompleto/Resolucion-40198-2021ReglamentoTecnico.pdf" target="_blank">| Descarga</a>
+            <li class="nav-item border-end border-3">
+              <a class="nav-link" href="../main/src/doc/ReglamentoCompleto/Resolucion-40198-2021ReglamentoTecnico.pdf" target="_blank">Descarga</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://reglamentotecnico.foroactivo.com/" target="_blank">| Foro</a>
+            <li class="nav-item border-end border-3">
+              <a class="nav-link" href="https://reglamentotecnico.foroactivo.com/" target="_blank">Foro</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#checklist" tabindex="-1" aria-disabled="true">| Lista de chequeo</a>
+            <li class="nav-item border-end border-3">
+              <a class="nav-link" href="#checklist" tabindex="-1" aria-disabled="true">Lista de chequeo</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" tabindex="-1" aria-disabled="true">| EDS <?php echo $codSicom; ?></a>
+            <li class="nav-item border-end border-3">
+              <a class="nav-link" tabindex="-1" aria-disabled="true">EDS <?php echo $codSicom; ?></a>
                 </li>
                 <li class="nav-item">
                   <button class="btn btn-primary ms-2 mt-2"	type="submit"	id="logout_rt"		name="submit"	value="logout_rt"		>Salir</button>
