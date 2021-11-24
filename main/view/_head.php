@@ -55,7 +55,7 @@ require_once  constant('CONTROLLER').'user_session.php';
               <a class="nav-link" tabindex="-1" aria-disabled="true">| EDS <?php echo $codSicom; ?></a>
                 </li>
                 <li class="nav-item">
-                  <button class="btn btn-primary"	type="submit"	id="logout_rt"		name="submit"	value="logout_rt"		>Salir</button>
+                  <button class="btn btn-primary ms-2"	type="submit"	id="logout_rt"		name="submit"	value="logout_rt"		>Salir</button>
                 </li>
               </ul>
             </div>
