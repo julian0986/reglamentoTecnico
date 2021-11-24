@@ -39,10 +39,10 @@ require_once  constant('CONTROLLER').'user_session.php';
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto fs-4">
-            <li class="nav-item">
+            <li class="nav-item border-end border-3">
               <a class="nav-link active" aria-current="page" href="./index.php">Inicio</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item ">
               <a class="nav-link" href="../main/src/doc/ReglamentoCompleto/Resolucion-40198-2021ReglamentoTecnico.pdf" target="_blank">| Descarga</a>
             </li>
             <li class="nav-item">
